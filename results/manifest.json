@@ -1,0 +1,1382 @@
+{
+  "evaluator": "plcworld-evaluation/5.3",
+  "model_inputs": "historical v6 with MOT-E11 amendments; public v7 was not used for these generations",
+  "direct_generation": [
+    {
+      "model": "gpt-5.5",
+      "status": "complete-3-repetitions",
+      "paper_main_ready": true,
+      "repetitions": 3,
+      "tasks_per_repetition": 100,
+      "conditions_per_repetition": 473,
+      "total_cases": 1419,
+      "metrics": {
+        "assigned": 1419,
+        "infrastructure_excluded": 0,
+        "entered": 1393,
+        "observation_complete": 1393,
+        "observation_interrupted": 0,
+        "SR": {
+          "numerator": 889,
+          "denominator": 1419,
+          "value": 0.6264975334742776
+        },
+        "SVR": {
+          "numerator": 231,
+          "denominator": 1393,
+          "value": 0.1658291457286432
+        },
+        "execution_gap_local_submission_profile": {
+          "numerator": 520,
+          "denominator": 1393,
+          "value": 0.37329504666188085
+        },
+        "execution_gap_local_st_parse_and_required_io": {
+          "numerator": 520,
+          "denominator": 1393,
+          "value": 0.37329504666188085
+        }
+      },
+      "groups": {
+        "material/easy": {
+          "assigned": 138,
+          "infrastructure_excluded": 0,
+          "entered": 138,
+          "observation_complete": 138,
+          "observation_interrupted": 0,
+          "SR": {
+            "numerator": 135,
+            "denominator": 138,
+            "value": 0.9782608695652174
+          },
+          "SVR": {
+            "numerator": 0,
+            "denominator": 138,
+            "value": 0.0
+          },
+          "execution_gap_local_submission_profile": {
+            "numerator": 3,
+            "denominator": 138,
+            "value": 0.021739130434782608
+          },
+          "execution_gap_local_st_parse_and_required_io": {
+            "numerator": 3,
+            "denominator": 138,
+            "value": 0.021739130434782608
+          }
+        },
+        "material/hard": {
+          "assigned": 366,
+          "infrastructure_excluded": 0,
+          "entered": 366,
+          "observation_complete": 366,
+          "observation_interrupted": 0,
+          "SR": {
+            "numerator": 102,
+            "denominator": 366,
+            "value": 0.2786885245901639
+          },
+          "SVR": {
+            "numerator": 118,
+            "denominator": 366,
+            "value": 0.3224043715846995
+          },
+          "execution_gap_local_submission_profile": {
+            "numerator": 264,
+            "denominator": 366,
+            "value": 0.7213114754098361
+          },
+          "execution_gap_local_st_parse_and_required_io": {
+            "numerator": 264,
+            "denominator": 366,
+            "value": 0.7213114754098361
+          }
+        },
+        "material/medium": {
+          "assigned": 288,
+          "infrastructure_excluded": 0,
+          "entered": 282,
+          "observation_complete": 282,
+          "observation_interrupted": 0,
+          "SR": {
+            "numerator": 268,
+            "denominator": 288,
+            "value": 0.9305555555555556
+          },
+          "SVR": {
+            "numerator": 5,
+            "denominator": 282,
+            "value": 0.01773049645390071
+          },
+          "execution_gap_local_submission_profile": {
+            "numerator": 14,
+            "denominator": 282,
+            "value": 0.04964539007092199
+          },
+          "execution_gap_local_st_parse_and_required_io": {
+            "numerator": 14,
+            "denominator": 282,
+            "value": 0.04964539007092199
+          }
+        },
+        "motion/easy": {
+          "assigned": 180,
+          "infrastructure_excluded": 0,
+          "entered": 180,
+          "observation_complete": 180,
+          "observation_interrupted": 0,
+          "SR": {
+            "numerator": 132,
+            "denominator": 180,
+            "value": 0.7333333333333333
+          },
+          "SVR": {
+            "numerator": 3,
+            "denominator": 180,
+            "value": 0.016666666666666666
+          },
+          "execution_gap_local_submission_profile": {
+            "numerator": 48,
+            "denominator": 180,
+            "value": 0.26666666666666666
+          },
+          "execution_gap_local_st_parse_and_required_io": {
+            "numerator": 48,
+            "denominator": 180,
+            "value": 0.26666666666666666
+          }
+        },
+        "motion/hard": {
+          "assigned": 144,
+          "infrastructure_excluded": 0,
+          "entered": 129,
+          "observation_complete": 129,
+          "observation_interrupted": 0,
+          "SR": {
+            "numerator": 23,
+            "denominator": 144,
+            "value": 0.1597222222222222
+          },
+          "SVR": {
+            "numerator": 84,
+            "denominator": 129,
+            "value": 0.6511627906976745
+          },
+          "execution_gap_local_submission_profile": {
+            "numerator": 111,
+            "denominator": 129,
+            "value": 0.8604651162790697
+          },
+          "execution_gap_local_st_parse_and_required_io": {
+            "numerator": 111,
+            "denominator": 129,
+            "value": 0.8604651162790697
+          }
+        },
+        "motion/medium": {
+          "assigned": 303,
+          "infrastructure_excluded": 0,
+          "entered": 298,
+          "observation_complete": 298,
+          "observation_interrupted": 0,
+          "SR": {
+            "numerator": 229,
+            "denominator": 303,
+            "value": 0.7557755775577558
+          },
+          "SVR": {
+            "numerator": 21,
+            "denominator": 298,
+            "value": 0.07046979865771812
+          },
+          "execution_gap_local_submission_profile": {
+            "numerator": 80,
+            "denominator": 298,
+            "value": 0.2684563758389262
+          },
+          "execution_gap_local_st_parse_and_required_io": {
+            "numerator": 80,
+            "denominator": 298,
+            "value": 0.2684563758389262
+          }
+        }
+      }
+    },
+    {
+      "model": "gpt-4o",
+      "status": "complete-3-repetitions",
+      "paper_main_ready": true,
+      "repetitions": 3,
+      "tasks_per_repetition": 100,
+      "conditions_per_repetition": 473,
+      "total_cases": 1419,
+      "metrics": {
+        "assigned": 1419,
+        "infrastructure_excluded": 0,
+        "entered": 219,
+        "observation_complete": 209,
+        "observation_interrupted": 10,
+        "SR": {
+          "numerator": 31,
+          "denominator": 1419,
+          "value": 0.021846370683579985
+        },
+        "SVR": {
+          "numerator": 58,
+          "denominator": 219,
+          "value": 0.2648401826484018
+        },
+        "execution_gap_local_submission_profile": {
+          "numerator": 192,
+          "denominator": 219,
+          "value": 0.8767123287671232
+        },
+        "execution_gap_local_st_parse_and_required_io": {
+          "numerator": 192,
+          "denominator": 219,
+          "value": 0.8767123287671232
+        }
+      },
+      "groups": {
+        "material/easy": {
+          "assigned": 138,
+          "infrastructure_excluded": 0,
+          "entered": 33,
+          "observation_complete": 33,
+          "observation_interrupted": 0,
+          "SR": {
+            "numerator": 14,
+            "denominator": 138,
+            "value": 0.10144927536231885
+          },
+          "SVR": {
+            "numerator": 7,
+            "denominator": 33,
+            "value": 0.21212121212121213
+          },
+          "execution_gap_local_submission_profile": {
+            "numerator": 23,
+            "denominator": 33,
+            "value": 0.696969696969697
+          },
+          "execution_gap_local_st_parse_and_required_io": {
+            "numerator": 23,
+            "denominator": 33,
+            "value": 0.696969696969697
+          }
+        },
+        "material/hard": {
+          "assigned": 366,
+          "infrastructure_excluded": 0,
+          "entered": 56,
+          "observation_complete": 56,
+          "observation_interrupted": 0,
+          "SR": {
+            "numerator": 0,
+            "denominator": 366,
+            "value": 0.0
+          },
+          "SVR": {
+            "numerator": 32,
+            "denominator": 56,
+            "value": 0.5714285714285714
+          },
+          "execution_gap_local_submission_profile": {
+            "numerator": 56,
+            "denominator": 56,
+            "value": 1.0
+          },
+          "execution_gap_local_st_parse_and_required_io": {
+            "numerator": 56,
+            "denominator": 56,
+            "value": 1.0
+          }
+        },
+        "material/medium": {
+          "assigned": 288,
+          "infrastructure_excluded": 0,
+          "entered": 27,
+          "observation_complete": 27,
+          "observation_interrupted": 0,
+          "SR": {
+            "numerator": 3,
+            "denominator": 288,
+            "value": 0.010416666666666666
+          },
+          "SVR": {
+            "numerator": 0,
+            "denominator": 27,
+            "value": 0.0
+          },
+          "execution_gap_local_submission_profile": {
+            "numerator": 24,
+            "denominator": 27,
+            "value": 0.8888888888888888
+          },
+          "execution_gap_local_st_parse_and_required_io": {
+            "numerator": 24,
+            "denominator": 27,
+            "value": 0.8888888888888888
+          }
+        },
+        "motion/easy": {
+          "assigned": 180,
+          "infrastructure_excluded": 0,
+          "entered": 32,
+          "observation_complete": 32,
+          "observation_interrupted": 0,
+          "SR": {
+            "numerator": 14,
+            "denominator": 180,
+            "value": 0.07777777777777778
+          },
+          "SVR": {
+            "numerator": 0,
+            "denominator": 32,
+            "value": 0.0
+          },
+          "execution_gap_local_submission_profile": {
+            "numerator": 18,
+            "denominator": 32,
+            "value": 0.5625
+          },
+          "execution_gap_local_st_parse_and_required_io": {
+            "numerator": 18,
+            "denominator": 32,
+            "value": 0.5625
+          }
+        },
+        "motion/hard": {
+          "assigned": 144,
+          "infrastructure_excluded": 0,
+          "entered": 24,
+          "observation_complete": 24,
+          "observation_interrupted": 0,
+          "SR": {
+            "numerator": 0,
+            "denominator": 144,
+            "value": 0.0
+          },
+          "SVR": {
+            "numerator": 9,
+            "denominator": 24,
+            "value": 0.375
+          },
+          "execution_gap_local_submission_profile": {
+            "numerator": 24,
+            "denominator": 24,
+            "value": 1.0
+          },
+          "execution_gap_local_st_parse_and_required_io": {
+            "numerator": 24,
+            "denominator": 24,
+            "value": 1.0
+          }
+        },
+        "motion/medium": {
+          "assigned": 303,
+          "infrastructure_excluded": 0,
+          "entered": 47,
+          "observation_complete": 37,
+          "observation_interrupted": 10,
+          "SR": {
+            "numerator": 0,
+            "denominator": 303,
+            "value": 0.0
+          },
+          "SVR": {
+            "numerator": 10,
+            "denominator": 47,
+            "value": 0.2127659574468085
+          },
+          "execution_gap_local_submission_profile": {
+            "numerator": 47,
+            "denominator": 47,
+            "value": 1.0
+          },
+          "execution_gap_local_st_parse_and_required_io": {
+            "numerator": 47,
+            "denominator": 47,
+            "value": 1.0
+          }
+        }
+      }
+    },
+    {
+      "model": "claude-sonnet-5",
+      "status": "complete-3-repetitions",
+      "paper_main_ready": true,
+      "repetitions": 3,
+      "tasks_per_repetition": 100,
+      "conditions_per_repetition": 473,
+      "total_cases": 1419,
+      "metrics": {
+        "assigned": 1419,
+        "infrastructure_excluded": 0,
+        "entered": 1299,
+        "observation_complete": 1289,
+        "observation_interrupted": 10,
+        "SR": {
+          "numerator": 698,
+          "denominator": 1419,
+          "value": 0.4918957011980268
+        },
+        "SVR": {
+          "numerator": 341,
+          "denominator": 1299,
+          "value": 0.26250962278675904
+        },
+        "execution_gap_local_submission_profile": {
+          "numerator": 643,
+          "denominator": 1299,
+          "value": 0.49499615088529636
+        },
+        "execution_gap_local_st_parse_and_required_io": {
+          "numerator": 643,
+          "denominator": 1299,
+          "value": 0.49499615088529636
+        }
+      },
+      "groups": {
+        "material/easy": {
+          "assigned": 138,
+          "infrastructure_excluded": 0,
+          "entered": 129,
+          "observation_complete": 129,
+          "observation_interrupted": 0,
+          "SR": {
+            "numerator": 118,
+            "denominator": 138,
+            "value": 0.855072463768116
+          },
+          "SVR": {
+            "numerator": 1,
+            "denominator": 129,
+            "value": 0.007751937984496124
+          },
+          "execution_gap_local_submission_profile": {
+            "numerator": 11,
+            "denominator": 129,
+            "value": 0.08527131782945736
+          },
+          "execution_gap_local_st_parse_and_required_io": {
+            "numerator": 11,
+            "denominator": 129,
+            "value": 0.08527131782945736
+          }
+        },
+        "material/hard": {
+          "assigned": 366,
+          "infrastructure_excluded": 0,
+          "entered": 339,
+          "observation_complete": 333,
+          "observation_interrupted": 6,
+          "SR": {
+            "numerator": 16,
+            "denominator": 366,
+            "value": 0.04371584699453552
+          },
+          "SVR": {
+            "numerator": 180,
+            "denominator": 339,
+            "value": 0.5309734513274337
+          },
+          "execution_gap_local_submission_profile": {
+            "numerator": 325,
+            "denominator": 339,
+            "value": 0.9587020648967551
+          },
+          "execution_gap_local_st_parse_and_required_io": {
+            "numerator": 325,
+            "denominator": 339,
+            "value": 0.9587020648967551
+          }
+        },
+        "material/medium": {
+          "assigned": 288,
+          "infrastructure_excluded": 0,
+          "entered": 270,
+          "observation_complete": 270,
+          "observation_interrupted": 0,
+          "SR": {
+            "numerator": 205,
+            "denominator": 288,
+            "value": 0.7118055555555556
+          },
+          "SVR": {
+            "numerator": 3,
+            "denominator": 270,
+            "value": 0.011111111111111112
+          },
+          "execution_gap_local_submission_profile": {
+            "numerator": 65,
+            "denominator": 270,
+            "value": 0.24074074074074073
+          },
+          "execution_gap_local_st_parse_and_required_io": {
+            "numerator": 65,
+            "denominator": 270,
+            "value": 0.24074074074074073
+          }
+        },
+        "motion/easy": {
+          "assigned": 180,
+          "infrastructure_excluded": 0,
+          "entered": 168,
+          "observation_complete": 168,
+          "observation_interrupted": 0,
+          "SR": {
+            "numerator": 140,
+            "denominator": 180,
+            "value": 0.7777777777777778
+          },
+          "SVR": {
+            "numerator": 4,
+            "denominator": 168,
+            "value": 0.023809523809523808
+          },
+          "execution_gap_local_submission_profile": {
+            "numerator": 28,
+            "denominator": 168,
+            "value": 0.16666666666666666
+          },
+          "execution_gap_local_st_parse_and_required_io": {
+            "numerator": 28,
+            "denominator": 168,
+            "value": 0.16666666666666666
+          }
+        },
+        "motion/hard": {
+          "assigned": 144,
+          "infrastructure_excluded": 0,
+          "entered": 120,
+          "observation_complete": 117,
+          "observation_interrupted": 3,
+          "SR": {
+            "numerator": 0,
+            "denominator": 144,
+            "value": 0.0
+          },
+          "SVR": {
+            "numerator": 87,
+            "denominator": 120,
+            "value": 0.725
+          },
+          "execution_gap_local_submission_profile": {
+            "numerator": 120,
+            "denominator": 120,
+            "value": 1.0
+          },
+          "execution_gap_local_st_parse_and_required_io": {
+            "numerator": 120,
+            "denominator": 120,
+            "value": 1.0
+          }
+        },
+        "motion/medium": {
+          "assigned": 303,
+          "infrastructure_excluded": 0,
+          "entered": 273,
+          "observation_complete": 272,
+          "observation_interrupted": 1,
+          "SR": {
+            "numerator": 219,
+            "denominator": 303,
+            "value": 0.7227722772277227
+          },
+          "SVR": {
+            "numerator": 66,
+            "denominator": 273,
+            "value": 0.24175824175824176
+          },
+          "execution_gap_local_submission_profile": {
+            "numerator": 94,
+            "denominator": 273,
+            "value": 0.3443223443223443
+          },
+          "execution_gap_local_st_parse_and_required_io": {
+            "numerator": 94,
+            "denominator": 273,
+            "value": 0.3443223443223443
+          }
+        }
+      }
+    },
+    {
+      "model": "gemini-3.1-pro",
+      "status": "complete-3-repetitions",
+      "paper_main_ready": true,
+      "repetitions": 3,
+      "tasks_per_repetition": 100,
+      "conditions_per_repetition": 473,
+      "total_cases": 1419,
+      "metrics": {
+        "assigned": 1419,
+        "infrastructure_excluded": 0,
+        "entered": 1028,
+        "observation_complete": 1028,
+        "observation_interrupted": 0,
+        "SR": {
+          "numerator": 758,
+          "denominator": 1419,
+          "value": 0.5341789992952783
+        },
+        "SVR": {
+          "numerator": 217,
+          "denominator": 1028,
+          "value": 0.21108949416342412
+        },
+        "execution_gap_local_submission_profile": {
+          "numerator": 341,
+          "denominator": 1028,
+          "value": 0.3317120622568093
+        },
+        "execution_gap_local_st_parse_and_required_io": {
+          "numerator": 341,
+          "denominator": 1028,
+          "value": 0.3317120622568093
+        }
+      },
+      "groups": {
+        "material/easy": {
+          "assigned": 138,
+          "infrastructure_excluded": 0,
+          "entered": 125,
+          "observation_complete": 125,
+          "observation_interrupted": 0,
+          "SR": {
+            "numerator": 122,
+            "denominator": 138,
+            "value": 0.8840579710144928
+          },
+          "SVR": {
+            "numerator": 0,
+            "denominator": 125,
+            "value": 0.0
+          },
+          "execution_gap_local_submission_profile": {
+            "numerator": 3,
+            "denominator": 125,
+            "value": 0.024
+          },
+          "execution_gap_local_st_parse_and_required_io": {
+            "numerator": 3,
+            "denominator": 125,
+            "value": 0.024
+          }
+        },
+        "material/hard": {
+          "assigned": 366,
+          "infrastructure_excluded": 0,
+          "entered": 241,
+          "observation_complete": 241,
+          "observation_interrupted": 0,
+          "SR": {
+            "numerator": 81,
+            "denominator": 366,
+            "value": 0.22131147540983606
+          },
+          "SVR": {
+            "numerator": 132,
+            "denominator": 241,
+            "value": 0.5477178423236515
+          },
+          "execution_gap_local_submission_profile": {
+            "numerator": 181,
+            "denominator": 241,
+            "value": 0.7510373443983402
+          },
+          "execution_gap_local_st_parse_and_required_io": {
+            "numerator": 181,
+            "denominator": 241,
+            "value": 0.7510373443983402
+          }
+        },
+        "material/medium": {
+          "assigned": 288,
+          "infrastructure_excluded": 0,
+          "entered": 217,
+          "observation_complete": 217,
+          "observation_interrupted": 0,
+          "SR": {
+            "numerator": 215,
+            "denominator": 288,
+            "value": 0.7465277777777778
+          },
+          "SVR": {
+            "numerator": 3,
+            "denominator": 217,
+            "value": 0.013824884792626729
+          },
+          "execution_gap_local_submission_profile": {
+            "numerator": 5,
+            "denominator": 217,
+            "value": 0.02304147465437788
+          },
+          "execution_gap_local_st_parse_and_required_io": {
+            "numerator": 5,
+            "denominator": 217,
+            "value": 0.02304147465437788
+          }
+        },
+        "motion/easy": {
+          "assigned": 180,
+          "infrastructure_excluded": 0,
+          "entered": 156,
+          "observation_complete": 156,
+          "observation_interrupted": 0,
+          "SR": {
+            "numerator": 132,
+            "denominator": 180,
+            "value": 0.7333333333333333
+          },
+          "SVR": {
+            "numerator": 0,
+            "denominator": 156,
+            "value": 0.0
+          },
+          "execution_gap_local_submission_profile": {
+            "numerator": 24,
+            "denominator": 156,
+            "value": 0.15384615384615385
+          },
+          "execution_gap_local_st_parse_and_required_io": {
+            "numerator": 24,
+            "denominator": 156,
+            "value": 0.15384615384615385
+          }
+        },
+        "motion/hard": {
+          "assigned": 144,
+          "infrastructure_excluded": 0,
+          "entered": 54,
+          "observation_complete": 54,
+          "observation_interrupted": 0,
+          "SR": {
+            "numerator": 17,
+            "denominator": 144,
+            "value": 0.11805555555555555
+          },
+          "SVR": {
+            "numerator": 34,
+            "denominator": 54,
+            "value": 0.6296296296296297
+          },
+          "execution_gap_local_submission_profile": {
+            "numerator": 46,
+            "denominator": 54,
+            "value": 0.8518518518518519
+          },
+          "execution_gap_local_st_parse_and_required_io": {
+            "numerator": 46,
+            "denominator": 54,
+            "value": 0.8518518518518519
+          }
+        },
+        "motion/medium": {
+          "assigned": 303,
+          "infrastructure_excluded": 0,
+          "entered": 235,
+          "observation_complete": 235,
+          "observation_interrupted": 0,
+          "SR": {
+            "numerator": 191,
+            "denominator": 303,
+            "value": 0.6303630363036303
+          },
+          "SVR": {
+            "numerator": 48,
+            "denominator": 235,
+            "value": 0.20425531914893616
+          },
+          "execution_gap_local_submission_profile": {
+            "numerator": 82,
+            "denominator": 235,
+            "value": 0.34893617021276596
+          },
+          "execution_gap_local_st_parse_and_required_io": {
+            "numerator": 82,
+            "denominator": 235,
+            "value": 0.34893617021276596
+          }
+        }
+      }
+    },
+    {
+      "model": "gemini-3.8-flash",
+      "status": "complete-3-repetitions",
+      "paper_main_ready": true,
+      "repetitions": 3,
+      "tasks_per_repetition": 100,
+      "conditions_per_repetition": 473,
+      "total_cases": 1419,
+      "metrics": {
+        "assigned": 1419,
+        "infrastructure_excluded": 0,
+        "entered": 1170,
+        "observation_complete": 1170,
+        "observation_interrupted": 0,
+        "SR": {
+          "numerator": 868,
+          "denominator": 1419,
+          "value": 0.6116983791402396
+        },
+        "SVR": {
+          "numerator": 174,
+          "denominator": 1170,
+          "value": 0.14871794871794872
+        },
+        "execution_gap_local_submission_profile": {
+          "numerator": 359,
+          "denominator": 1170,
+          "value": 0.30683760683760686
+        },
+        "execution_gap_local_st_parse_and_required_io": {
+          "numerator": 359,
+          "denominator": 1170,
+          "value": 0.30683760683760686
+        }
+      },
+      "groups": {
+        "material/easy": {
+          "assigned": 138,
+          "infrastructure_excluded": 0,
+          "entered": 138,
+          "observation_complete": 138,
+          "observation_interrupted": 0,
+          "SR": {
+            "numerator": 138,
+            "denominator": 138,
+            "value": 1.0
+          },
+          "SVR": {
+            "numerator": 0,
+            "denominator": 138,
+            "value": 0.0
+          },
+          "execution_gap_local_submission_profile": {
+            "numerator": 0,
+            "denominator": 138,
+            "value": 0.0
+          },
+          "execution_gap_local_st_parse_and_required_io": {
+            "numerator": 0,
+            "denominator": 138,
+            "value": 0.0
+          }
+        },
+        "material/hard": {
+          "assigned": 366,
+          "infrastructure_excluded": 0,
+          "entered": 241,
+          "observation_complete": 241,
+          "observation_interrupted": 0,
+          "SR": {
+            "numerator": 63,
+            "denominator": 366,
+            "value": 0.1721311475409836
+          },
+          "SVR": {
+            "numerator": 78,
+            "denominator": 241,
+            "value": 0.3236514522821577
+          },
+          "execution_gap_local_submission_profile": {
+            "numerator": 188,
+            "denominator": 241,
+            "value": 0.7800829875518672
+          },
+          "execution_gap_local_st_parse_and_required_io": {
+            "numerator": 188,
+            "denominator": 241,
+            "value": 0.7800829875518672
+          }
+        },
+        "material/medium": {
+          "assigned": 288,
+          "infrastructure_excluded": 0,
+          "entered": 268,
+          "observation_complete": 268,
+          "observation_interrupted": 0,
+          "SR": {
+            "numerator": 255,
+            "denominator": 288,
+            "value": 0.8854166666666666
+          },
+          "SVR": {
+            "numerator": 0,
+            "denominator": 268,
+            "value": 0.0
+          },
+          "execution_gap_local_submission_profile": {
+            "numerator": 13,
+            "denominator": 268,
+            "value": 0.048507462686567165
+          },
+          "execution_gap_local_st_parse_and_required_io": {
+            "numerator": 13,
+            "denominator": 268,
+            "value": 0.048507462686567165
+          }
+        },
+        "motion/easy": {
+          "assigned": 180,
+          "infrastructure_excluded": 0,
+          "entered": 180,
+          "observation_complete": 180,
+          "observation_interrupted": 0,
+          "SR": {
+            "numerator": 172,
+            "denominator": 180,
+            "value": 0.9555555555555556
+          },
+          "SVR": {
+            "numerator": 0,
+            "denominator": 180,
+            "value": 0.0
+          },
+          "execution_gap_local_submission_profile": {
+            "numerator": 8,
+            "denominator": 180,
+            "value": 0.044444444444444446
+          },
+          "execution_gap_local_st_parse_and_required_io": {
+            "numerator": 8,
+            "denominator": 180,
+            "value": 0.044444444444444446
+          }
+        },
+        "motion/hard": {
+          "assigned": 144,
+          "infrastructure_excluded": 0,
+          "entered": 60,
+          "observation_complete": 60,
+          "observation_interrupted": 0,
+          "SR": {
+            "numerator": 7,
+            "denominator": 144,
+            "value": 0.04861111111111111
+          },
+          "SVR": {
+            "numerator": 45,
+            "denominator": 60,
+            "value": 0.75
+          },
+          "execution_gap_local_submission_profile": {
+            "numerator": 54,
+            "denominator": 60,
+            "value": 0.9
+          },
+          "execution_gap_local_st_parse_and_required_io": {
+            "numerator": 54,
+            "denominator": 60,
+            "value": 0.9
+          }
+        },
+        "motion/medium": {
+          "assigned": 303,
+          "infrastructure_excluded": 0,
+          "entered": 283,
+          "observation_complete": 283,
+          "observation_interrupted": 0,
+          "SR": {
+            "numerator": 233,
+            "denominator": 303,
+            "value": 0.768976897689769
+          },
+          "SVR": {
+            "numerator": 51,
+            "denominator": 283,
+            "value": 0.18021201413427562
+          },
+          "execution_gap_local_submission_profile": {
+            "numerator": 96,
+            "denominator": 283,
+            "value": 0.3392226148409894
+          },
+          "execution_gap_local_st_parse_and_required_io": {
+            "numerator": 96,
+            "denominator": 283,
+            "value": 0.3392226148409894
+          }
+        }
+      }
+    },
+    {
+      "model": "qwen3.5-plus",
+      "status": "complete-3-repetitions",
+      "paper_main_ready": true,
+      "repetitions": 3,
+      "tasks_per_repetition": 100,
+      "conditions_per_repetition": 473,
+      "total_cases": 1419,
+      "metrics": {
+        "assigned": 1419,
+        "infrastructure_excluded": 0,
+        "entered": 924,
+        "observation_complete": 914,
+        "observation_interrupted": 10,
+        "SR": {
+          "numerator": 543,
+          "denominator": 1419,
+          "value": 0.38266384778012685
+        },
+        "SVR": {
+          "numerator": 250,
+          "denominator": 924,
+          "value": 0.27056277056277056
+        },
+        "execution_gap_local_submission_profile": {
+          "numerator": 433,
+          "denominator": 924,
+          "value": 0.4686147186147186
+        },
+        "execution_gap_local_st_parse_and_required_io": {
+          "numerator": 433,
+          "denominator": 924,
+          "value": 0.4686147186147186
+        }
+      },
+      "groups": {
+        "material/easy": {
+          "assigned": 138,
+          "infrastructure_excluded": 0,
+          "entered": 138,
+          "observation_complete": 138,
+          "observation_interrupted": 0,
+          "SR": {
+            "numerator": 119,
+            "denominator": 138,
+            "value": 0.8623188405797102
+          },
+          "SVR": {
+            "numerator": 3,
+            "denominator": 138,
+            "value": 0.021739130434782608
+          },
+          "execution_gap_local_submission_profile": {
+            "numerator": 19,
+            "denominator": 138,
+            "value": 0.13768115942028986
+          },
+          "execution_gap_local_st_parse_and_required_io": {
+            "numerator": 19,
+            "denominator": 138,
+            "value": 0.13768115942028986
+          }
+        },
+        "material/hard": {
+          "assigned": 366,
+          "infrastructure_excluded": 0,
+          "entered": 141,
+          "observation_complete": 141,
+          "observation_interrupted": 0,
+          "SR": {
+            "numerator": 6,
+            "denominator": 366,
+            "value": 0.01639344262295082
+          },
+          "SVR": {
+            "numerator": 87,
+            "denominator": 141,
+            "value": 0.6170212765957447
+          },
+          "execution_gap_local_submission_profile": {
+            "numerator": 141,
+            "denominator": 141,
+            "value": 1.0
+          },
+          "execution_gap_local_st_parse_and_required_io": {
+            "numerator": 141,
+            "denominator": 141,
+            "value": 1.0
+          }
+        },
+        "material/medium": {
+          "assigned": 288,
+          "infrastructure_excluded": 0,
+          "entered": 224,
+          "observation_complete": 219,
+          "observation_interrupted": 5,
+          "SR": {
+            "numerator": 133,
+            "denominator": 288,
+            "value": 0.4618055555555556
+          },
+          "SVR": {
+            "numerator": 54,
+            "denominator": 224,
+            "value": 0.24107142857142858
+          },
+          "execution_gap_local_submission_profile": {
+            "numerator": 91,
+            "denominator": 224,
+            "value": 0.40625
+          },
+          "execution_gap_local_st_parse_and_required_io": {
+            "numerator": 91,
+            "denominator": 224,
+            "value": 0.40625
+          }
+        },
+        "motion/easy": {
+          "assigned": 180,
+          "infrastructure_excluded": 0,
+          "entered": 156,
+          "observation_complete": 156,
+          "observation_interrupted": 0,
+          "SR": {
+            "numerator": 118,
+            "denominator": 180,
+            "value": 0.6555555555555556
+          },
+          "SVR": {
+            "numerator": 10,
+            "denominator": 156,
+            "value": 0.0641025641025641
+          },
+          "execution_gap_local_submission_profile": {
+            "numerator": 38,
+            "denominator": 156,
+            "value": 0.24358974358974358
+          },
+          "execution_gap_local_st_parse_and_required_io": {
+            "numerator": 38,
+            "denominator": 156,
+            "value": 0.24358974358974358
+          }
+        },
+        "motion/hard": {
+          "assigned": 144,
+          "infrastructure_excluded": 0,
+          "entered": 12,
+          "observation_complete": 12,
+          "observation_interrupted": 0,
+          "SR": {
+            "numerator": 0,
+            "denominator": 144,
+            "value": 0.0
+          },
+          "SVR": {
+            "numerator": 6,
+            "denominator": 12,
+            "value": 0.5
+          },
+          "execution_gap_local_submission_profile": {
+            "numerator": 12,
+            "denominator": 12,
+            "value": 1.0
+          },
+          "execution_gap_local_st_parse_and_required_io": {
+            "numerator": 12,
+            "denominator": 12,
+            "value": 1.0
+          }
+        },
+        "motion/medium": {
+          "assigned": 303,
+          "infrastructure_excluded": 0,
+          "entered": 253,
+          "observation_complete": 248,
+          "observation_interrupted": 5,
+          "SR": {
+            "numerator": 167,
+            "denominator": 303,
+            "value": 0.5511551155115512
+          },
+          "SVR": {
+            "numerator": 90,
+            "denominator": 253,
+            "value": 0.3557312252964427
+          },
+          "execution_gap_local_submission_profile": {
+            "numerator": 132,
+            "denominator": 253,
+            "value": 0.5217391304347826
+          },
+          "execution_gap_local_st_parse_and_required_io": {
+            "numerator": 132,
+            "denominator": 253,
+            "value": 0.5217391304347826
+          }
+        }
+      }
+    }
+  ],
+  "generation_and_verification": [
+    {
+      "method": "direct-gpt-5.5-matched",
+      "status": "valid-complete",
+      "paper_main_ready": true,
+      "scope": "full-100",
+      "overall": {
+        "assigned": 473,
+        "infrastructure_excluded": 0,
+        "entered": 459,
+        "observation_complete": 459,
+        "observation_interrupted": 0,
+        "SR": {
+          "numerator": 289,
+          "denominator": 473,
+          "value": 0.6109936575052854
+        },
+        "SVR": {
+          "numerator": 88,
+          "denominator": 459,
+          "value": 0.19172113289760348
+        },
+        "execution_gap_local_submission_profile": {
+          "numerator": 180,
+          "denominator": 459,
+          "value": 0.39215686274509803
+        },
+        "execution_gap_local_st_parse_and_required_io": {
+          "numerator": 180,
+          "denominator": 459,
+          "value": 0.39215686274509803
+        }
+      },
+      "note": "Preserved workflow generations reevaluated; no new model API calls. Matched direct retains original MOT-E11 input."
+    },
+    {
+      "method": "llm4plc",
+      "status": "valid-complete",
+      "paper_main_ready": true,
+      "scope": "full-100",
+      "overall": {
+        "assigned": 473,
+        "infrastructure_excluded": 0,
+        "entered": 469,
+        "observation_complete": 469,
+        "observation_interrupted": 0,
+        "SR": {
+          "numerator": 274,
+          "denominator": 473,
+          "value": 0.5792811839323467
+        },
+        "SVR": {
+          "numerator": 91,
+          "denominator": 469,
+          "value": 0.19402985074626866
+        },
+        "execution_gap_local_submission_profile": {
+          "numerator": 208,
+          "denominator": 469,
+          "value": 0.44349680170575695
+        },
+        "execution_gap_local_st_parse_and_required_io": {
+          "numerator": 208,
+          "denominator": 469,
+          "value": 0.44349680170575695
+        }
+      },
+      "note": "Preserved workflow generations reevaluated; no new model API calls. Matched direct retains original MOT-E11 input."
+    },
+    {
+      "method": "agents4plc",
+      "status": "valid-complete",
+      "paper_main_ready": true,
+      "scope": "full-100",
+      "overall": {
+        "assigned": 473,
+        "infrastructure_excluded": 0,
+        "entered": 473,
+        "observation_complete": 473,
+        "observation_interrupted": 0,
+        "SR": {
+          "numerator": 250,
+          "denominator": 473,
+          "value": 0.5285412262156448
+        },
+        "SVR": {
+          "numerator": 85,
+          "denominator": 473,
+          "value": 0.17970401691331925
+        },
+        "execution_gap_local_submission_profile": {
+          "numerator": 231,
+          "denominator": 473,
+          "value": 0.4883720930232558
+        },
+        "execution_gap_local_st_parse_and_required_io": {
+          "numerator": 231,
+          "denominator": 473,
+          "value": 0.4883720930232558
+        }
+      },
+      "note": "Preserved workflow generations reevaluated; no new model API calls. Matched direct retains original MOT-E11 input."
+    },
+    {
+      "method": "autoplc",
+      "status": "valid-complete",
+      "paper_main_ready": true,
+      "scope": "full-100",
+      "overall": {
+        "assigned": 473,
+        "infrastructure_excluded": 0,
+        "entered": 467,
+        "observation_complete": 467,
+        "observation_interrupted": 0,
+        "SR": {
+          "numerator": 298,
+          "denominator": 473,
+          "value": 0.6300211416490487
+        },
+        "SVR": {
+          "numerator": 73,
+          "denominator": 467,
+          "value": 0.15631691648822268
+        },
+        "execution_gap_local_submission_profile": {
+          "numerator": 190,
+          "denominator": 467,
+          "value": 0.4068522483940043
+        },
+        "execution_gap_local_st_parse_and_required_io": {
+          "numerator": 190,
+          "denominator": 467,
+          "value": 0.4068522483940043
+        }
+      },
+      "note": "Preserved workflow generations reevaluated; no new model API calls. Matched direct retains original MOT-E11 input.",
+      "case_index_sha256": "af2df0947690a2521d8806cc6dd78119be89b8e8037dad948eac285e7a9d116f",
+      "selection_sha256": "2dd41c3ba6c9dee8bae44a9359ed38d4c9248373bfd28b9383ab6dfc795fd9a3"
+    },
+    {
+      "method": "semaplc",
+      "status": "valid-complete",
+      "paper_main_ready": true,
+      "scope": "full-100",
+      "overall": {
+        "assigned": 473,
+        "infrastructure_excluded": 0,
+        "entered": 470,
+        "observation_complete": 470,
+        "observation_interrupted": 0,
+        "SR": {
+          "numerator": 262,
+          "denominator": 473,
+          "value": 0.5539112050739958
+        },
+        "SVR": {
+          "numerator": 90,
+          "denominator": 470,
+          "value": 0.19148936170212766
+        },
+        "execution_gap_local_submission_profile": {
+          "numerator": 214,
+          "denominator": 470,
+          "value": 0.4553191489361702
+        },
+        "execution_gap_local_st_parse_and_required_io": {
+          "numerator": 214,
+          "denominator": 470,
+          "value": 0.4553191489361702
+        }
+      },
+      "note": "Preserved workflow generations reevaluated; no new model API calls. Matched direct retains original MOT-E11 input.",
+      "case_index_sha256": "113c9be2fa6d9e03ec756eb11aa93214d9981dcf0b12d10a982a570d60aeb52a",
+      "selection_sha256": "552f0a5f5b50b994a327038e82927c5aad8011093e6b03235fd452b0b08280de"
+    }
+  ]
+}

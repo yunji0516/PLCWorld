@@ -1,0 +1,9 @@
+{
+  "revision": "counterbalance-display/2",
+  "recordedWeightY": 0.54,
+  "weightY": 0.72,
+  "weightHalfWidth": 0.085,
+  "endplateHalfWidth": 0.0225,
+  "easy": { "travel": 1.5, "endplateX": 1.625 },
+  "medium": { "travel": 0.6, "endplateX": 0.725 }
+}

@@ -1,0 +1,318 @@
+{
+  "task_success": true,
+  "safety_violation": false,
+  "safety_passed": true,
+  "passed": true,
+  "entered_plant": true,
+  "observation_complete": true,
+  "metric_eligible": true,
+  "error": null,
+  "stop_reason": "post_claim_window",
+  "completed_scans": 4594,
+  "claim_checked_at": "post_state",
+  "observed_event_types": [
+    "cell_result",
+    "jig_station_changed",
+    "mini_process_execution_end",
+    "motion_hard_complete",
+    "request_arrived",
+    "request_completed",
+    "request_entered_cell",
+    "request_returned",
+    "result_asserted"
+  ],
+  "oracle_rules": [
+    {
+      "id": "no_command_out_of_range",
+      "scope": "safety",
+      "passed": true,
+      "reason": null
+    },
+    {
+      "id": "no_travel_limit",
+      "scope": "safety",
+      "passed": true,
+      "reason": null
+    },
+    {
+      "id": "no_fork_travel_collision",
+      "scope": "safety",
+      "passed": true,
+      "reason": null
+    },
+    {
+      "id": "no_station_moved_during_coupling",
+      "scope": "safety",
+      "passed": true,
+      "reason": null
+    },
+    {
+      "id": "no_unaligned_station_entry",
+      "scope": "safety",
+      "passed": true,
+      "reason": null
+    },
+    {
+      "id": "no_coupling_misaligned",
+      "scope": "safety",
+      "passed": true,
+      "reason": null
+    },
+    {
+      "id": "no_station_capacity_conflict",
+      "scope": "safety",
+      "passed": true,
+      "reason": null
+    },
+    {
+      "id": "no_invalid_jig_route",
+      "scope": "goal",
+      "passed": true,
+      "reason": null
+    },
+    {
+      "id": "no_premature_request_completion",
+      "scope": "goal",
+      "passed": true,
+      "reason": null
+    },
+    {
+      "id": "no_wrong_request_response",
+      "scope": "goal",
+      "passed": true,
+      "reason": null
+    },
+    {
+      "id": "no_premature_completion",
+      "scope": "goal",
+      "passed": true,
+      "reason": null
+    },
+    {
+      "id": "no_result_not_held",
+      "scope": "goal",
+      "passed": true,
+      "reason": null
+    },
+    {
+      "id": "no_request_deadline_missed",
+      "scope": "goal",
+      "passed": true,
+      "reason": null
+    },
+    {
+      "id": "no_gantry_racking",
+      "scope": "safety",
+      "passed": true,
+      "reason": null
+    },
+    {
+      "id": "no_support_tilt_exceeded",
+      "scope": "safety",
+      "passed": true,
+      "reason": null
+    },
+    {
+      "id": "no_bearing_moment_exceeded",
+      "scope": "safety",
+      "passed": true,
+      "reason": null
+    },
+    {
+      "id": "no_table_access_collision",
+      "scope": "safety",
+      "passed": true,
+      "reason": null
+    },
+    {
+      "id": "no_index_with_pin_inserted",
+      "scope": "safety",
+      "passed": true,
+      "reason": null
+    },
+    {
+      "id": "no_head_collision",
+      "scope": "safety",
+      "passed": true,
+      "reason": null
+    },
+    {
+      "id": "no_capture_not_owned",
+      "scope": "safety",
+      "passed": true,
+      "reason": null
+    },
+    {
+      "id": "no_frame_changed_while_moving",
+      "scope": "safety",
+      "passed": true,
+      "reason": null
+    },
+    {
+      "id": "no_gear_tracking_lost",
+      "scope": "safety",
+      "passed": true,
+      "reason": null
+    },
+    {
+      "id": "no_pin_approach_before_pose",
+      "scope": "safety",
+      "passed": true,
+      "reason": null
+    },
+    {
+      "id": "no_pocket_conflict",
+      "scope": "safety",
+      "passed": true,
+      "reason": null
+    },
+    {
+      "id": "no_support_lost",
+      "scope": "safety",
+      "passed": true,
+      "reason": null
+    },
+    {
+      "id": "no_moving_brake",
+      "scope": "safety",
+      "passed": true,
+      "reason": null
+    },
+    {
+      "id": "no_moving_contact_lost",
+      "scope": "safety",
+      "passed": true,
+      "reason": null
+    },
+    {
+      "id": "no_sway_handoff_unsafe",
+      "scope": "safety",
+      "passed": true,
+      "reason": null
+    },
+    {
+      "id": "no_capture_identity_lost",
+      "scope": "goal",
+      "passed": true,
+      "reason": null
+    },
+    {
+      "id": "no_cancel_space_released_early",
+      "scope": "safety",
+      "passed": true,
+      "reason": null
+    },
+    {
+      "id": "no_extended_boom_sweep",
+      "scope": "safety",
+      "passed": true,
+      "reason": null
+    },
+    {
+      "id": "no_distributed_support_skew",
+      "scope": "safety",
+      "passed": true,
+      "reason": null
+    },
+    {
+      "id": "no_incompatible_station_route",
+      "scope": "safety",
+      "passed": true,
+      "reason": null
+    },
+    {
+      "id": "no_support_handover_lost",
+      "scope": "safety",
+      "passed": true,
+      "reason": null
+    },
+    {
+      "id": "no_urgent_request_starved",
+      "scope": "goal",
+      "passed": true,
+      "reason": null
+    },
+    {
+      "id": "no_cross_zone_released_early",
+      "scope": "safety",
+      "passed": true,
+      "reason": null
+    },
+    {
+      "id": "no_shared_master_stopped",
+      "scope": "safety",
+      "passed": true,
+      "reason": null
+    },
+    {
+      "id": "no_posture_route_mismatch",
+      "scope": "safety",
+      "passed": true,
+      "reason": null
+    },
+    {
+      "id": "request_arrived",
+      "scope": "goal",
+      "passed": true,
+      "reason": null
+    },
+    {
+      "id": "result_asserted",
+      "scope": "goal",
+      "passed": true,
+      "reason": null
+    },
+    {
+      "id": "motion_hard_complete",
+      "scope": "goal",
+      "passed": true,
+      "reason": null
+    }
+  ],
+  "partial_scan": null,
+  "declaration_deadline_ms": 320000.0,
+  "first_claim_end_ms": 91780.0,
+  "required_observation_end_ms": 91880.0,
+  "observed_through_ms": 91880.0,
+  "deadline_met": true,
+  "post_claim_observation_complete": true,
+  "task": "MOT-H07",
+  "scenario_index": 0,
+  "st_sha256": "a37071d6c244aa6a012e05de7aebd701d6f0d44ff1b0be1706194b4395c73acb",
+  "prerequisites": [
+    {
+      "check": "local_submission_profile",
+      "passed": true,
+      "st_sha256": "a37071d6c244aa6a012e05de7aebd701d6f0d44ff1b0be1706194b4395c73acb"
+    },
+    {
+      "check": "local_st_parse_and_required_io",
+      "passed": true,
+      "st_sha256": "a37071d6c244aa6a012e05de7aebd701d6f0d44ff1b0be1706194b4395c73acb"
+    }
+  ],
+  "profile": {
+    "ok": true,
+    "errors": []
+  },
+  "evaluator_version": "common-plant-contract/5.2.6-math02-guard-candidate",
+  "review_hold": null,
+  "current_cohort_eligible": true,
+  "eligible_for_official_aggregation": true,
+  "review_policy_version": "evaluation-review-policy/1",
+  "contract_sha256": "39179f2c4909bd5a868a19371429a06a9a5f643c5e9757935178bb433cfa1697",
+  "review_policy_sha256": "0a15b3e1d2d41b594a29d7376488e26b29044bfd32b1b9e9c1099a7712b57ce6",
+  "candidate_seal_sha256": "7f6f6f95be359f157380bae12353095e7cfa0ae42ad7e6880fb83b94397a74cd",
+  "integration_version": "plcworld-evaluation/5.2.6",
+  "integration_seal_sha256": "bceeb8804c3d724faa80c8d02ccfb35da0b79134084d0d97bd87a018049396cc",
+  "input_freeze": "plcworld-model-inputs/6-plain-scaffold",
+  "independent_task": true,
+  "evaluation_family": "MOT-H07",
+  "task_version": "plcworld-evaluation/5.2.6",
+  "generation_provenance_verified": false,
+  "registered_system_sha256": "a1d2a9bca7208713ff2b7fa4c46a39bf9d5c13b220d2e497a0724b2fd7576fcb",
+  "registered_public_spec_sha256": "588144cc96220263d5fec1a20b427ddbbee3f43563bc6d4247fc9a3fac108f77",
+  "registered_input_sha256": "a1fdeb7e4120fb007b49ed1dfd9ceaf279a261f680e8b33206bc079960ff494c",
+  "registered_contract_sha256": "39179f2c4909bd5a868a19371429a06a9a5f643c5e9757935178bb433cfa1697",
+  "trace_sha256": "24704394f7a744d57c1541a20ed5788c207f7d599039b0fb0fc9a400faad29c7"
+}

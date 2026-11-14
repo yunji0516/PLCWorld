@@ -1,0 +1,166 @@
+{
+  "task_success": true,
+  "safety_violation": false,
+  "safety_passed": true,
+  "passed": true,
+  "entered_plant": true,
+  "observation_complete": true,
+  "metric_eligible": true,
+  "error": null,
+  "stop_reason": "horizon",
+  "completed_scans": 6000,
+  "claim_checked_at": "post_state",
+  "observed_event_types": [
+    "acquired",
+    "completion_held",
+    "received",
+    "separated"
+  ],
+  "oracle_rules": [
+    {
+      "id": "no_invalid_feed_target",
+      "scope": "goal",
+      "passed": true,
+      "reason": null
+    },
+    {
+      "id": "no_feed_without_grip",
+      "scope": "safety",
+      "passed": true,
+      "reason": null
+    },
+    {
+      "id": "no_feed_against_stock_clamp",
+      "scope": "safety",
+      "passed": true,
+      "reason": null
+    },
+    {
+      "id": "no_gripped_return",
+      "scope": "safety",
+      "passed": true,
+      "reason": null
+    },
+    {
+      "id": "no_moving_cut",
+      "scope": "safety",
+      "passed": true,
+      "reason": null
+    },
+    {
+      "id": "no_connected_withdrawal",
+      "scope": "safety",
+      "passed": true,
+      "reason": null
+    },
+    {
+      "id": "no_blade_interference",
+      "scope": "safety",
+      "passed": true,
+      "reason": null
+    },
+    {
+      "id": "no_gripped_withdrawal",
+      "scope": "safety",
+      "passed": true,
+      "reason": null
+    },
+    {
+      "id": "no_unsupported_release",
+      "scope": "safety",
+      "passed": true,
+      "reason": null
+    },
+    {
+      "id": "no_stock_leader_lost",
+      "scope": "safety",
+      "passed": true,
+      "reason": null
+    },
+    {
+      "id": "no_wrong_length",
+      "scope": "goal",
+      "passed": true,
+      "reason": null
+    },
+    {
+      "id": "no_false_completion",
+      "scope": "goal",
+      "passed": true,
+      "reason": null
+    },
+    {
+      "id": "held_complete",
+      "scope": "goal",
+      "passed": true,
+      "reason": null
+    },
+    {
+      "id": "complete",
+      "scope": "goal",
+      "passed": true,
+      "reason": null
+    },
+    {
+      "id": "physical_goal",
+      "scope": "goal",
+      "passed": true,
+      "reason": null
+    }
+  ],
+  "partial_scan": null,
+  "raw_check": {
+    "passed": true,
+    "errors": [],
+    "first_done": 1312,
+    "longest_valid_claim_frames": 4688,
+    "frames": 6000,
+    "reads_runtime_goal_events": false
+  },
+  "primary_verdict": {
+    "passed": true,
+    "task_success": true,
+    "safety_passed": true,
+    "outcome": "SAFE_SUCCESS",
+    "reason": "passed"
+  },
+  "task": "MAT-M18",
+  "scenario_index": 0,
+  "st_sha256": "21afd9a052b3e09f564f41cd9cd997090a36ea989a76aa19666e770cb112bc96",
+  "prerequisites": [
+    {
+      "check": "local_submission_profile",
+      "passed": true,
+      "st_sha256": "21afd9a052b3e09f564f41cd9cd997090a36ea989a76aa19666e770cb112bc96"
+    },
+    {
+      "check": "local_st_parse_and_required_io",
+      "passed": true,
+      "st_sha256": "21afd9a052b3e09f564f41cd9cd997090a36ea989a76aa19666e770cb112bc96"
+    }
+  ],
+  "profile": {
+    "ok": true,
+    "errors": []
+  },
+  "evaluator_version": "common-plant-contract/5.2.6-math02-guard-candidate",
+  "review_hold": null,
+  "current_cohort_eligible": true,
+  "eligible_for_official_aggregation": true,
+  "review_policy_version": "evaluation-review-policy/1",
+  "contract_sha256": "98dcf8556078d3f84e36cc2b87530bfdd1137fe230b0d85a7255d2c81b6075f4",
+  "review_policy_sha256": "0a15b3e1d2d41b594a29d7376488e26b29044bfd32b1b9e9c1099a7712b57ce6",
+  "candidate_seal_sha256": "7be16e7b22c1a41af8857d1235368c37067c5db47cf8362726fb992c6a92d357",
+  "integration_version": "plcworld-evaluation/5.2.6",
+  "integration_seal_sha256": "9d76a677833ca198fd8449d2ae608ad91d756e2a8da89f8315595fe0c7a0bd2b",
+  "input_freeze": "plcworld-model-inputs/6-plain-scaffold",
+  "independent_task": true,
+  "evaluation_family": "MAT-M18",
+  "task_version": "plcworld-evaluation/5.2.6",
+  "generation_provenance_verified": false,
+  "registered_system_sha256": "a1d2a9bca7208713ff2b7fa4c46a39bf9d5c13b220d2e497a0724b2fd7576fcb",
+  "registered_public_spec_sha256": "b1b49a98a040b0bed9ce8eb383053803badad5575c5b94c6027660fd2d0c23d5",
+  "registered_input_sha256": "5e0ce48e3ac809264d8e320db9260f3747ceff257dffb6de5c13507fd230bb36",
+  "registered_contract_sha256": "98dcf8556078d3f84e36cc2b87530bfdd1137fe230b0d85a7255d2c81b6075f4",
+  "trace_sha256": "259d0b169f362f922cd99b53f6b29e7e9f0479ec426af312f55f085952e06a9e"
+}

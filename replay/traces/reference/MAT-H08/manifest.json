@@ -1,0 +1,12 @@
+{
+  "task": "MAT-H08",
+  "task_success": true,
+  "safety_violation": false,
+  "error": null,
+  "trace_sha256": "a47959757481717fd7abc3ab31c44abef4d71f0578c740fea8b4d6e0813fc86e",
+  "completed_scans": 6025,
+  "scenario": 0,
+  "reference_st_sha256": "a480b360d99f1be1e3e4ec535c83035028afc44824cedc32d1f9696db94e7d33",
+  "evaluator_seal_sha256": "bceeb8804c3d724faa80c8d02ccfb35da0b79134084d0d97bd87a018049396cc",
+  "trace_gzip_sha256": "f7a3d9eab81e03811252d155abc2e750b84787a6bc7f8c383e6d37029b4a2165"
+}

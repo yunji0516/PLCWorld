@@ -1,0 +1,141 @@
+{
+  "task": "MOT-M11",
+  "scenario": "normal",
+  "scenario_index": 0,
+  "program": "submission.st",
+  "program_sha256": "5ab25987feaa3518cb71802aa1776c62aa7fbf9ba6cb4a7670083d5f3576a9d2",
+  "st_sha256": "5ab25987feaa3518cb71802aa1776c62aa7fbf9ba6cb4a7670083d5f3576a9d2",
+  "evaluator_version": "motion-medium-grounded-v5-dev",
+  "task_success": true,
+  "safety_violation": false,
+  "safety_observation_complete": true,
+  "passed": true,
+  "entered_plant": true,
+  "observation_complete": true,
+  "error": null,
+  "cleanup_error": null,
+  "partial_frame": null,
+  "elapsed_seconds": 0.490252286195755,
+  "metric_eligible": true,
+  "metric_eligibility": {
+    "sr": true,
+    "svr": true
+  },
+  "events": [
+    {
+      "type": "request_available",
+      "time_ms": 30.0,
+      "scan": 3
+    },
+    {
+      "type": "fresh_sensor_edge",
+      "time_ms": 272.0,
+      "scan": 27
+    },
+    {
+      "type": "first_access",
+      "time_ms": 1032.0,
+      "scan": 103
+    },
+    {
+      "type": "second_access",
+      "time_ms": 2618.0,
+      "scan": 261
+    },
+    {
+      "type": "result_asserted",
+      "time_ms": 3220.0,
+      "scan": 321
+    }
+  ],
+  "final_state": {
+    "time_ms": 15100.0,
+    "setup": {
+      "request": {
+        "first": 90,
+        "second": 180,
+        "depth1": 45,
+        "depth2": 70
+      },
+      "mark": 70
+    },
+    "reference_mark": 70,
+    "edge_position": 70,
+    "contacts": [],
+    "axes": {
+      "a": {
+        "position": 179.99999999999966,
+        "velocity": 6.821210263296962e-12
+      },
+      "b": {
+        "position": 3.325896713967919e-125,
+        "velocity": -6.93510520689853e-124
+      },
+      "c": {
+        "position": 3.28119458927003e-110,
+        "velocity": -6.84189307061968e-109
+      }
+    },
+    "history": {
+      "request_available": 30.0,
+      "fresh_sensor_edge": 272.0,
+      "first_access": 1032.0,
+      "second_access": 2618.0,
+      "result_asserted": 3220.0
+    },
+    "result": true,
+    "hold_ms": 11880.0,
+    "dwell_ms": 0,
+    "origin": 0,
+    "configured": false,
+    "sensor_seen": true,
+    "guide_segment": false,
+    "guide_done": false,
+    "module_busy": false,
+    "module_done": false,
+    "module_position": 0,
+    "module_count": 2,
+    "geometry_safe": true
+  },
+  "failure_types": [],
+  "executed_scans": 1510,
+  "last_scan": 1509,
+  "prerequisites": [
+    {
+      "check": "local_submission_profile",
+      "passed": true,
+      "st_sha256": "5ab25987feaa3518cb71802aa1776c62aa7fbf9ba6cb4a7670083d5f3576a9d2"
+    },
+    {
+      "check": "local_st_parse_and_required_io",
+      "passed": true,
+      "st_sha256": "5ab25987feaa3518cb71802aa1776c62aa7fbf9ba6cb4a7670083d5f3576a9d2"
+    }
+  ],
+  "profile": {
+    "ok": true,
+    "errors": []
+  },
+  "claim_checked_at": "post_state",
+  "predecessor_checks": {
+    "local_st_runtime_initialization": true,
+    "native_compile": "not_run",
+    "formal": "not_run"
+  },
+  "release_version": "motion-medium-release/1.0",
+  "release_seal_sha256": "88302af72ff5215cc3e730e35f3c0eb57b058b93a3dc7118a62ed98a1e2a1b64",
+  "integration_version": "plcworld-evaluation/5.2.6",
+  "integration_seal_sha256": "bceeb8804c3d724faa80c8d02ccfb35da0b79134084d0d97bd87a018049396cc",
+  "input_freeze": "plcworld-model-inputs/6-plain-scaffold",
+  "eligible_for_official_aggregation": true,
+  "current_cohort_eligible": true,
+  "independent_task": true,
+  "evaluation_family": "MOT-M11",
+  "task_version": "plcworld-evaluation/5.2.6",
+  "generation_provenance_verified": false,
+  "registered_system_sha256": "a1d2a9bca7208713ff2b7fa4c46a39bf9d5c13b220d2e497a0724b2fd7576fcb",
+  "registered_public_spec_sha256": "572596129a43e3d4ec8cd662a70ec205f5a3afebf409f9db125165c7bbc7d4ea",
+  "registered_input_sha256": "240257a20c91b39f9862e2b35127e184b9932e68b3bfcdcc7a8b100ed1865b41",
+  "registered_contract_sha256": "49196a7ebb51a1ca6705274522f334ebf9e7d385cf2b75bfbc52af938371921c",
+  "trace_sha256": "eb1dcd57e83cb092bb73701eb6a00f81c719545f6ef906ae92bf9f4f8c162e1b"
+}

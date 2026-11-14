@@ -1,0 +1,1181 @@
+{
+  "task": "MAT-H07",
+  "scenario": "late_core",
+  "scenario_index": 8,
+  "program": "submissions/gemini-3.1-pro/repeat-01/MAT-H07.st",
+  "program_sha256": "0e38b62986172836203911e7d8dd21384c34eb45c1e6cb5b9b47c5eacade269f",
+  "st_sha256": "0e38b62986172836203911e7d8dd21384c34eb45c1e6cb5b9b47c5eacade269f",
+  "evaluator_version": "priority-redesign/1",
+  "task_success": true,
+  "safety_violation": true,
+  "passed": false,
+  "entered_plant": true,
+  "error": null,
+  "raw_errors": {},
+  "failure_types": [
+    "connected_roll",
+    "unsupported_roll",
+    "untaped_roll"
+  ],
+  "executed_scans": 12568,
+  "completion_ms": 125580,
+  "hold_ms": 100,
+  "final_state": {
+    "parts": {
+      "1": {
+        "token": 1,
+        "owner": "accepted",
+        "x": 0.45,
+        "y": 0.920632219042423,
+        "z": -1.81,
+        "size": [
+          0.10101345616875818,
+          0.10101345616875818,
+          0.12
+        ],
+        "status": "idle",
+        "radius": 0.05050672808437909,
+        "length": 0.8000000000000006,
+        "wound": 0.8000000000000006,
+        "tail": 0.0,
+        "segments": [
+          {
+            "u0": 0.0,
+            "u1": 0.8000000000000006,
+            "a0": 0.0,
+            "a1": 0.8000000000000006,
+            "b0": 0.20000000000000015,
+            "b1": 1.0000000000000007
+          }
+        ],
+        "connected": {
+          "a": false,
+          "b": false
+        },
+        "target": 0.8,
+        "tape": 1
+      },
+      "2": {
+        "token": 2,
+        "owner": "accepted",
+        "x": 0.45,
+        "y": 0.9207889205634131,
+        "z": -1.58,
+        "size": [
+          0.10126523544112774,
+          0.10126523544112774,
+          0.12
+        ],
+        "status": "idle",
+        "radius": 0.05063261772056387,
+        "length": 1.0000000000000007,
+        "wound": 1.0000000000000007,
+        "tail": 0.0,
+        "segments": [
+          {
+            "u0": 0.0,
+            "u1": 1.0000000000000007,
+            "a0": 0.8000000000000006,
+            "a1": 1.7999999999999126,
+            "b0": 1.0000000000000007,
+            "b1": 1.9999999999998905
+          }
+        ],
+        "connected": {
+          "a": false,
+          "b": false
+        },
+        "target": 1.0,
+        "tape": 2
+      },
+      "3": {
+        "token": 3,
+        "owner": "accepted",
+        "x": 0.45,
+        "y": 0.9205536675733409,
+        "z": -1.35,
+        "size": [
+          0.10088733090067813,
+          0.10088733090067813,
+          0.12
+        ],
+        "status": "idle",
+        "radius": 0.05044366545033906,
+        "length": 0.7000000000000005,
+        "wound": 0.7000000000000005,
+        "tail": 0.0,
+        "segments": [
+          {
+            "u0": 0.0,
+            "u1": 0.7000000000000005,
+            "a0": 1.7999999999999126,
+            "a1": 2.4999999999998357,
+            "b0": 1.9999999999998905,
+            "b1": 2.6999999999998137
+          }
+        ],
+        "connected": {
+          "a": false,
+          "b": false
+        },
+        "target": 0.7,
+        "tape": 3
+      },
+      "201": {
+        "token": 201,
+        "owner": "accepted",
+        "x": -0.09999999999999995,
+        "y": 0.95986,
+        "z": -0.35,
+        "size": [
+          0.20000000000000015,
+          0.00012,
+          0.12
+        ],
+        "status": "idle",
+        "length": 0.20000000000000015,
+        "connected": false
+      }
+    },
+    "physical": {
+      "sources": {
+        "a": {
+          "radius": 0.05017453725044106,
+          "lead": 0.8133975311819536,
+          "wound": 0.6866024688046505,
+          "stock": 1.5000000000001643,
+          "path": [
+            [
+              -0.5637771608121384,
+              1.2517540257819124,
+              0.0
+            ],
+            [
+              0.1758812293345016,
+              1.040536556298684,
+              0.0
+            ],
+            [
+              0.17600675814498248,
+              1.0405012995228706,
+              0.0
+            ],
+            [
+              0.17613258867634343,
+              1.040467135215781,
+              0.0
+            ],
+            [
+              0.17625871142109653,
+              1.0404340659587974,
+              0.0
+            ],
+            [
+              0.1763851168496748,
+              1.0404020942505627,
+              0.0
+            ],
+            [
+              0.1765117954111524,
+              1.0403712225067916,
+              0.0
+            ],
+            [
+              0.17663873753396594,
+              1.0403414530600872,
+              0.0
+            ],
+            [
+              0.17676593362663814,
+              1.040312788159766,
+              0.0
+            ],
+            [
+              0.1768933740785021,
+              1.0402852299716867,
+              0.0
+            ],
+            [
+              0.17702104926042778,
+              1.0402587805780878,
+              0.0
+            ],
+            [
+              0.17714894952554935,
+              1.0402334419774295,
+              0.0
+            ],
+            [
+              0.17727706520999423,
+              1.0402092160842422,
+              0.0
+            ],
+            [
+              0.1774053866336132,
+              1.0401861047289833,
+              0.0
+            ],
+            [
+              0.1775339041007118,
+              1.0401641096578977,
+              0.0
+            ],
+            [
+              0.17766260790078295,
+              1.0401432325328863,
+              0.0
+            ],
+            [
+              0.17779148830924066,
+              1.0401234749313804,
+              0.0
+            ],
+            [
+              0.17792053558815482,
+              1.0401048383462221,
+              0.0
+            ],
+            [
+              0.17804973998698684,
+              1.0400873241855528,
+              0.0
+            ],
+            [
+              0.17817909174332658,
+              1.0400709337727048,
+              0.0
+            ],
+            [
+              0.17830858108362985,
+              1.0400556683461033,
+              0.0
+            ],
+            [
+              0.17843819822395685,
+              1.0400415290591714,
+              0.0
+            ],
+            [
+              0.17856793337071158,
+              1.0400285169802432,
+              0.0
+            ],
+            [
+              0.17869777672138168,
+              1.0400166330924845,
+              0.0
+            ],
+            [
+              0.17882771846527912,
+              1.0400058782938162,
+              0.0
+            ],
+            [
+              0.17895774878428147,
+              1.0399962533968483,
+              0.0
+            ],
+            [
+              0.1790878578535738,
+              1.0399877591288171,
+              0.0
+            ],
+            [
+              0.17921803584239096,
+              1.0399803961315321,
+              0.0
+            ],
+            [
+              0.17934827291476035,
+              1.0399741649613254,
+              0.0
+            ],
+            [
+              0.17947855923024522,
+              1.039969066089011,
+              0.0
+            ],
+            [
+              0.17960888494468805,
+              1.0399650998998489,
+              0.0
+            ],
+            [
+              0.17973924021095442,
+              1.039962266693516,
+              0.0
+            ],
+            [
+              0.17986961517967703,
+              1.0399605666840832,
+              0.0
+            ],
+            [
+              0.18,
+              1.03996,
+              0.0
+            ],
+            [
+              0.22,
+              1.03996,
+              0.0
+            ]
+          ],
+          "guide": [
+            0.18,
+            1.05496,
+            0.0
+          ]
+        },
+        "b": {
+          "radius": 0.05017859584730104,
+          "lead": 0.8316021173035452,
+          "wound": 0.4683978826754214,
+          "stock": 1.3000000000001863,
+          "path": [
+            [
+              -0.566695202886048,
+              0.6973197810836068,
+              0.0
+            ],
+            [
+              0.17500926562288033,
+              0.9590054081021734,
+              0.0
+            ],
+            [
+              0.17515947644588953,
+              0.9590575114622986,
+              0.0
+            ],
+            [
+              0.17531023108669258,
+              0.9591080197760873,
+              0.0
+            ],
+            [
+              0.17546151260847362,
+              0.9591569273690872,
+              0.0
+            ],
+            [
+              0.17561330401522332,
+              0.9592042287466821,
+              0.0
+            ],
+            [
+              0.17576558825364838,
+              0.9592499185947092,
+              0.0
+            ],
+            [
+              0.17591834821508737,
+              0.9592939917800558,
+              0.0
+            ],
+            [
+              0.17607156673743288,
+              0.9593364433512364,
+              0.0
+            ],
+            [
+              0.17622522660705955,
+              0.9593772685389486,
+              0.0
+            ],
+            [
+              0.17637931056075812,
+              0.9594164627566095,
+              0.0
+            ],
+            [
+              0.17653380128767474,
+              0.9594540216008705,
+              0.0
+            ],
+            [
+              0.17668868143125582,
+              0.9594899408521117,
+              0.0
+            ],
+            [
+              0.17684393359119807,
+              0.9595242164749171,
+              0.0
+            ],
+            [
+              0.17699954032540333,
+              0.9595568446185267,
+              0.0
+            ],
+            [
+              0.17715548415193808,
+              0.9595878216172699,
+              0.0
+            ],
+            [
+              0.17731174755099752,
+              0.9596171439909771,
+              0.0
+            ],
+            [
+              0.17746831296687393,
+              0.9596448084453705,
+              0.0
+            ],
+            [
+              0.17762516280992885,
+              0.9596708118724347,
+              0.0
+            ],
+            [
+              0.17778227945856936,
+              0.9596951513507653,
+              0.0
+            ],
+            [
+              0.17793964526122777,
+              0.9597178241458976,
+              0.0
+            ],
+            [
+              0.1780972425383447,
+              0.9597388277106133,
+              0.0
+            ],
+            [
+              0.1782550535843553,
+              0.9597581596852272,
+              0.0
+            ],
+            [
+              0.17841306066967852,
+              0.9597758178978518,
+              0.0
+            ],
+            [
+              0.1785712460427088,
+              0.959791800364642,
+              0.0
+            ],
+            [
+              0.17872959193181062,
+              0.9598061052900171,
+              0.0
+            ],
+            [
+              0.17888808054731492,
+              0.9598187310668632,
+              0.0
+            ],
+            [
+              0.17904669408351775,
+              0.9598296762767135,
+              0.0
+            ],
+            [
+              0.17920541472068077,
+              0.9598389396899075,
+              0.0
+            ],
+            [
+              0.1793642246270331,
+              0.9598465202657297,
+              0.0
+            ],
+            [
+              0.17952310596077484,
+              0.9598524171525258,
+              0.0
+            ],
+            [
+              0.17968204087208134,
+              0.9598566296877988,
+              0.0
+            ],
+            [
+              0.17984101150510876,
+              0.9598591573982838,
+              0.0
+            ],
+            [
+              0.18,
+              0.9598599999999999,
+              0.0
+            ],
+            [
+              0.22,
+              0.9598599999999999,
+              0.0
+            ]
+          ],
+          "guide": [
+            0.18,
+            0.9448599999999999,
+            0.0
+          ]
+        }
+      },
+      "web": {
+        "a": {
+          "state": "ready",
+          "encoder": 2.4999999999998357,
+          "hold": 1.0,
+          "nip": 0.0
+        },
+        "b": {
+          "state": "ready",
+          "encoder": 2.6999999999998137,
+          "hold": 1.0,
+          "nip": 0.0
+        }
+      },
+      "origin": 0.2,
+      "trim_state": "done",
+      "trim_length": 0.20000000000000015,
+      "trim_z": -0.35,
+      "trim_x": -0.1,
+      "knives": {
+        "a": null,
+        "b": null
+      },
+      "cut_history": [
+        {
+          "side": "b",
+          "id": 201,
+          "kind": "trim",
+          "scan": 378
+        },
+        {
+          "side": "a",
+          "id": 1,
+          "kind": "roll",
+          "scan": 2761
+        },
+        {
+          "side": "b",
+          "id": 1,
+          "kind": "roll",
+          "scan": 2761
+        },
+        {
+          "side": "a",
+          "id": 2,
+          "kind": "roll",
+          "scan": 6788
+        },
+        {
+          "side": "b",
+          "id": 2,
+          "kind": "roll",
+          "scan": 6788
+        },
+        {
+          "side": "a",
+          "id": 3,
+          "kind": "roll",
+          "scan": 10575
+        },
+        {
+          "side": "b",
+          "id": 3,
+          "kind": "roll",
+          "scan": 10575
+        }
+      ],
+      "active": 0,
+      "core_busy": false,
+      "mandrel": 1.0,
+      "support_y": 0.8000000000000066,
+      "support_z": 0.0,
+      "exit_job": null,
+      "receiver": null,
+      "exit_pusher_z": -0.636,
+      "exit_pusher_x": 0.78,
+      "exit_results": [
+        1,
+        2,
+        3
+      ],
+      "core_results": [
+        1,
+        2,
+        3
+      ],
+      "roll_results": [
+        1,
+        2,
+        3
+      ],
+      "pipeline_metrics": {
+        "triple_overlap_scans": 0,
+        "exit_blocks_unload_scans": 0,
+        "buffer_full_scans": 6
+      },
+      "metrics": {
+        "independent_ready_scans": 149,
+        "unmatched_leader_scans": 349,
+        "connected_supported_scans": 180,
+        "retained_leader_scans": 1704
+      },
+      "contention": {
+        "independent_leader_arrivals": true,
+        "registration_preparation_needed": true,
+        "actual_connected_support_phase": true,
+        "leaders_retained_during_exit": true
+      },
+      "extension": {
+        "kind": "core_tail_tape",
+        "stop": 0.0,
+        "tape": {
+          "stock": 0.05999999999999994,
+          "length": 0.0,
+          "grip": 0.0,
+          "severed": false,
+          "head": [
+            0.9,
+            1.3,
+            0.35
+          ],
+          "job": null,
+          "strips": [
+            {
+              "id": 1,
+              "roll": 1,
+              "length": 0.08,
+              "contact": [
+                0.45,
+                1.001506728084379,
+                0.0
+              ]
+            },
+            {
+              "id": 2,
+              "roll": 2,
+              "length": 0.08,
+              "contact": [
+                0.45,
+                1.0016326177205637,
+                0.0
+              ]
+            },
+            {
+              "id": 3,
+              "roll": 3,
+              "length": 0.08,
+              "contact": [
+                0.45,
+                1.001443665450339,
+                0.0
+              ]
+            }
+          ],
+          "history": [
+            {
+              "roll": 1,
+              "tail": 0.0,
+              "connections": {
+                "a": false,
+                "b": false
+              },
+              "length": 0.08
+            },
+            {
+              "roll": 2,
+              "tail": 0.0,
+              "connections": {
+                "a": false,
+                "b": false
+              },
+              "length": 0.08
+            },
+            {
+              "roll": 3,
+              "tail": 0.0,
+              "connections": {
+                "a": false,
+                "b": false
+              },
+              "length": 0.08
+            }
+          ],
+          "id": 4
+        },
+        "core_history": [
+          {
+            "id": 1,
+            "z": 0.4,
+            "stop": 1.0
+          },
+          {
+            "id": 2,
+            "z": 0.4,
+            "stop": 1.0
+          },
+          {
+            "id": 3,
+            "z": 0.4,
+            "stop": 1.0
+          }
+        ]
+      }
+    },
+    "goal": 1,
+    "violations": [
+      {
+        "type": "unsupported_roll",
+        "scan": 5028
+      },
+      {
+        "type": "untaped_roll",
+        "scan": 5029
+      },
+      {
+        "type": "connected_roll",
+        "scan": 5407
+      }
+    ],
+    "accepted": [
+      1,
+      2,
+      3
+    ],
+    "material_hard": {
+      "mode": "wind_tape",
+      "revision": 10,
+      "poses": {
+        "part1": {
+          "pos": [
+            0.45,
+            0.920632219042423,
+            -1.81
+          ],
+          "yaw": 0,
+          "size": [
+            0.10101345616875818,
+            0.10101345616875818,
+            0.12
+          ]
+        },
+        "part2": {
+          "pos": [
+            0.45,
+            0.9207889205634131,
+            -1.58
+          ],
+          "yaw": 0,
+          "size": [
+            0.10126523544112774,
+            0.10126523544112774,
+            0.12
+          ]
+        },
+        "part3": {
+          "pos": [
+            0.45,
+            0.9205536675733409,
+            -1.35
+          ],
+          "yaw": 0,
+          "size": [
+            0.10088733090067813,
+            0.10088733090067813,
+            0.12
+          ]
+        },
+        "part201": {
+          "pos": [
+            -0.09999999999999995,
+            0.95986,
+            -0.35
+          ],
+          "yaw": 0,
+          "size": [
+            0.20000000000000015,
+            0.00012,
+            0.12
+          ]
+        }
+      },
+      "requests": [
+        {
+          "request_id": "WEB-a",
+          "generation": 1,
+          "payload": {
+            "registration_origin_mm": 0
+          },
+          "arrival": 0,
+          "state": "ready",
+          "result_ids": [],
+          "id": "WEB-a",
+          "label": "Source web A",
+          "progress": "ready",
+          "detail": ""
+        },
+        {
+          "request_id": "WEB-b",
+          "generation": 1,
+          "payload": {
+            "registration_origin_mm": 200
+          },
+          "arrival": 1.5,
+          "state": "ready",
+          "result_ids": [],
+          "id": "WEB-b",
+          "label": "Source web B",
+          "progress": "ready",
+          "detail": ""
+        },
+        {
+          "request_id": "ROLL-1",
+          "generation": 1,
+          "payload": {
+            "length_mm": 800
+          },
+          "arrival": 0.0,
+          "state": "done",
+          "result_ids": [
+            1
+          ],
+          "id": "ROLL-1",
+          "label": "Roll 1",
+          "progress": "done",
+          "detail": ""
+        },
+        {
+          "request_id": "ROLL-2",
+          "generation": 1,
+          "payload": {
+            "length_mm": 1000
+          },
+          "arrival": 0.0,
+          "state": "done",
+          "result_ids": [
+            2
+          ],
+          "id": "ROLL-2",
+          "label": "Roll 2",
+          "progress": "done",
+          "detail": ""
+        },
+        {
+          "request_id": "ROLL-3",
+          "generation": 1,
+          "payload": {
+            "length_mm": 700
+          },
+          "arrival": 0.0,
+          "state": "done",
+          "result_ids": [
+            3
+          ],
+          "id": "ROLL-3",
+          "label": "Roll 3",
+          "progress": "done",
+          "detail": ""
+        },
+        {
+          "request_id": "CORE-1",
+          "generation": 1,
+          "payload": {
+            "core_id": 1
+          },
+          "arrival": 10,
+          "state": "done",
+          "result_ids": [
+            1
+          ],
+          "id": "CORE-1",
+          "label": "Core preparation 1",
+          "progress": "done",
+          "detail": ""
+        },
+        {
+          "request_id": "CORE-2",
+          "generation": 1,
+          "payload": {
+            "core_id": 2
+          },
+          "arrival": 40,
+          "state": "done",
+          "result_ids": [
+            2
+          ],
+          "id": "CORE-2",
+          "label": "Core preparation 2",
+          "progress": "done",
+          "detail": ""
+        },
+        {
+          "request_id": "CORE-3",
+          "generation": 1,
+          "payload": {
+            "core_id": 3
+          },
+          "arrival": 65,
+          "state": "done",
+          "result_ids": [
+            3
+          ],
+          "id": "CORE-3",
+          "label": "Core preparation 3",
+          "progress": "done",
+          "detail": ""
+        },
+        {
+          "request_id": "EXIT-1",
+          "generation": 1,
+          "payload": {
+            "roll_id": 1
+          },
+          "arrival": 39.46000000000072,
+          "state": "done",
+          "result_ids": [
+            1
+          ],
+          "id": "EXIT-1",
+          "label": "Roll dispatch 1",
+          "progress": "done",
+          "detail": ""
+        },
+        {
+          "request_id": "EXIT-2",
+          "generation": 1,
+          "payload": {
+            "roll_id": 2
+          },
+          "arrival": 79.73000000000388,
+          "state": "done",
+          "result_ids": [
+            2
+          ],
+          "id": "EXIT-2",
+          "label": "Roll dispatch 2",
+          "progress": "done",
+          "detail": ""
+        },
+        {
+          "request_id": "EXIT-3",
+          "generation": 1,
+          "payload": {
+            "roll_id": 3
+          },
+          "arrival": 117.61000000002326,
+          "state": "done",
+          "result_ids": [
+            3
+          ],
+          "id": "EXIT-3",
+          "label": "Roll dispatch 3",
+          "progress": "done",
+          "detail": ""
+        }
+      ],
+      "shared": {
+        "A/B physical coordinates mm": "[2500, 2700]",
+        "B registration origin mm": "200",
+        "Preparation trim": "done",
+        "Mandrel retraction": "1.0",
+        "Rolls accepted": "3/3"
+      },
+      "accepted": [
+        1,
+        2,
+        3
+      ],
+      "parts": {
+        "1": {
+          "token": 1,
+          "owner": "accepted",
+          "x": 0.45,
+          "y": 0.920632219042423,
+          "z": -1.81,
+          "size": [
+            0.10101345616875818,
+            0.10101345616875818,
+            0.12
+          ],
+          "status": "idle",
+          "radius": 0.05050672808437909,
+          "length": 0.8000000000000006,
+          "wound": 0.8000000000000006,
+          "tail": 0.0,
+          "segments": [
+            {
+              "u0": 0.0,
+              "u1": 0.8000000000000006,
+              "a0": 0.0,
+              "a1": 0.8000000000000006,
+              "b0": 0.20000000000000015,
+              "b1": 1.0000000000000007
+            }
+          ],
+          "connected": {
+            "a": false,
+            "b": false
+          },
+          "target": 0.8,
+          "tape": 1
+        },
+        "2": {
+          "token": 2,
+          "owner": "accepted",
+          "x": 0.45,
+          "y": 0.9207889205634131,
+          "z": -1.58,
+          "size": [
+            0.10126523544112774,
+            0.10126523544112774,
+            0.12
+          ],
+          "status": "idle",
+          "radius": 0.05063261772056387,
+          "length": 1.0000000000000007,
+          "wound": 1.0000000000000007,
+          "tail": 0.0,
+          "segments": [
+            {
+              "u0": 0.0,
+              "u1": 1.0000000000000007,
+              "a0": 0.8000000000000006,
+              "a1": 1.7999999999999126,
+              "b0": 1.0000000000000007,
+              "b1": 1.9999999999998905
+            }
+          ],
+          "connected": {
+            "a": false,
+            "b": false
+          },
+          "target": 1.0,
+          "tape": 2
+        },
+        "3": {
+          "token": 3,
+          "owner": "accepted",
+          "x": 0.45,
+          "y": 0.9205536675733409,
+          "z": -1.35,
+          "size": [
+            0.10088733090067813,
+            0.10088733090067813,
+            0.12
+          ],
+          "status": "idle",
+          "radius": 0.05044366545033906,
+          "length": 0.7000000000000005,
+          "wound": 0.7000000000000005,
+          "tail": 0.0,
+          "segments": [
+            {
+              "u0": 0.0,
+              "u1": 0.7000000000000005,
+              "a0": 1.7999999999999126,
+              "a1": 2.4999999999998357,
+              "b0": 1.9999999999998905,
+              "b1": 2.6999999999998137
+            }
+          ],
+          "connected": {
+            "a": false,
+            "b": false
+          },
+          "target": 0.7,
+          "tape": 3
+        },
+        "201": {
+          "token": 201,
+          "owner": "accepted",
+          "x": -0.09999999999999995,
+          "y": 0.95986,
+          "z": -0.35,
+          "size": [
+            0.20000000000000015,
+            0.00012,
+            0.12
+          ],
+          "status": "idle",
+          "length": 0.20000000000000015,
+          "connected": false
+        }
+      },
+      "violations": [
+        "unsupported_roll",
+        "untaped_roll",
+        "connected_roll"
+      ],
+      "web_path": []
+    }
+  },
+  "independent_task": true,
+  "evaluation_family": "MAT-H07",
+  "contract_sha256": "0fc75ff4f513025ba898347b815e210a65abdac3a2c46bfbe8de1e795033ab60",
+  "prerequisites": [
+    {
+      "check": "local_submission_profile",
+      "passed": true,
+      "st_sha256": "0e38b62986172836203911e7d8dd21384c34eb45c1e6cb5b9b47c5eacade269f"
+    },
+    {
+      "check": "local_st_parse_and_required_io",
+      "passed": true,
+      "st_sha256": "0e38b62986172836203911e7d8dd21384c34eb45c1e6cb5b9b47c5eacade269f"
+    }
+  ],
+  "profile": {
+    "ok": true,
+    "errors": []
+  },
+  "metric_eligible": true,
+  "observation_complete": true,
+  "partial_scan": null,
+  "claim_checked_at": "post_state",
+  "completed_scans": 12568,
+  "stop_reason": "post_claim_window",
+  "safety_passed": false,
+  "core_evaluator_version": "priority-redesign/1",
+  "integration_version": "plcworld-evaluation/5.3",
+  "integration_seal_sha256": "c9de108ec4410d15c5f74e02ce000743a7df362cbafc5b51bc4b291ec34a2974",
+  "input_freeze": "plcworld-model-inputs/7-execution-contract",
+  "eligible_for_official_aggregation": true,
+  "current_cohort_eligible": true,
+  "task_version": "priority-redesign/1",
+  "generation_provenance_verified": false,
+  "registered_system_sha256": "da989a5140218cdc034a92429e246e5b6d0a084dfea2b2c13056d301a6b23dd8",
+  "registered_public_spec_sha256": "7ff22baa8cdb354f675d7f19a06c442fc32345e749a03ed1f869a6e3ee74b65c",
+  "registered_input_sha256": "37eba9bce9d727883353afdcf65f3b8a2c72a28ab9c0b62de07e37dc3823d623",
+  "registered_contract_sha256": "0fc75ff4f513025ba898347b815e210a65abdac3a2c46bfbe8de1e795033ab60",
+  "trace_sha256": "88c7568787c00d0eae0cb37c25ad5e980dc2b394763e9d1669a89a70d0c74c50",
+  "sensor_input_saturation": {},
+  "evaluation_reuse": {
+    "source": "[private source path omitted]",
+    "sha256": "bac16f305f6508a0909312bfe490e4fc2e2ce2c043588bf644b53cad70e820a1",
+    "proof": "Same ST engine, original source, plant and historical inputs. Parent checked all delivered INT/DINT inputs and did not raise an infrastructure input failure; saturation therefore never activates on this execution. Pre-execution/generation failures are likewise unchanged.",
+    "scope": "strict type-contract candidate -> sensor-only candidate"
+  },
+  "sensor_packaging_revision": {
+    "previous_integration_seal_sha256": "6955d3af5f49374c780966409552f190013dd1c57a3bd015cc32f3d49c412397",
+    "reason": "Restored unused grounded_v3/v4 archival evaluators exactly to parent; registered tasks use only v5/v6/v8. No executed code or trace changes."
+  },
+  "final_guard_revalidation": {
+    "previous_seal": "048791a186f6e881eafc326149b0631c017a8b07f800543314605202b083892b",
+    "evidence": "[private source path omitted]",
+    "evidence_sha256": "c93aaefcea8e0a1e8c63e047edb945038c0b51843ee4e3f1a4e5e78fe220593e",
+    "proof": "Only static guards changed: this exact source retains identical admission and AST or identical prior error. VM/plant/input-delivery code unchanged; no trace or judgment recomputation required."
+  },
+  "constant_expression_reuse": {
+    "parent_case": "[private source path omitted]",
+    "parent_sha256": "bd8394248139d0e9d57ca968f14aad28b34f664984b7da5c2f403356e4bc2ce5",
+    "evidence": "[private source path omitted]",
+    "evidence_sha256": "2ce81ae9ff33f2d76f5f05bb7d59533770d96f41470079c364a2a626ccc778a7",
+    "proof": "Same source, admission, AST and inferred expression types; VM, plant, inputs and oracle unchanged."
+  },
+  "execution_provenance": "Imported measured result; source hashes retained; no claim of a fresh packaged execution",
+  "source_evaluation": {
+    "integration_seal_sha256": "04cb5615a4b9e931c2678982e9f18cd799aaebcf84cab55f0ef56a4cc717fae7",
+    "trace_sha256": "88c7568787c00d0eae0cb37c25ad5e980dc2b394763e9d1669a89a70d0c74c50",
+    "st_sha256": "0e38b62986172836203911e7d8dd21384c34eb45c1e6cb5b9b47c5eacade269f",
+    "case_sha256": "0791df0a61d348432eb74f526639541fdecdb84cbf842e18af388bd158ded61b"
+  },
+  "generation_input_revision": "historical-v6-with-direct-MOT-E11-amendment"
+}

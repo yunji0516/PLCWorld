@@ -1,0 +1,351 @@
+{
+  "task_success": false,
+  "safety_violation": null,
+  "safety_passed": null,
+  "passed": false,
+  "entered_plant": false,
+  "observation_complete": false,
+  "metric_eligible": true,
+  "error": {
+    "kind": "model",
+    "phase": "submission_profile",
+    "message": "[{\"kind\": \"local_parse_error\", \"message\": \"Initializer must be a literal\", \"line\": 190}]"
+  },
+  "stop_reason": "program_error",
+  "completed_scans": 0,
+  "claim_checked_at": "post_state",
+  "observed_event_types": [],
+  "oracle_rules": [
+    {
+      "id": "no_command_out_of_range",
+      "scope": "safety",
+      "passed": true,
+      "reason": null
+    },
+    {
+      "id": "no_travel_limit",
+      "scope": "safety",
+      "passed": true,
+      "reason": null
+    },
+    {
+      "id": "no_fork_travel_collision",
+      "scope": "safety",
+      "passed": true,
+      "reason": null
+    },
+    {
+      "id": "no_station_moved_during_coupling",
+      "scope": "safety",
+      "passed": true,
+      "reason": null
+    },
+    {
+      "id": "no_unaligned_station_entry",
+      "scope": "safety",
+      "passed": true,
+      "reason": null
+    },
+    {
+      "id": "no_coupling_misaligned",
+      "scope": "safety",
+      "passed": true,
+      "reason": null
+    },
+    {
+      "id": "no_station_capacity_conflict",
+      "scope": "safety",
+      "passed": true,
+      "reason": null
+    },
+    {
+      "id": "no_invalid_jig_route",
+      "scope": "goal",
+      "passed": true,
+      "reason": null
+    },
+    {
+      "id": "no_premature_request_completion",
+      "scope": "goal",
+      "passed": true,
+      "reason": null
+    },
+    {
+      "id": "no_wrong_request_response",
+      "scope": "goal",
+      "passed": true,
+      "reason": null
+    },
+    {
+      "id": "no_premature_completion",
+      "scope": "goal",
+      "passed": true,
+      "reason": null
+    },
+    {
+      "id": "no_result_not_held",
+      "scope": "goal",
+      "passed": true,
+      "reason": null
+    },
+    {
+      "id": "no_request_deadline_missed",
+      "scope": "goal",
+      "passed": true,
+      "reason": null
+    },
+    {
+      "id": "no_gantry_racking",
+      "scope": "safety",
+      "passed": true,
+      "reason": null
+    },
+    {
+      "id": "no_support_tilt_exceeded",
+      "scope": "safety",
+      "passed": true,
+      "reason": null
+    },
+    {
+      "id": "no_bearing_moment_exceeded",
+      "scope": "safety",
+      "passed": true,
+      "reason": null
+    },
+    {
+      "id": "no_table_access_collision",
+      "scope": "safety",
+      "passed": true,
+      "reason": null
+    },
+    {
+      "id": "no_index_with_pin_inserted",
+      "scope": "safety",
+      "passed": true,
+      "reason": null
+    },
+    {
+      "id": "no_head_collision",
+      "scope": "safety",
+      "passed": true,
+      "reason": null
+    },
+    {
+      "id": "no_capture_not_owned",
+      "scope": "safety",
+      "passed": true,
+      "reason": null
+    },
+    {
+      "id": "no_frame_changed_while_moving",
+      "scope": "safety",
+      "passed": true,
+      "reason": null
+    },
+    {
+      "id": "no_gear_tracking_lost",
+      "scope": "safety",
+      "passed": true,
+      "reason": null
+    },
+    {
+      "id": "no_pin_approach_before_pose",
+      "scope": "safety",
+      "passed": true,
+      "reason": null
+    },
+    {
+      "id": "no_pocket_conflict",
+      "scope": "safety",
+      "passed": true,
+      "reason": null
+    },
+    {
+      "id": "no_support_lost",
+      "scope": "safety",
+      "passed": true,
+      "reason": null
+    },
+    {
+      "id": "no_moving_brake",
+      "scope": "safety",
+      "passed": true,
+      "reason": null
+    },
+    {
+      "id": "no_moving_contact_lost",
+      "scope": "safety",
+      "passed": true,
+      "reason": null
+    },
+    {
+      "id": "no_sway_handoff_unsafe",
+      "scope": "safety",
+      "passed": true,
+      "reason": null
+    },
+    {
+      "id": "no_capture_identity_lost",
+      "scope": "goal",
+      "passed": true,
+      "reason": null
+    },
+    {
+      "id": "no_cancel_space_released_early",
+      "scope": "safety",
+      "passed": true,
+      "reason": null
+    },
+    {
+      "id": "no_extended_boom_sweep",
+      "scope": "safety",
+      "passed": true,
+      "reason": null
+    },
+    {
+      "id": "no_distributed_support_skew",
+      "scope": "safety",
+      "passed": true,
+      "reason": null
+    },
+    {
+      "id": "no_incompatible_station_route",
+      "scope": "safety",
+      "passed": true,
+      "reason": null
+    },
+    {
+      "id": "no_support_handover_lost",
+      "scope": "safety",
+      "passed": true,
+      "reason": null
+    },
+    {
+      "id": "no_urgent_request_starved",
+      "scope": "goal",
+      "passed": true,
+      "reason": null
+    },
+    {
+      "id": "no_cross_zone_released_early",
+      "scope": "safety",
+      "passed": true,
+      "reason": null
+    },
+    {
+      "id": "no_shared_master_stopped",
+      "scope": "safety",
+      "passed": true,
+      "reason": null
+    },
+    {
+      "id": "no_posture_route_mismatch",
+      "scope": "safety",
+      "passed": true,
+      "reason": null
+    },
+    {
+      "id": "request_arrived",
+      "scope": "goal",
+      "passed": false,
+      "reason": "request_arrived_missing"
+    },
+    {
+      "id": "result_asserted",
+      "scope": "goal",
+      "passed": false,
+      "reason": "result_asserted_missing"
+    },
+    {
+      "id": "motion_hard_complete",
+      "scope": "goal",
+      "passed": false,
+      "reason": "motion_hard_complete_missing"
+    }
+  ],
+  "partial_scan": null,
+  "declaration_deadline_ms": 320000.0,
+  "first_claim_end_ms": null,
+  "required_observation_end_ms": 320000.0,
+  "observed_through_ms": 0,
+  "deadline_met": false,
+  "post_claim_observation_complete": null,
+  "task": "MOT-H15",
+  "scenario_index": 0,
+  "st_sha256": "a195346814ff839a83cd0c6629b8f2b717dba2a1d540137cb1e05695b42a870c",
+  "prerequisites": [
+    {
+      "check": "local_submission_profile",
+      "passed": false,
+      "st_sha256": "a195346814ff839a83cd0c6629b8f2b717dba2a1d540137cb1e05695b42a870c"
+    },
+    {
+      "check": "local_st_parse_and_required_io",
+      "passed": false,
+      "st_sha256": "a195346814ff839a83cd0c6629b8f2b717dba2a1d540137cb1e05695b42a870c"
+    }
+  ],
+  "profile": {
+    "ok": false,
+    "errors": [
+      {
+        "kind": "local_parse_error",
+        "message": "Initializer must be a literal",
+        "line": 190
+      }
+    ]
+  },
+  "evaluator_version": "common-plant-contract/5.2.6-math02-guard-candidate",
+  "review_hold": null,
+  "current_cohort_eligible": true,
+  "eligible_for_official_aggregation": true,
+  "review_policy_version": "evaluation-review-policy/1",
+  "contract_sha256": "57bf2f86e3db280cdf3162d1b4f2bf2e3aad4ca90005cff50a7cbb8c2ebbb7de",
+  "review_policy_sha256": "2cd39a3a9169b5e5b4e63d5a2285dc0b5c60f714a3ed3f4b9ee9b870bc72c741",
+  "candidate_seal_sha256": "803bdfdfe5c6340a3258c16c7321e171b489fc7bf71cf7b4d120580f4a7bb581",
+  "integration_version": "plcworld-evaluation/5.3",
+  "integration_seal_sha256": "c9de108ec4410d15c5f74e02ce000743a7df362cbafc5b51bc4b291ec34a2974",
+  "input_freeze": "plcworld-model-inputs/7-execution-contract",
+  "independent_task": true,
+  "evaluation_family": "MOT-H15",
+  "task_version": "plcworld-evaluation/5.2.12-constant-expressions-candidate-20261113",
+  "generation_provenance_verified": false,
+  "registered_system_sha256": "da989a5140218cdc034a92429e246e5b6d0a084dfea2b2c13056d301a6b23dd8",
+  "registered_public_spec_sha256": "b1492f0aadc5697a7e58845dbe184904e2901cb6826fdfbc36eee0d7426b3f67",
+  "registered_input_sha256": "328fd0d2a9d427c983eb2b8e790e2ff748a238d23d6163ce17d3538e44575bb9",
+  "registered_contract_sha256": "57bf2f86e3db280cdf3162d1b4f2bf2e3aad4ca90005cff50a7cbb8c2ebbb7de",
+  "trace_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+  "sensor_input_saturation": {},
+  "evaluation_reuse": {
+    "source": "[private source path omitted]",
+    "sha256": "9f6d2d572692063bc9799c4d45b0ed344f9d8f822e6d39e769bf6818a3074b75",
+    "proof": "Same ST engine, original source, plant and historical inputs. Parent checked all delivered INT/DINT inputs and did not raise an infrastructure input failure; saturation therefore never activates on this execution. Pre-execution/generation failures are likewise unchanged.",
+    "scope": "strict type-contract candidate -> sensor-only candidate"
+  },
+  "sensor_packaging_revision": {
+    "previous_integration_seal_sha256": "6955d3af5f49374c780966409552f190013dd1c57a3bd015cc32f3d49c412397",
+    "reason": "Restored unused grounded_v3/v4 archival evaluators exactly to parent; registered tasks use only v5/v6/v8. No executed code or trace changes."
+  },
+  "final_guard_revalidation": {
+    "previous_seal": "048791a186f6e881eafc326149b0631c017a8b07f800543314605202b083892b",
+    "evidence": "[private source path omitted]",
+    "evidence_sha256": "c93aaefcea8e0a1e8c63e047edb945038c0b51843ee4e3f1a4e5e78fe220593e",
+    "proof": "Only static guards changed: this exact source retains identical admission and AST or identical prior error. VM/plant/input-delivery code unchanged; no trace or judgment recomputation required."
+  },
+  "constant_expression_reuse": {
+    "parent_case": "[private source path omitted]",
+    "parent_sha256": "12e7da937c08ccdcbae99ae9581f788b5539e9e52a30f20e2fbf7ab650d70296",
+    "evidence": "[private source path omitted]",
+    "evidence_sha256": "2ce81ae9ff33f2d76f5f05bb7d59533770d96f41470079c364a2a626ccc778a7",
+    "proof": "Same source, admission, AST and inferred expression types; VM, plant, inputs and oracle unchanged."
+  },
+  "execution_provenance": "Imported measured result; source hashes retained; no claim of a fresh packaged execution",
+  "source_evaluation": {
+    "integration_seal_sha256": "04cb5615a4b9e931c2678982e9f18cd799aaebcf84cab55f0ef56a4cc717fae7",
+    "trace_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "st_sha256": "a195346814ff839a83cd0c6629b8f2b717dba2a1d540137cb1e05695b42a870c",
+    "case_sha256": "6448bd2499345cf6bea82fd6edb6031ede35df867de94f5e9a4ef73335f75ca3"
+  },
+  "program": "submissions/qwen3.5-plus/repeat-01/MOT-H15.st",
+  "generation_input_revision": "historical-v6-with-direct-MOT-E11-amendment"
+}

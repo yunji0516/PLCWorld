@@ -1,0 +1,16 @@
+services:
+  evaluator:
+    build:
+      context: .
+      dockerfile: docker/evaluator.Dockerfile
+    volumes:
+      - ./outputs:/artifact/outputs
+
+  viewer3d:
+    build:
+      context: .
+      dockerfile: docker/viewer3d.Dockerfile
+    ports:
+      - "127.0.0.1:3201:3200"
+    volumes:
+      - ./outputs:/artifact/outputs:ro

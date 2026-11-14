@@ -1,0 +1,33 @@
+{
+  "schema": "plcworld-replay-framing/1",
+  "scope": "Visual camera framing and floor markings only. Benchmark safety predicates, poses, evaluator, ST and released task specifications are unchanged.",
+  "changes": [
+    "Fit actual equipment meshes and recorded world-space travel; exclude hidden stock and factory scenery.",
+    "Default to a slightly elevated front view when opening or switching tasks.",
+    "Use a shared front sign for the camera, room and operator hazard band.",
+    "Keep floor bounds fixed during replay scrubbing; preserve manually adjusted view across window resizing."
+  ],
+  "protected_v53_assets_unchanged": 12611,
+  "typescript": "passed",
+  "tests": {
+    "passed": 224,
+    "files": 56
+  },
+  "production_build": "passed",
+  "browser": {
+    "tasks": [
+      "MAT-H08",
+      "MAT-H14",
+      "MOT-H08",
+      "MOT-M02"
+    ],
+    "samples": [
+      0,
+      0.5,
+      0.95
+    ],
+    "page_errors": 0,
+    "floor_and_camera_stable": true
+  },
+  "english_source_check": "No Korean text or personal paths in changed release source files."
+}

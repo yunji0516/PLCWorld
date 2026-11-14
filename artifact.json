@@ -1,0 +1,35 @@
+{
+  "artifact": "PLCWorld",
+  "input_version": "plcworld-model-inputs/7-execution-contract",
+  "evaluator_version": "plcworld-evaluation/5.3",
+  "tasks": 100,
+  "registered_conditions": 473,
+  "input_seal_sha256": "719cb1a4cff654fd4aa38cd96461b958197cd8808dd33132fb9efe94eb520107",
+  "evaluator_seal_sha256": "23dfe6a636b5dc4eb0f24c0b319fcecccf1f0f444dfb8242cffd2fb087317cde",
+  "evaluator_original_seal_sha256": "52cfa1f02ba93cb4b9c153f08a1f4dcbe6b1dfa5332dffbfa9e5da4fa00ef9ed",
+  "evaluator_packaging": "English-only runtime with verified sampled correspondence to the measured implementation",
+  "release_verification": {
+    "integrity_file": "verification/integrity.json",
+    "integrity_sha256": "e3d5d5cdbbc509b762c5a7e76bcad70830ad95db983f89ab61c7c16c3baef1f2",
+    "equivalence_file": "verification/equivalence.json",
+    "equivalence_sha256": "50eef79d0fcc30f39bbccea44923891becab55ef1f7aa76897a394546e9b3a3e"
+  },
+  "package_edition": "full-with-viewer",
+  "omitted_assets": [],
+  "results_revision": "Claude MOT-E11 merged",
+  "execution_contract": "inputs/system-instructions.txt",
+  "appearance_revision": "industrial-appearance/2026-11-13",
+  "appearance_verification": "verification/appearance-update.json",
+  "replay_framing_revision": "front-and-equipment-bounds/2026-11-13",
+  "replay_framing_verification": "verification/replay-framing.json",
+  "replay_ui_revision": "unified-replay-ui/2026-11-13",
+  "replay_ui_verification": "verification/replay-ui.json",
+  "distribution": "github",
+  "website_included": true,
+  "archived_raw_traces": {
+    "directory": "replay/traces",
+    "files": 374,
+    "scope": "Original archived reference, selected paper-example, and diagnostic recordings; source metadata preserved."
+  },
+  "replay_machine_revision": "functional-equipment-groups/2026-11-14"
+}

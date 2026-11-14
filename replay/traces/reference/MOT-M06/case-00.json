@@ -1,0 +1,141 @@
+{
+  "task": "MOT-M06",
+  "scenario": "normal",
+  "scenario_index": 0,
+  "program": "submission.st",
+  "program_sha256": "4af6346ebc193ade5af92ee28c197a41b4da3d7d03f65258a78d43d6b9eb53a5",
+  "st_sha256": "4af6346ebc193ade5af92ee28c197a41b4da3d7d03f65258a78d43d6b9eb53a5",
+  "evaluator_version": "motion-medium-grounded-v6-dev",
+  "task_success": true,
+  "safety_violation": false,
+  "safety_observation_complete": true,
+  "passed": true,
+  "entered_plant": true,
+  "observation_complete": true,
+  "error": null,
+  "cleanup_error": null,
+  "partial_frame": null,
+  "elapsed_seconds": 1.151914369314909,
+  "metric_eligible": true,
+  "metric_eligibility": {
+    "sr": true,
+    "svr": true
+  },
+  "events": [
+    {
+      "type": "request_available",
+      "time_ms": 30.0,
+      "scan": 3
+    },
+    {
+      "type": "fresh_sensor_edge",
+      "time_ms": 290.0,
+      "scan": 28
+    },
+    {
+      "type": "supported_access",
+      "time_ms": 2724.0,
+      "scan": 272
+    },
+    {
+      "type": "result_asserted",
+      "time_ms": 5520.0,
+      "scan": 551
+    }
+  ],
+  "final_state": {
+    "time_ms": 15100.0,
+    "setup": {
+      "request": {
+        "target": 240,
+        "stroke": 180
+      },
+      "mark": 70
+    },
+    "reference_mark": 70,
+    "edge_position": 70,
+    "contacts": [],
+    "axes": {
+      "a": {
+        "position": 2.381924635288321e-89,
+        "velocity": -4.966750131251146e-88
+      },
+      "b": {
+        "position": 2.381924635288321e-89,
+        "velocity": -4.966750131251146e-88
+      },
+      "c": {
+        "position": 2.0958559958239593e-94,
+        "velocity": -4.370244502333769e-93
+      },
+      "d": {
+        "position": 2.0144569999281013e-102,
+        "velocity": -4.200512652904147e-101
+      },
+      "e": {
+        "position": 2.893556820458986e-107,
+        "velocity": -6.033597161254308e-106
+      }
+    },
+    "history": {
+      "request_available": 30.0,
+      "fresh_sensor_edge": 290.0,
+      "supported_access": 2724.0,
+      "result_asserted": 5520.0
+    },
+    "result": true,
+    "hold_ms": 9580.0,
+    "dwell_ms": 0,
+    "origin": 0,
+    "configured": false,
+    "sensor_seen": true,
+    "guide_segment": false,
+    "guide_done": false,
+    "module_busy": false,
+    "module_done": false,
+    "module_position": 0,
+    "module_count": 2,
+    "geometry_safe": true
+  },
+  "failure_types": [],
+  "executed_scans": 1510,
+  "last_scan": 1509,
+  "prerequisites": [
+    {
+      "check": "local_submission_profile",
+      "passed": true,
+      "st_sha256": "4af6346ebc193ade5af92ee28c197a41b4da3d7d03f65258a78d43d6b9eb53a5"
+    },
+    {
+      "check": "local_st_parse_and_required_io",
+      "passed": true,
+      "st_sha256": "4af6346ebc193ade5af92ee28c197a41b4da3d7d03f65258a78d43d6b9eb53a5"
+    }
+  ],
+  "profile": {
+    "ok": true,
+    "errors": []
+  },
+  "claim_checked_at": "post_state",
+  "predecessor_checks": {
+    "local_st_runtime_initialization": true,
+    "native_compile": "not_run",
+    "formal": "not_run"
+  },
+  "release_version": "motion-medium-release/1.0",
+  "release_seal_sha256": "88302af72ff5215cc3e730e35f3c0eb57b058b93a3dc7118a62ed98a1e2a1b64",
+  "integration_version": "plcworld-evaluation/5.2.6",
+  "integration_seal_sha256": "bceeb8804c3d724faa80c8d02ccfb35da0b79134084d0d97bd87a018049396cc",
+  "input_freeze": "plcworld-model-inputs/6-plain-scaffold",
+  "eligible_for_official_aggregation": true,
+  "current_cohort_eligible": true,
+  "independent_task": true,
+  "evaluation_family": "MOT-M06",
+  "task_version": "plcworld-evaluation/5.2.6",
+  "generation_provenance_verified": false,
+  "registered_system_sha256": "a1d2a9bca7208713ff2b7fa4c46a39bf9d5c13b220d2e497a0724b2fd7576fcb",
+  "registered_public_spec_sha256": "89bf420df64986f08ab7644eaba9a3b6ab393df5ec7c3200988abe062a3ce612",
+  "registered_input_sha256": "477de9dfd7a04e1c873a0b009473894c5e6bca2bad1c2e0fb2f3f629421cf6a5",
+  "registered_contract_sha256": "b7668fdb9c25cc022227b38b1aee783ffa704ac31ed8d77a0f08bb264d295e92",
+  "trace_sha256": "6a56cb5d3d4ddc978c2f1d0e2e8ecc7fa2ebacd506397af125996e0e9ff5a9a4"
+}

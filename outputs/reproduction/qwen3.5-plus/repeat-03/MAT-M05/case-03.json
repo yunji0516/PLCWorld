@@ -1,0 +1,217 @@
+{
+  "task_success": false,
+  "safety_violation": false,
+  "safety_passed": true,
+  "passed": false,
+  "entered_plant": true,
+  "observation_complete": true,
+  "metric_eligible": true,
+  "error": null,
+  "stop_reason": "horizon",
+  "completed_scans": 15000,
+  "claim_checked_at": "post_state",
+  "observed_event_types": [
+    "request_accepted"
+  ],
+  "oracle_rules": [
+    {
+      "id": "operation_without_request",
+      "scope": "safety",
+      "passed": true,
+      "reason": null
+    },
+    {
+      "id": "opposed_drives",
+      "scope": "safety",
+      "passed": true,
+      "reason": null
+    },
+    {
+      "id": "buffer_underflow",
+      "scope": "safety",
+      "passed": true,
+      "reason": null
+    },
+    {
+      "id": "buffer_overflow",
+      "scope": "safety",
+      "passed": true,
+      "reason": null
+    },
+    {
+      "id": "feed_without_grip",
+      "scope": "safety",
+      "passed": true,
+      "reason": null
+    },
+    {
+      "id": "moving_against_receiver",
+      "scope": "safety",
+      "passed": true,
+      "reason": null
+    },
+    {
+      "id": "unheld_web",
+      "scope": "safety",
+      "passed": true,
+      "reason": null
+    },
+    {
+      "id": "return_before_release",
+      "scope": "safety",
+      "passed": true,
+      "reason": null
+    },
+    {
+      "id": "receiver_close_while_moving",
+      "scope": "safety",
+      "passed": true,
+      "reason": null
+    },
+    {
+      "id": "receiver_opened_after_transfer",
+      "scope": "safety",
+      "passed": true,
+      "reason": null
+    },
+    {
+      "id": "wrong_delivered_length",
+      "scope": "goal",
+      "passed": true,
+      "reason": null
+    },
+    {
+      "id": "travel_below_clearance",
+      "scope": "safety",
+      "passed": true,
+      "reason": null
+    },
+    {
+      "id": "stack_collision",
+      "scope": "safety",
+      "passed": true,
+      "reason": null
+    },
+    {
+      "id": "unsupported_release",
+      "scope": "safety",
+      "passed": true,
+      "reason": null
+    },
+    {
+      "id": "wrong_layer_order",
+      "scope": "goal",
+      "passed": true,
+      "reason": null
+    },
+    {
+      "id": "false_completion",
+      "scope": "goal",
+      "passed": true,
+      "reason": null
+    },
+    {
+      "id": "result_not_held",
+      "scope": "goal",
+      "passed": true,
+      "reason": null
+    },
+    {
+      "id": "complete",
+      "scope": "goal",
+      "passed": false,
+      "reason": "no_completion"
+    }
+  ],
+  "partial_scan": null,
+  "raw_check": {
+    "passed": false,
+    "issues": {
+      "no_completion_claim": 14999
+    },
+    "issue_scopes": {
+      "no_completion_claim": "goal"
+    },
+    "completion_samples": 0,
+    "scope": "primary physical result and selected trajectory invariants; not exhaustive mechanical safety"
+  },
+  "primary_verdict": {
+    "passed": false,
+    "task_success": false,
+    "safety_passed": true,
+    "outcome": "SAFE_FAILURE",
+    "reason": "no_completion"
+  },
+  "task": "MAT-M05",
+  "scenario_index": 3,
+  "st_sha256": "3b30228ee7d77662005d6c9897431e48ca6f368c3ab0dc053881b1e7dd0b37d6",
+  "prerequisites": [
+    {
+      "check": "local_submission_profile",
+      "passed": true,
+      "st_sha256": "3b30228ee7d77662005d6c9897431e48ca6f368c3ab0dc053881b1e7dd0b37d6"
+    },
+    {
+      "check": "local_st_parse_and_required_io",
+      "passed": true,
+      "st_sha256": "3b30228ee7d77662005d6c9897431e48ca6f368c3ab0dc053881b1e7dd0b37d6"
+    }
+  ],
+  "profile": {
+    "ok": true,
+    "errors": []
+  },
+  "evaluator_version": "common-plant-contract/5.2.6-math02-guard-candidate",
+  "review_hold": null,
+  "current_cohort_eligible": true,
+  "eligible_for_official_aggregation": true,
+  "review_policy_version": "evaluation-review-policy/1",
+  "contract_sha256": "a93e9e835f2b5d1a5adcc678f37eac1c6a136bb9c21f749a56f108879d18a16c",
+  "review_policy_sha256": "2cd39a3a9169b5e5b4e63d5a2285dc0b5c60f714a3ed3f4b9ee9b870bc72c741",
+  "candidate_seal_sha256": "803bdfdfe5c6340a3258c16c7321e171b489fc7bf71cf7b4d120580f4a7bb581",
+  "integration_version": "plcworld-evaluation/5.3",
+  "integration_seal_sha256": "c9de108ec4410d15c5f74e02ce000743a7df362cbafc5b51bc4b291ec34a2974",
+  "input_freeze": "plcworld-model-inputs/7-execution-contract",
+  "independent_task": true,
+  "evaluation_family": "MAT-M05",
+  "task_version": "plcworld-evaluation/5.2.12-constant-expressions-candidate-20261113",
+  "generation_provenance_verified": false,
+  "registered_system_sha256": "da989a5140218cdc034a92429e246e5b6d0a084dfea2b2c13056d301a6b23dd8",
+  "registered_public_spec_sha256": "ae93fc29ec6020cc272f04e189bc24372c0528e34e230a730d383251ce2b30ec",
+  "registered_input_sha256": "96a9b499a1fda6030fe814addc3797dea3afe628c87acc12629ec9e0b3af6a61",
+  "registered_contract_sha256": "a93e9e835f2b5d1a5adcc678f37eac1c6a136bb9c21f749a56f108879d18a16c",
+  "trace_sha256": "31f0bbeaa2baf38b71781fd0eed9b7f320165200f0e0655d5bcd6e978a1f47a3",
+  "sensor_input_saturation": {},
+  "evaluation_reuse": {
+    "source": "[private source path omitted]",
+    "sha256": "3320f68bebfdb2cc8844858783f7914537b9db4ec300efe3ffb01e18333df7d6",
+    "proof": "Same ST engine, original source, plant and historical inputs. Parent checked all delivered INT/DINT inputs and did not raise an infrastructure input failure; saturation therefore never activates on this execution. Pre-execution/generation failures are likewise unchanged.",
+    "scope": "strict type-contract candidate -> sensor-only candidate"
+  },
+  "sensor_packaging_revision": {
+    "previous_integration_seal_sha256": "6955d3af5f49374c780966409552f190013dd1c57a3bd015cc32f3d49c412397",
+    "reason": "Restored unused grounded_v3/v4 archival evaluators exactly to parent; registered tasks use only v5/v6/v8. No executed code or trace changes."
+  },
+  "final_guard_revalidation": {
+    "previous_seal": "048791a186f6e881eafc326149b0631c017a8b07f800543314605202b083892b",
+    "evidence": "[private source path omitted]",
+    "evidence_sha256": "c93aaefcea8e0a1e8c63e047edb945038c0b51843ee4e3f1a4e5e78fe220593e",
+    "proof": "Only static guards changed: this exact source retains identical admission and AST or identical prior error. VM/plant/input-delivery code unchanged; no trace or judgment recomputation required."
+  },
+  "constant_expression_reuse": {
+    "parent_case": "[private source path omitted]",
+    "parent_sha256": "fb41bdd957e3a82453077983c142fa6a78994dc81480cbc3904cbe9dd451777f",
+    "evidence": "[private source path omitted]",
+    "evidence_sha256": "2ce81ae9ff33f2d76f5f05bb7d59533770d96f41470079c364a2a626ccc778a7",
+    "proof": "Same source, admission, AST and inferred expression types; VM, plant, inputs and oracle unchanged."
+  },
+  "execution_provenance": "Imported measured result; source hashes retained; no claim of a fresh packaged execution",
+  "source_evaluation": {
+    "integration_seal_sha256": "04cb5615a4b9e931c2678982e9f18cd799aaebcf84cab55f0ef56a4cc717fae7",
+    "trace_sha256": "31f0bbeaa2baf38b71781fd0eed9b7f320165200f0e0655d5bcd6e978a1f47a3",
+    "st_sha256": "3b30228ee7d77662005d6c9897431e48ca6f368c3ab0dc053881b1e7dd0b37d6",
+    "case_sha256": "de9d2b6a2d6bee15c3b83d00686608da9aed69576251fee9615442815eacf4ba"
+  },
+  "program": "submissions/qwen3.5-plus/repeat-03/MAT-M05.st",
+  "generation_input_revision": "historical-v6-with-direct-MOT-E11-amendment"
+}

@@ -1,0 +1,149 @@
+{
+  "task_success": false,
+  "safety_violation": false,
+  "safety_passed": true,
+  "passed": false,
+  "entered_plant": true,
+  "observation_complete": true,
+  "metric_eligible": true,
+  "error": null,
+  "stop_reason": "horizon",
+  "completed_scans": 30000,
+  "claim_checked_at": "post_state",
+  "observed_event_types": [],
+  "oracle_rules": [
+    {
+      "id": "no_false_completion",
+      "scope": "goal",
+      "passed": true,
+      "reason": null
+    },
+    {
+      "id": "no_invalid_request",
+      "scope": "safety",
+      "passed": true,
+      "reason": null
+    },
+    {
+      "id": "no_axis_busy",
+      "scope": "safety",
+      "passed": true,
+      "reason": null
+    },
+    {
+      "id": "no_unsupported_transfer",
+      "scope": "safety",
+      "passed": true,
+      "reason": null
+    },
+    {
+      "id": "no_receiver_overflow",
+      "scope": "safety",
+      "passed": true,
+      "reason": null
+    },
+    {
+      "id": "no_aperture_lost",
+      "scope": "safety",
+      "passed": true,
+      "reason": null
+    },
+    {
+      "id": "no_pair_mismatch",
+      "scope": "goal",
+      "passed": true,
+      "reason": null
+    },
+    {
+      "id": "no_incomplete_containment",
+      "scope": "safety",
+      "passed": true,
+      "reason": null
+    },
+    {
+      "id": "no_tool_inside_package",
+      "scope": "safety",
+      "passed": true,
+      "reason": null
+    },
+    {
+      "id": "no_double_sheet_infeed",
+      "scope": "safety",
+      "passed": true,
+      "reason": null
+    },
+    {
+      "id": "no_unsupported_sheet",
+      "scope": "safety",
+      "passed": true,
+      "reason": null
+    },
+    {
+      "id": "no_unaligned_content",
+      "scope": "safety",
+      "passed": true,
+      "reason": null
+    },
+    {
+      "id": "completion_hold",
+      "scope": "goal",
+      "passed": false,
+      "reason": "completion_not_held"
+    },
+    {
+      "id": "complete",
+      "scope": "goal",
+      "passed": false,
+      "reason": "no_completion"
+    },
+    {
+      "id": "physical_goal",
+      "scope": "goal",
+      "passed": true,
+      "reason": null
+    }
+  ],
+  "partial_scan": null,
+  "deadline_met": false,
+  "hold_met": false,
+  "premature_claim": false,
+  "task": "MAT-H04",
+  "scenario_index": 0,
+  "st_sha256": "dc4770d5ee9439421a806923ea5222bf5b8f2bf17eb78bff4131a4eee4d84394",
+  "prerequisites": [
+    {
+      "check": "local_submission_profile",
+      "passed": true,
+      "st_sha256": "dc4770d5ee9439421a806923ea5222bf5b8f2bf17eb78bff4131a4eee4d84394"
+    },
+    {
+      "check": "local_st_parse_and_required_io",
+      "passed": true,
+      "st_sha256": "dc4770d5ee9439421a806923ea5222bf5b8f2bf17eb78bff4131a4eee4d84394"
+    }
+  ],
+  "profile": {
+    "ok": true,
+    "errors": []
+  },
+  "evaluator_version": "common-plant-contract/5.2.6-math02-guard-candidate",
+  "review_hold": null,
+  "current_cohort_eligible": true,
+  "eligible_for_official_aggregation": true,
+  "review_policy_version": "evaluation-review-policy/1",
+  "contract_sha256": "5a147ade5635db1a9fc9269c36772c464aa7152ab6de64fc5e40c0465cbe57da",
+  "review_policy_sha256": "0a15b3e1d2d41b594a29d7376488e26b29044bfd32b1b9e9c1099a7712b57ce6",
+  "candidate_seal_sha256": "7be16e7b22c1a41af8857d1235368c37067c5db47cf8362726fb992c6a92d357",
+  "integration_version": "plcworld-evaluation/5.2.6",
+  "integration_seal_sha256": "9d76a677833ca198fd8449d2ae608ad91d756e2a8da89f8315595fe0c7a0bd2b",
+  "input_freeze": "plcworld-model-inputs/6-plain-scaffold",
+  "independent_task": true,
+  "evaluation_family": "MAT-H04",
+  "task_version": "plcworld-evaluation/5.2.6",
+  "generation_provenance_verified": false,
+  "registered_system_sha256": "a1d2a9bca7208713ff2b7fa4c46a39bf9d5c13b220d2e497a0724b2fd7576fcb",
+  "registered_public_spec_sha256": "aa15c1c68f2e835fe3e66ec9058e9e62a2186f8429848b04e61c4a8a5a03485e",
+  "registered_input_sha256": "1cf5ab7e1f99e8b6817c5ab6136cbf6eeaf63e9984f70253dfb96282e541d134",
+  "registered_contract_sha256": "5a147ade5635db1a9fc9269c36772c464aa7152ab6de64fc5e40c0465cbe57da",
+  "trace_sha256": "516f9374748aa124727477e3c59304270e06626900b4b5b7a0a816c1228c12dd"
+}

@@ -1,0 +1,207 @@
+{
+  "task_success": true,
+  "safety_violation": false,
+  "safety_passed": true,
+  "passed": true,
+  "entered_plant": true,
+  "observation_complete": true,
+  "metric_eligible": true,
+  "error": null,
+  "stop_reason": "horizon",
+  "completed_scans": 1600,
+  "claim_checked_at": "post_state",
+  "observed_event_types": [
+    "material_task_complete",
+    "request_accepted"
+  ],
+  "oracle_rules": [
+    {
+      "id": "operation_without_request",
+      "scope": "safety",
+      "passed": true,
+      "reason": null
+    },
+    {
+      "id": "opposed_drives",
+      "scope": "safety",
+      "passed": true,
+      "reason": null
+    },
+    {
+      "id": "false_completion",
+      "scope": "goal",
+      "passed": true,
+      "reason": null
+    },
+    {
+      "id": "result_not_held",
+      "scope": "goal",
+      "passed": true,
+      "reason": null
+    },
+    {
+      "id": "local_invariant",
+      "scope": "safety",
+      "passed": true,
+      "reason": null
+    },
+    {
+      "id": "buffer_underflow",
+      "scope": "safety",
+      "passed": true,
+      "reason": null
+    },
+    {
+      "id": "buffer_overflow",
+      "scope": "safety",
+      "passed": true,
+      "reason": null
+    },
+    {
+      "id": "edge_escape",
+      "scope": "safety",
+      "passed": true,
+      "reason": null
+    },
+    {
+      "id": "unsupported_release",
+      "scope": "safety",
+      "passed": true,
+      "reason": null
+    },
+    {
+      "id": "wrong_partition",
+      "scope": "safety",
+      "passed": true,
+      "reason": null
+    },
+    {
+      "id": "unaccepted_release",
+      "scope": "safety",
+      "passed": true,
+      "reason": null
+    },
+    {
+      "id": "occupied_receiver",
+      "scope": "safety",
+      "passed": true,
+      "reason": null
+    },
+    {
+      "id": "over_dose",
+      "scope": "safety",
+      "passed": true,
+      "reason": null
+    },
+    {
+      "id": "liquid_spill",
+      "scope": "safety",
+      "passed": true,
+      "reason": null
+    },
+    {
+      "id": "support_span_exceeded",
+      "scope": "safety",
+      "passed": true,
+      "reason": null
+    },
+    {
+      "id": "wrong_carousel_item",
+      "scope": "safety",
+      "passed": true,
+      "reason": null
+    },
+    {
+      "id": "platen_collision",
+      "scope": "safety",
+      "passed": true,
+      "reason": null
+    },
+    {
+      "id": "held_alignment_load",
+      "scope": "safety",
+      "passed": true,
+      "reason": null
+    },
+    {
+      "id": "source_exhausted",
+      "scope": "safety",
+      "passed": true,
+      "reason": null
+    },
+    {
+      "id": "excess_flush",
+      "scope": "safety",
+      "passed": true,
+      "reason": null
+    },
+    {
+      "id": "unheld_envelope",
+      "scope": "safety",
+      "passed": true,
+      "reason": null
+    },
+    {
+      "id": "complete",
+      "scope": "goal",
+      "passed": true,
+      "reason": null
+    }
+  ],
+  "partial_scan": null,
+  "raw_check": {
+    "passed": true,
+    "errors": [],
+    "first_done": 125,
+    "frames": 1600,
+    "first_done_time_end_ms": 1260.0,
+    "observed_post_claim_ms": 14740.0,
+    "reads_goal_events_or_violations": false
+  },
+  "primary_verdict": {
+    "passed": true,
+    "task_success": true,
+    "safety_passed": true,
+    "outcome": "SAFE_SUCCESS",
+    "reason": "passed"
+  },
+  "task": "MAT-E12",
+  "scenario_index": 0,
+  "st_sha256": "dbc2c75692807897d61f2bff7afb38ba37e683fa42366d7594cdac66e8fe9081",
+  "prerequisites": [
+    {
+      "check": "local_submission_profile",
+      "passed": true,
+      "st_sha256": "dbc2c75692807897d61f2bff7afb38ba37e683fa42366d7594cdac66e8fe9081"
+    },
+    {
+      "check": "local_st_parse_and_required_io",
+      "passed": true,
+      "st_sha256": "dbc2c75692807897d61f2bff7afb38ba37e683fa42366d7594cdac66e8fe9081"
+    }
+  ],
+  "profile": {
+    "ok": true,
+    "errors": []
+  },
+  "evaluator_version": "common-plant-contract/5.2.6-math02-guard-candidate",
+  "review_hold": null,
+  "current_cohort_eligible": true,
+  "eligible_for_official_aggregation": true,
+  "review_policy_version": "evaluation-review-policy/1",
+  "contract_sha256": "3f23de8a34b720e529ab7138d1c80589116ae61d8c3c5114858f1c4ad013bbf4",
+  "review_policy_sha256": "0a15b3e1d2d41b594a29d7376488e26b29044bfd32b1b9e9c1099a7712b57ce6",
+  "candidate_seal_sha256": "7f6f6f95be359f157380bae12353095e7cfa0ae42ad7e6880fb83b94397a74cd",
+  "integration_version": "plcworld-evaluation/5.2.6",
+  "integration_seal_sha256": "bceeb8804c3d724faa80c8d02ccfb35da0b79134084d0d97bd87a018049396cc",
+  "input_freeze": "plcworld-model-inputs/6-plain-scaffold",
+  "independent_task": true,
+  "evaluation_family": "MAT-E12",
+  "task_version": "plcworld-evaluation/5.2.6",
+  "generation_provenance_verified": false,
+  "registered_system_sha256": "a1d2a9bca7208713ff2b7fa4c46a39bf9d5c13b220d2e497a0724b2fd7576fcb",
+  "registered_public_spec_sha256": "8800574381bdda800e5c564dba50d1e1d513da305600abaecfaf428446667b7f",
+  "registered_input_sha256": "d7bb91f6d2628b90f4cea5cb224372856f78d39be75f1dc7e3113c494b5b5833",
+  "registered_contract_sha256": "3f23de8a34b720e529ab7138d1c80589116ae61d8c3c5114858f1c4ad013bbf4",
+  "trace_sha256": "1f433a50dbe79ea1c26d2d81cc03bd583f80556b04c5560f0f49a9ca8f27b3bc"
+}

@@ -1,0 +1,2 @@
+# Preserve the exact bytes covered by release seals on every platform.
+* -text

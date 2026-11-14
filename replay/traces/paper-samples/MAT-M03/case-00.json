@@ -1,0 +1,153 @@
+{
+  "task_success": true,
+  "safety_violation": false,
+  "safety_passed": true,
+  "passed": true,
+  "entered_plant": true,
+  "observation_complete": true,
+  "metric_eligible": true,
+  "error": null,
+  "stop_reason": "horizon",
+  "completed_scans": 2600,
+  "claim_checked_at": "post_state",
+  "observed_event_types": [
+    "material_acquired",
+    "material_placed",
+    "material_task_complete",
+    "request_accepted"
+  ],
+  "oracle_rules": [
+    {
+      "id": "operation_without_request",
+      "scope": "safety",
+      "passed": true,
+      "reason": null
+    },
+    {
+      "id": "opposed_drives",
+      "scope": "safety",
+      "passed": true,
+      "reason": null
+    },
+    {
+      "id": "travel_below_clearance",
+      "scope": "safety",
+      "passed": true,
+      "reason": null
+    },
+    {
+      "id": "rotation_below_clearance",
+      "scope": "safety",
+      "passed": true,
+      "reason": null
+    },
+    {
+      "id": "travel_against_fingers",
+      "scope": "safety",
+      "passed": true,
+      "reason": null
+    },
+    {
+      "id": "held_alignment_load",
+      "scope": "safety",
+      "passed": true,
+      "reason": null
+    },
+    {
+      "id": "unsupported_release",
+      "scope": "safety",
+      "passed": true,
+      "reason": null
+    },
+    {
+      "id": "wrong_orientation",
+      "scope": "goal",
+      "passed": true,
+      "reason": null
+    },
+    {
+      "id": "datum_misalignment",
+      "scope": "goal",
+      "passed": true,
+      "reason": null
+    },
+    {
+      "id": "wrong_destination",
+      "scope": "goal",
+      "passed": true,
+      "reason": null
+    },
+    {
+      "id": "false_completion",
+      "scope": "goal",
+      "passed": true,
+      "reason": null
+    },
+    {
+      "id": "result_not_held",
+      "scope": "goal",
+      "passed": true,
+      "reason": null
+    },
+    {
+      "id": "completion_required",
+      "scope": "goal",
+      "passed": true,
+      "reason": null
+    }
+  ],
+  "partial_scan": null,
+  "raw_check": {
+    "passed": true,
+    "issues": {},
+    "issue_scopes": {},
+    "completion_samples": 1931,
+    "scope": "primary physical result and selected trajectory invariants; not exhaustive mechanical safety"
+  },
+  "primary_verdict": {
+    "passed": true,
+    "task_success": true,
+    "safety_passed": true,
+    "outcome": "SAFE_SUCCESS",
+    "reason": "passed"
+  },
+  "task": "MAT-M03",
+  "scenario_index": 0,
+  "st_sha256": "8a19c53139ed0d15ae4f7d1303964a9f07b8771a0f49ef0bf9bc5ba3474b1d87",
+  "prerequisites": [
+    {
+      "check": "local_submission_profile",
+      "passed": true,
+      "st_sha256": "8a19c53139ed0d15ae4f7d1303964a9f07b8771a0f49ef0bf9bc5ba3474b1d87"
+    },
+    {
+      "check": "local_st_parse_and_required_io",
+      "passed": true,
+      "st_sha256": "8a19c53139ed0d15ae4f7d1303964a9f07b8771a0f49ef0bf9bc5ba3474b1d87"
+    }
+  ],
+  "profile": {
+    "ok": true,
+    "errors": []
+  },
+  "evaluator_version": "common-plant-contract/5.2.6-math02-guard-candidate",
+  "review_hold": null,
+  "current_cohort_eligible": true,
+  "eligible_for_official_aggregation": true,
+  "review_policy_version": "evaluation-review-policy/1",
+  "contract_sha256": "d43780f074fd8972d39edb2f469f7b5fdc2543d97bd61eb775c5c92d5f74e106",
+  "review_policy_sha256": "0a15b3e1d2d41b594a29d7376488e26b29044bfd32b1b9e9c1099a7712b57ce6",
+  "candidate_seal_sha256": "7be16e7b22c1a41af8857d1235368c37067c5db47cf8362726fb992c6a92d357",
+  "integration_version": "plcworld-evaluation/5.2.6",
+  "integration_seal_sha256": "9d76a677833ca198fd8449d2ae608ad91d756e2a8da89f8315595fe0c7a0bd2b",
+  "input_freeze": "plcworld-model-inputs/6-plain-scaffold",
+  "independent_task": true,
+  "evaluation_family": "MAT-M03",
+  "task_version": "plcworld-evaluation/5.2.6",
+  "generation_provenance_verified": false,
+  "registered_system_sha256": "a1d2a9bca7208713ff2b7fa4c46a39bf9d5c13b220d2e497a0724b2fd7576fcb",
+  "registered_public_spec_sha256": "2b3e181452c8eebd580b469d0f491732c766a2a2780b2d71d44dea6f8746fc96",
+  "registered_input_sha256": "880062f590475b7b0e64e5d5ea5ddec6a7913852ee2339a3b08700682f01abd7",
+  "registered_contract_sha256": "d43780f074fd8972d39edb2f469f7b5fdc2543d97bd61eb775c5c92d5f74e106",
+  "trace_sha256": "bbe65681821ca63c2a691fe79eadfb6167ef26d7158a43710a7d71d76268e655"
+}

@@ -1,0 +1,101 @@
+{
+  "task": "MOT-M12",
+  "scenario": "normal",
+  "scenario_index": 0,
+  "program": "submission.st",
+  "program_sha256": "bcab4fbd9bbd9bde4073c79b00b05991a6ce1b347412b2e82d24e312e5977d1c",
+  "st_sha256": "bcab4fbd9bbd9bde4073c79b00b05991a6ce1b347412b2e82d24e312e5977d1c",
+  "evaluator_version": "priority-redesign/1.1",
+  "task_success": true,
+  "safety_violation": false,
+  "passed": true,
+  "entered_plant": true,
+  "error": null,
+  "raw_errors": {},
+  "failure_types": [],
+  "executed_scans": 557,
+  "completion_ms": 5470.0,
+  "hold_ms": 100.0,
+  "final_state": {
+    "time_ms": 5570.0,
+    "setup": {
+      "request": {}
+    },
+    "axes": {
+      "a": {
+        "position": 0,
+        "velocity": 0.0
+      },
+      "b": {
+        "position": 0,
+        "velocity": 0.0
+      },
+      "c": {
+        "position": 9.553846637974947e-10,
+        "velocity": -1.992152410706798e-08
+      },
+      "d": {
+        "position": 0.0038736323438207437,
+        "velocity": -0.08077234546827518
+      }
+    },
+    "history": {
+      "request_available": 30.0,
+      "pickup_checked": 1830.0,
+      "jig_approached": 4188.0,
+      "result_asserted": 5470.0
+    },
+    "result": true,
+    "hold_ms": 100.0,
+    "geometry_safe": true,
+    "contacts": [],
+    "sensors": {
+      "a_home": true,
+      "a_end": false,
+      "b_home": true,
+      "b_end": false,
+      "jig_loaded": false
+    },
+    "latch": 0.0,
+    "interlock_reason": 0
+  },
+  "independent_task": true,
+  "evaluation_family": "MOT-M12",
+  "contract_sha256": "50e5e0aae19881ce03595ec7f0b9ff109615ee3432a66ffea3f1a8fe8222b25e",
+  "prerequisites": [
+    {
+      "check": "local_submission_profile",
+      "passed": true,
+      "st_sha256": "bcab4fbd9bbd9bde4073c79b00b05991a6ce1b347412b2e82d24e312e5977d1c"
+    },
+    {
+      "check": "local_st_parse_and_required_io",
+      "passed": true,
+      "st_sha256": "bcab4fbd9bbd9bde4073c79b00b05991a6ce1b347412b2e82d24e312e5977d1c"
+    }
+  ],
+  "profile": {
+    "ok": true,
+    "errors": []
+  },
+  "metric_eligible": true,
+  "observation_complete": true,
+  "partial_scan": null,
+  "claim_checked_at": "post_state",
+  "completed_scans": 557,
+  "stop_reason": "post_claim_window",
+  "safety_passed": true,
+  "core_evaluator_version": "priority-redesign/1",
+  "integration_version": "plcworld-evaluation/5.2.6",
+  "integration_seal_sha256": "bceeb8804c3d724faa80c8d02ccfb35da0b79134084d0d97bd87a018049396cc",
+  "input_freeze": "plcworld-model-inputs/6-plain-scaffold",
+  "eligible_for_official_aggregation": true,
+  "current_cohort_eligible": true,
+  "task_version": "priority-redesign/1.1",
+  "generation_provenance_verified": false,
+  "registered_system_sha256": "a1d2a9bca7208713ff2b7fa4c46a39bf9d5c13b220d2e497a0724b2fd7576fcb",
+  "registered_public_spec_sha256": "55b6a419da5bcbc9be41b2915e9b0a65139aede305c4fa753b3bb3834789b71f",
+  "registered_input_sha256": "c3662c67c626d8f90666f20f9d5afee19807ff2e33d5d8cca9a05d3a616c4d4c",
+  "registered_contract_sha256": "50e5e0aae19881ce03595ec7f0b9ff109615ee3432a66ffea3f1a8fe8222b25e",
+  "trace_sha256": "eae284cbc11b18d0bc69ecbf6a2f36bdec424819a9abf076a3ddb745b7e225f2"
+}

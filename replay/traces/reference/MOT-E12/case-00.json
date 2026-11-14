@@ -1,0 +1,156 @@
+{
+  "task_success": true,
+  "safety_violation": false,
+  "safety_passed": true,
+  "passed": true,
+  "entered_plant": true,
+  "observation_complete": true,
+  "metric_eligible": true,
+  "error": null,
+  "stop_reason": "contract_endpoint",
+  "completed_scans": 169,
+  "claim_checked_at": "post_state",
+  "observed_event_types": [
+    "motion_easy_unit_complete",
+    "request_accepted",
+    "result_asserted"
+  ],
+  "oracle_rules": [
+    {
+      "id": "request_accepted",
+      "scope": "goal",
+      "passed": true,
+      "reason": null
+    },
+    {
+      "id": "result_asserted",
+      "scope": "goal",
+      "passed": true,
+      "reason": null
+    },
+    {
+      "id": "motion_easy_unit_complete",
+      "scope": "goal",
+      "passed": true,
+      "reason": null
+    },
+    {
+      "id": "no_motion_without_request",
+      "scope": "safety",
+      "passed": true,
+      "reason": null
+    },
+    {
+      "id": "no_command_out_of_range",
+      "scope": "safety",
+      "passed": true,
+      "reason": null
+    },
+    {
+      "id": "no_premature_completion",
+      "scope": "goal",
+      "passed": true,
+      "reason": null
+    },
+    {
+      "id": "no_result_not_held",
+      "scope": "goal",
+      "passed": true,
+      "reason": null
+    },
+    {
+      "id": "no_travel_limit",
+      "scope": "safety",
+      "passed": true,
+      "reason": null
+    },
+    {
+      "id": "no_completion_deadline_missed",
+      "scope": "goal",
+      "passed": true,
+      "reason": null
+    },
+    {
+      "id": "no_stale_capture",
+      "scope": "goal",
+      "passed": true,
+      "reason": null
+    },
+    {
+      "id": "no_wrong_reference",
+      "scope": "goal",
+      "passed": true,
+      "reason": null
+    },
+    {
+      "id": "no_support_lost",
+      "scope": "safety",
+      "passed": true,
+      "reason": null
+    },
+    {
+      "id": "no_obstruction_contact",
+      "scope": "safety",
+      "passed": true,
+      "reason": null
+    },
+    {
+      "id": "no_corridor_exit",
+      "scope": "safety",
+      "passed": true,
+      "reason": null
+    },
+    {
+      "id": "no_excess_sway",
+      "scope": "safety",
+      "passed": true,
+      "reason": null
+    },
+    {
+      "id": "no_excess_moment",
+      "scope": "safety",
+      "passed": true,
+      "reason": null
+    }
+  ],
+  "partial_scan": null,
+  "task": "MOT-E12",
+  "scenario_index": 0,
+  "st_sha256": "256422f866a28c1921310acf69221ba9cd110d1b2607861a59ef8e6f45b1b690",
+  "prerequisites": [
+    {
+      "check": "local_submission_profile",
+      "passed": true,
+      "st_sha256": "256422f866a28c1921310acf69221ba9cd110d1b2607861a59ef8e6f45b1b690"
+    },
+    {
+      "check": "local_st_parse_and_required_io",
+      "passed": true,
+      "st_sha256": "256422f866a28c1921310acf69221ba9cd110d1b2607861a59ef8e6f45b1b690"
+    }
+  ],
+  "profile": {
+    "ok": true,
+    "errors": []
+  },
+  "evaluator_version": "common-plant-contract/5.2.6-math02-guard-candidate",
+  "review_hold": null,
+  "current_cohort_eligible": true,
+  "eligible_for_official_aggregation": true,
+  "review_policy_version": "evaluation-review-policy/1",
+  "contract_sha256": "edd9fe8aec08830e8a9224b415b58665a6fee4fbb6860f39614359a29725c7c5",
+  "review_policy_sha256": "0a15b3e1d2d41b594a29d7376488e26b29044bfd32b1b9e9c1099a7712b57ce6",
+  "candidate_seal_sha256": "7f6f6f95be359f157380bae12353095e7cfa0ae42ad7e6880fb83b94397a74cd",
+  "integration_version": "plcworld-evaluation/5.2.6",
+  "integration_seal_sha256": "bceeb8804c3d724faa80c8d02ccfb35da0b79134084d0d97bd87a018049396cc",
+  "input_freeze": "plcworld-model-inputs/6-plain-scaffold",
+  "independent_task": true,
+  "evaluation_family": "MOT-E12",
+  "task_version": "plcworld-evaluation/5.2.6",
+  "generation_provenance_verified": false,
+  "registered_system_sha256": "a1d2a9bca7208713ff2b7fa4c46a39bf9d5c13b220d2e497a0724b2fd7576fcb",
+  "registered_public_spec_sha256": "c751051d501f22579b9d03f9487fe2946c2992b3a4a3282759b1d486a1e75f3a",
+  "registered_input_sha256": "924d84f3bc43b2dc8c97774c4b583953e88acb85c9651148a40cfd0a58f9410a",
+  "registered_contract_sha256": "edd9fe8aec08830e8a9224b415b58665a6fee4fbb6860f39614359a29725c7c5",
+  "trace_sha256": "1219349203b3c5cda628cb3680d61397c1d9aff69a7f72d253909b8f8669fc77"
+}

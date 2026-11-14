@@ -1,0 +1,12 @@
+{
+  "task": "MOT-M10",
+  "task_success": true,
+  "safety_violation": false,
+  "error": null,
+  "trace_sha256": "5dd850575cef37dbfe522f8fb4f774dec0583506ac7a61c1eec0bbd019618299",
+  "completed_scans": 1510,
+  "scenario": 0,
+  "reference_st_sha256": "59474ad616933a8fb0cc4a46e9ae8f6f9c047e84f1c4275eb16354c55afa39cd",
+  "evaluator_seal_sha256": "bceeb8804c3d724faa80c8d02ccfb35da0b79134084d0d97bd87a018049396cc",
+  "trace_gzip_sha256": "993fb1a1cfb495a1170f110db22ba65bd8ecb9ea4aa40f85216de3c6c8aef45d"
+}

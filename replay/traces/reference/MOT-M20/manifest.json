@@ -1,0 +1,12 @@
+{
+  "task": "MOT-M20",
+  "task_success": true,
+  "safety_violation": false,
+  "error": null,
+  "trace_sha256": "63e8b15ee9899073ec753f1438c961669494be70879013733eafb48d6b71d36b",
+  "completed_scans": 224,
+  "scenario": 0,
+  "reference_st_sha256": "87728e80cdc1c691ca65f0c30ca0fcebf0c486a4f094ebb5f0281992f2c6a8ac",
+  "evaluator_seal_sha256": "bceeb8804c3d724faa80c8d02ccfb35da0b79134084d0d97bd87a018049396cc",
+  "trace_gzip_sha256": "3ba3e015087a9a0f001d11201d37dbdf607891ce393c84319a5b895edd924c6f"
+}

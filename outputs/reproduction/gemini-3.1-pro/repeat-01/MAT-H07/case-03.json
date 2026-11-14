@@ -1,0 +1,1181 @@
+{
+  "task": "MAT-H07",
+  "scenario": "shifted_origin",
+  "scenario_index": 3,
+  "program": "submissions/gemini-3.1-pro/repeat-01/MAT-H07.st",
+  "program_sha256": "0e38b62986172836203911e7d8dd21384c34eb45c1e6cb5b9b47c5eacade269f",
+  "st_sha256": "0e38b62986172836203911e7d8dd21384c34eb45c1e6cb5b9b47c5eacade269f",
+  "evaluator_version": "priority-redesign/1",
+  "task_success": true,
+  "safety_violation": true,
+  "passed": false,
+  "entered_plant": true,
+  "error": null,
+  "raw_errors": {},
+  "failure_types": [
+    "connected_roll",
+    "unsupported_roll",
+    "untaped_roll"
+  ],
+  "executed_scans": 11944,
+  "completion_ms": 119340,
+  "hold_ms": 100,
+  "final_state": {
+    "parts": {
+      "1": {
+        "token": 1,
+        "owner": "accepted",
+        "x": 0.45,
+        "y": 0.920632219042423,
+        "z": -1.81,
+        "size": [
+          0.10101345616875818,
+          0.10101345616875818,
+          0.12
+        ],
+        "status": "idle",
+        "radius": 0.05050672808437909,
+        "length": 0.8000000000000006,
+        "wound": 0.8000000000000006,
+        "tail": 0.0,
+        "segments": [
+          {
+            "u0": 0.0,
+            "u1": 0.8000000000000006,
+            "a0": 0.0,
+            "a1": 0.8000000000000006,
+            "b0": 0.1500000000000001,
+            "b1": 0.9500000000000007
+          }
+        ],
+        "connected": {
+          "a": false,
+          "b": false
+        },
+        "target": 0.8,
+        "tape": 1
+      },
+      "2": {
+        "token": 2,
+        "owner": "accepted",
+        "x": 0.45,
+        "y": 0.9207889205634131,
+        "z": -1.58,
+        "size": [
+          0.10126523544112774,
+          0.10126523544112774,
+          0.12
+        ],
+        "status": "idle",
+        "radius": 0.05063261772056387,
+        "length": 1.0000000000000007,
+        "wound": 1.0000000000000007,
+        "tail": 0.0,
+        "segments": [
+          {
+            "u0": 0.0,
+            "u1": 1.0000000000000007,
+            "a0": 0.8000000000000006,
+            "a1": 1.7999999999999126,
+            "b0": 0.9500000000000007,
+            "b1": 1.949999999999896
+          }
+        ],
+        "connected": {
+          "a": false,
+          "b": false
+        },
+        "target": 1.0,
+        "tape": 2
+      },
+      "3": {
+        "token": 3,
+        "owner": "accepted",
+        "x": 0.45,
+        "y": 0.9205536675733409,
+        "z": -1.35,
+        "size": [
+          0.10088733090067813,
+          0.10088733090067813,
+          0.12
+        ],
+        "status": "idle",
+        "radius": 0.05044366545033906,
+        "length": 0.7000000000000005,
+        "wound": 0.7000000000000005,
+        "tail": 0.0,
+        "segments": [
+          {
+            "u0": 0.0,
+            "u1": 0.7000000000000005,
+            "a0": 1.7999999999999126,
+            "a1": 2.4999999999998357,
+            "b0": 1.949999999999896,
+            "b1": 2.649999999999819
+          }
+        ],
+        "connected": {
+          "a": false,
+          "b": false
+        },
+        "target": 0.7,
+        "tape": 3
+      },
+      "201": {
+        "token": 201,
+        "owner": "accepted",
+        "x": -0.125,
+        "y": 0.95986,
+        "z": -0.35,
+        "size": [
+          0.1500000000000001,
+          0.00012,
+          0.12
+        ],
+        "status": "idle",
+        "length": 0.1500000000000001,
+        "connected": false
+      }
+    },
+    "physical": {
+      "sources": {
+        "a": {
+          "radius": 0.05017453725044106,
+          "lead": 0.8133975311819536,
+          "wound": 0.6866024688046505,
+          "stock": 1.5000000000001643,
+          "path": [
+            [
+              -0.5637771608121384,
+              1.2517540257819124,
+              0.0
+            ],
+            [
+              0.1758812293345016,
+              1.040536556298684,
+              0.0
+            ],
+            [
+              0.17600675814498248,
+              1.0405012995228706,
+              0.0
+            ],
+            [
+              0.17613258867634343,
+              1.040467135215781,
+              0.0
+            ],
+            [
+              0.17625871142109653,
+              1.0404340659587974,
+              0.0
+            ],
+            [
+              0.1763851168496748,
+              1.0404020942505627,
+              0.0
+            ],
+            [
+              0.1765117954111524,
+              1.0403712225067916,
+              0.0
+            ],
+            [
+              0.17663873753396594,
+              1.0403414530600872,
+              0.0
+            ],
+            [
+              0.17676593362663814,
+              1.040312788159766,
+              0.0
+            ],
+            [
+              0.1768933740785021,
+              1.0402852299716867,
+              0.0
+            ],
+            [
+              0.17702104926042778,
+              1.0402587805780878,
+              0.0
+            ],
+            [
+              0.17714894952554935,
+              1.0402334419774295,
+              0.0
+            ],
+            [
+              0.17727706520999423,
+              1.0402092160842422,
+              0.0
+            ],
+            [
+              0.1774053866336132,
+              1.0401861047289833,
+              0.0
+            ],
+            [
+              0.1775339041007118,
+              1.0401641096578977,
+              0.0
+            ],
+            [
+              0.17766260790078295,
+              1.0401432325328863,
+              0.0
+            ],
+            [
+              0.17779148830924066,
+              1.0401234749313804,
+              0.0
+            ],
+            [
+              0.17792053558815482,
+              1.0401048383462221,
+              0.0
+            ],
+            [
+              0.17804973998698684,
+              1.0400873241855528,
+              0.0
+            ],
+            [
+              0.17817909174332658,
+              1.0400709337727048,
+              0.0
+            ],
+            [
+              0.17830858108362985,
+              1.0400556683461033,
+              0.0
+            ],
+            [
+              0.17843819822395685,
+              1.0400415290591714,
+              0.0
+            ],
+            [
+              0.17856793337071158,
+              1.0400285169802432,
+              0.0
+            ],
+            [
+              0.17869777672138168,
+              1.0400166330924845,
+              0.0
+            ],
+            [
+              0.17882771846527912,
+              1.0400058782938162,
+              0.0
+            ],
+            [
+              0.17895774878428147,
+              1.0399962533968483,
+              0.0
+            ],
+            [
+              0.1790878578535738,
+              1.0399877591288171,
+              0.0
+            ],
+            [
+              0.17921803584239096,
+              1.0399803961315321,
+              0.0
+            ],
+            [
+              0.17934827291476035,
+              1.0399741649613254,
+              0.0
+            ],
+            [
+              0.17947855923024522,
+              1.039969066089011,
+              0.0
+            ],
+            [
+              0.17960888494468805,
+              1.0399650998998489,
+              0.0
+            ],
+            [
+              0.17973924021095442,
+              1.039962266693516,
+              0.0
+            ],
+            [
+              0.17986961517967703,
+              1.0399605666840832,
+              0.0
+            ],
+            [
+              0.18,
+              1.03996,
+              0.0
+            ],
+            [
+              0.22,
+              1.03996,
+              0.0
+            ]
+          ],
+          "guide": [
+            0.18,
+            1.05496,
+            0.0
+          ]
+        },
+        "b": {
+          "radius": 0.05019762331927269,
+          "lead": 0.831600903144749,
+          "wound": 0.5183990968933663,
+          "stock": 1.3500000000001808,
+          "path": [
+            [
+              -0.5667003884165694,
+              0.6973381285396805,
+              0.0
+            ],
+            [
+              0.17500960783232217,
+              0.9590055288346805,
+              0.0
+            ],
+            [
+              0.17515980918230328,
+              0.9590576249016616,
+              0.0
+            ],
+            [
+              0.17531055423512953,
+              0.9591081261370868,
+              0.0
+            ],
+            [
+              0.17546182605747795,
+              0.9591570268681083,
+              0.0
+            ],
+            [
+              0.1756136076568532,
+              0.9592043216016646,
+              0.0
+            ],
+            [
+              0.1757658819834961,
+              0.9592500050250969,
+              0.0
+            ],
+            [
+              0.17591863193229915,
+              0.9592940720067468,
+              0.0
+            ],
+            [
+              0.17607184034472767,
+              0.9593365175965316,
+              0.0
+            ],
+            [
+              0.17622549001074744,
+              0.9593773370265015,
+              0.0
+            ],
+            [
+              0.17637956367075783,
+              0.9594165257113743,
+              0.0
+            ],
+            [
+              0.17653404401753053,
+              0.959454079249051,
+              0.0
+            ],
+            [
+              0.17668891369815387,
+              0.9594899934211101,
+              0.0
+            ],
+            [
+              0.17684415531598183,
+              0.9595242641932813,
+              0.0
+            ],
+            [
+              0.17699975143258848,
+              0.959556887715899,
+              0.0
+            ],
+            [
+              0.17715568456972666,
+              0.9595878603243345,
+              0.0
+            ],
+            [
+              0.17731193721129143,
+              0.9596171785394078,
+              0.0
+            ],
+            [
+              0.17746849180528768,
+              0.9596448390677782,
+              0.0
+            ],
+            [
+              0.17762533076580161,
+              0.9596708388023146,
+              0.0
+            ],
+            [
+              0.17778243647497638,
+              0.9596951748224443,
+              0.0
+            ],
+            [
+              0.17793979128499102,
+              0.9597178443944806,
+              0.0
+            ],
+            [
+              0.17809737752004282,
+              0.9597388449719311,
+              0.0
+            ],
+            [
+              0.17825517747833292,
+              0.9597581741957826,
+              0.0
+            ],
+            [
+              0.17841317343405472,
+              0.9597758298947664,
+              0.0
+            ],
+            [
+              0.1785713476393851,
+              0.9597918100856028,
+              0.0
+            ],
+            [
+              0.17872968232647793,
+              0.9598061129732227,
+              0.0
+            ],
+            [
+              0.1788881597094601,
+              0.9598187369509705,
+              0.0
+            ],
+            [
+              0.1790467619864293,
+              0.9598296806007838,
+              0.0
+            ],
+            [
+              0.17920547134145381,
+              0.9598389426933528,
+              0.0
+            ],
+            [
+              0.17936426994657373,
+              0.9598465221882586,
+              0.0
+            ],
+            [
+              0.17952313996380356,
+              0.9598524182340901,
+              0.0
+            ],
+            [
+              0.17968206354713612,
+              0.9598566301685392,
+              0.0
+            ],
+            [
+              0.17984102284454698,
+              0.9598591575184755,
+              0.0
+            ],
+            [
+              0.18,
+              0.9598599999999999,
+              0.0
+            ],
+            [
+              0.22,
+              0.9598599999999999,
+              0.0
+            ]
+          ],
+          "guide": [
+            0.18,
+            0.9448599999999999,
+            0.0
+          ]
+        }
+      },
+      "web": {
+        "a": {
+          "state": "ready",
+          "encoder": 2.4999999999998357,
+          "hold": 1.0,
+          "nip": 0.0
+        },
+        "b": {
+          "state": "ready",
+          "encoder": 2.649999999999819,
+          "hold": 1.0,
+          "nip": 0.0
+        }
+      },
+      "origin": 0.15,
+      "trim_state": "done",
+      "trim_length": 0.1500000000000001,
+      "trim_z": -0.35,
+      "trim_x": -0.1,
+      "knives": {
+        "a": null,
+        "b": null
+      },
+      "cut_history": [
+        {
+          "side": "b",
+          "id": 201,
+          "kind": "trim",
+          "scan": 328
+        },
+        {
+          "side": "a",
+          "id": 1,
+          "kind": "roll",
+          "scan": 2263
+        },
+        {
+          "side": "b",
+          "id": 1,
+          "kind": "roll",
+          "scan": 2263
+        },
+        {
+          "side": "a",
+          "id": 2,
+          "kind": "roll",
+          "scan": 6227
+        },
+        {
+          "side": "b",
+          "id": 2,
+          "kind": "roll",
+          "scan": 6227
+        },
+        {
+          "side": "a",
+          "id": 3,
+          "kind": "roll",
+          "scan": 9951
+        },
+        {
+          "side": "b",
+          "id": 3,
+          "kind": "roll",
+          "scan": 9951
+        }
+      ],
+      "active": 0,
+      "core_busy": false,
+      "mandrel": 1.0,
+      "support_y": 0.8000000000000066,
+      "support_z": 0.0,
+      "exit_job": null,
+      "receiver": null,
+      "exit_pusher_z": -0.636,
+      "exit_pusher_x": 0.78,
+      "exit_results": [
+        1,
+        2,
+        3
+      ],
+      "core_results": [
+        1,
+        2,
+        3
+      ],
+      "roll_results": [
+        1,
+        2,
+        3
+      ],
+      "pipeline_metrics": {
+        "triple_overlap_scans": 0,
+        "exit_blocks_unload_scans": 0,
+        "buffer_full_scans": 6
+      },
+      "metrics": {
+        "independent_ready_scans": 149,
+        "unmatched_leader_scans": 299,
+        "connected_supported_scans": 180,
+        "retained_leader_scans": 1704
+      },
+      "contention": {
+        "independent_leader_arrivals": true,
+        "registration_preparation_needed": true,
+        "actual_connected_support_phase": true,
+        "leaders_retained_during_exit": true
+      },
+      "extension": {
+        "kind": "core_tail_tape",
+        "stop": 0.0,
+        "tape": {
+          "stock": 0.05999999999999994,
+          "length": 0.0,
+          "grip": 0.0,
+          "severed": false,
+          "head": [
+            0.9,
+            1.3,
+            0.35
+          ],
+          "job": null,
+          "strips": [
+            {
+              "id": 1,
+              "roll": 1,
+              "length": 0.08,
+              "contact": [
+                0.45,
+                1.001506728084379,
+                0.0
+              ]
+            },
+            {
+              "id": 2,
+              "roll": 2,
+              "length": 0.08,
+              "contact": [
+                0.45,
+                1.0016326177205637,
+                0.0
+              ]
+            },
+            {
+              "id": 3,
+              "roll": 3,
+              "length": 0.08,
+              "contact": [
+                0.45,
+                1.001443665450339,
+                0.0
+              ]
+            }
+          ],
+          "history": [
+            {
+              "roll": 1,
+              "tail": 0.0,
+              "connections": {
+                "a": false,
+                "b": false
+              },
+              "length": 0.08
+            },
+            {
+              "roll": 2,
+              "tail": 0.0,
+              "connections": {
+                "a": false,
+                "b": false
+              },
+              "length": 0.08
+            },
+            {
+              "roll": 3,
+              "tail": 0.0,
+              "connections": {
+                "a": false,
+                "b": false
+              },
+              "length": 0.08
+            }
+          ],
+          "id": 4
+        },
+        "core_history": [
+          {
+            "id": 1,
+            "z": 0.4,
+            "stop": 1.0
+          },
+          {
+            "id": 2,
+            "z": 0.4,
+            "stop": 1.0
+          },
+          {
+            "id": 3,
+            "z": 0.4,
+            "stop": 1.0
+          }
+        ]
+      }
+    },
+    "goal": 1,
+    "violations": [
+      {
+        "type": "unsupported_roll",
+        "scan": 4467
+      },
+      {
+        "type": "untaped_roll",
+        "scan": 4468
+      },
+      {
+        "type": "connected_roll",
+        "scan": 4846
+      }
+    ],
+    "accepted": [
+      1,
+      2,
+      3
+    ],
+    "material_hard": {
+      "mode": "wind_tape",
+      "revision": 10,
+      "poses": {
+        "part1": {
+          "pos": [
+            0.45,
+            0.920632219042423,
+            -1.81
+          ],
+          "yaw": 0,
+          "size": [
+            0.10101345616875818,
+            0.10101345616875818,
+            0.12
+          ]
+        },
+        "part2": {
+          "pos": [
+            0.45,
+            0.9207889205634131,
+            -1.58
+          ],
+          "yaw": 0,
+          "size": [
+            0.10126523544112774,
+            0.10126523544112774,
+            0.12
+          ]
+        },
+        "part3": {
+          "pos": [
+            0.45,
+            0.9205536675733409,
+            -1.35
+          ],
+          "yaw": 0,
+          "size": [
+            0.10088733090067813,
+            0.10088733090067813,
+            0.12
+          ]
+        },
+        "part201": {
+          "pos": [
+            -0.125,
+            0.95986,
+            -0.35
+          ],
+          "yaw": 0,
+          "size": [
+            0.1500000000000001,
+            0.00012,
+            0.12
+          ]
+        }
+      },
+      "requests": [
+        {
+          "request_id": "WEB-a",
+          "generation": 1,
+          "payload": {
+            "registration_origin_mm": 0
+          },
+          "arrival": 0,
+          "state": "ready",
+          "result_ids": [],
+          "id": "WEB-a",
+          "label": "Source web A",
+          "progress": "ready",
+          "detail": ""
+        },
+        {
+          "request_id": "WEB-b",
+          "generation": 1,
+          "payload": {
+            "registration_origin_mm": 150
+          },
+          "arrival": 1.5,
+          "state": "ready",
+          "result_ids": [],
+          "id": "WEB-b",
+          "label": "Source web B",
+          "progress": "ready",
+          "detail": ""
+        },
+        {
+          "request_id": "ROLL-1",
+          "generation": 1,
+          "payload": {
+            "length_mm": 800
+          },
+          "arrival": 0.0,
+          "state": "done",
+          "result_ids": [
+            1
+          ],
+          "id": "ROLL-1",
+          "label": "Roll 1",
+          "progress": "done",
+          "detail": ""
+        },
+        {
+          "request_id": "ROLL-2",
+          "generation": 1,
+          "payload": {
+            "length_mm": 1000
+          },
+          "arrival": 0.0,
+          "state": "done",
+          "result_ids": [
+            2
+          ],
+          "id": "ROLL-2",
+          "label": "Roll 2",
+          "progress": "done",
+          "detail": ""
+        },
+        {
+          "request_id": "ROLL-3",
+          "generation": 1,
+          "payload": {
+            "length_mm": 700
+          },
+          "arrival": 0.0,
+          "state": "done",
+          "result_ids": [
+            3
+          ],
+          "id": "ROLL-3",
+          "label": "Roll 3",
+          "progress": "done",
+          "detail": ""
+        },
+        {
+          "request_id": "CORE-1",
+          "generation": 1,
+          "payload": {
+            "core_id": 1
+          },
+          "arrival": 0,
+          "state": "done",
+          "result_ids": [
+            1
+          ],
+          "id": "CORE-1",
+          "label": "Core preparation 1",
+          "progress": "done",
+          "detail": ""
+        },
+        {
+          "request_id": "CORE-2",
+          "generation": 1,
+          "payload": {
+            "core_id": 2
+          },
+          "arrival": 5,
+          "state": "done",
+          "result_ids": [
+            2
+          ],
+          "id": "CORE-2",
+          "label": "Core preparation 2",
+          "progress": "done",
+          "detail": ""
+        },
+        {
+          "request_id": "CORE-3",
+          "generation": 1,
+          "payload": {
+            "core_id": 3
+          },
+          "arrival": 10,
+          "state": "done",
+          "result_ids": [
+            3
+          ],
+          "id": "CORE-3",
+          "label": "Core preparation 3",
+          "progress": "done",
+          "detail": ""
+        },
+        {
+          "request_id": "EXIT-1",
+          "generation": 1,
+          "payload": {
+            "roll_id": 1
+          },
+          "arrival": 34.48000000000171,
+          "state": "done",
+          "result_ids": [
+            1
+          ],
+          "id": "EXIT-1",
+          "label": "Roll dispatch 1",
+          "progress": "done",
+          "detail": ""
+        },
+        {
+          "request_id": "EXIT-2",
+          "generation": 1,
+          "payload": {
+            "roll_id": 2
+          },
+          "arrival": 74.12000000000101,
+          "state": "done",
+          "result_ids": [
+            2
+          ],
+          "id": "EXIT-2",
+          "label": "Roll dispatch 2",
+          "progress": "done",
+          "detail": ""
+        },
+        {
+          "request_id": "EXIT-3",
+          "generation": 1,
+          "payload": {
+            "roll_id": 3
+          },
+          "arrival": 111.37000000002007,
+          "state": "done",
+          "result_ids": [
+            3
+          ],
+          "id": "EXIT-3",
+          "label": "Roll dispatch 3",
+          "progress": "done",
+          "detail": ""
+        }
+      ],
+      "shared": {
+        "A/B physical coordinates mm": "[2500, 2650]",
+        "B registration origin mm": "150",
+        "Preparation trim": "done",
+        "Mandrel retraction": "1.0",
+        "Rolls accepted": "3/3"
+      },
+      "accepted": [
+        1,
+        2,
+        3
+      ],
+      "parts": {
+        "1": {
+          "token": 1,
+          "owner": "accepted",
+          "x": 0.45,
+          "y": 0.920632219042423,
+          "z": -1.81,
+          "size": [
+            0.10101345616875818,
+            0.10101345616875818,
+            0.12
+          ],
+          "status": "idle",
+          "radius": 0.05050672808437909,
+          "length": 0.8000000000000006,
+          "wound": 0.8000000000000006,
+          "tail": 0.0,
+          "segments": [
+            {
+              "u0": 0.0,
+              "u1": 0.8000000000000006,
+              "a0": 0.0,
+              "a1": 0.8000000000000006,
+              "b0": 0.1500000000000001,
+              "b1": 0.9500000000000007
+            }
+          ],
+          "connected": {
+            "a": false,
+            "b": false
+          },
+          "target": 0.8,
+          "tape": 1
+        },
+        "2": {
+          "token": 2,
+          "owner": "accepted",
+          "x": 0.45,
+          "y": 0.9207889205634131,
+          "z": -1.58,
+          "size": [
+            0.10126523544112774,
+            0.10126523544112774,
+            0.12
+          ],
+          "status": "idle",
+          "radius": 0.05063261772056387,
+          "length": 1.0000000000000007,
+          "wound": 1.0000000000000007,
+          "tail": 0.0,
+          "segments": [
+            {
+              "u0": 0.0,
+              "u1": 1.0000000000000007,
+              "a0": 0.8000000000000006,
+              "a1": 1.7999999999999126,
+              "b0": 0.9500000000000007,
+              "b1": 1.949999999999896
+            }
+          ],
+          "connected": {
+            "a": false,
+            "b": false
+          },
+          "target": 1.0,
+          "tape": 2
+        },
+        "3": {
+          "token": 3,
+          "owner": "accepted",
+          "x": 0.45,
+          "y": 0.9205536675733409,
+          "z": -1.35,
+          "size": [
+            0.10088733090067813,
+            0.10088733090067813,
+            0.12
+          ],
+          "status": "idle",
+          "radius": 0.05044366545033906,
+          "length": 0.7000000000000005,
+          "wound": 0.7000000000000005,
+          "tail": 0.0,
+          "segments": [
+            {
+              "u0": 0.0,
+              "u1": 0.7000000000000005,
+              "a0": 1.7999999999999126,
+              "a1": 2.4999999999998357,
+              "b0": 1.949999999999896,
+              "b1": 2.649999999999819
+            }
+          ],
+          "connected": {
+            "a": false,
+            "b": false
+          },
+          "target": 0.7,
+          "tape": 3
+        },
+        "201": {
+          "token": 201,
+          "owner": "accepted",
+          "x": -0.125,
+          "y": 0.95986,
+          "z": -0.35,
+          "size": [
+            0.1500000000000001,
+            0.00012,
+            0.12
+          ],
+          "status": "idle",
+          "length": 0.1500000000000001,
+          "connected": false
+        }
+      },
+      "violations": [
+        "unsupported_roll",
+        "untaped_roll",
+        "connected_roll"
+      ],
+      "web_path": []
+    }
+  },
+  "independent_task": true,
+  "evaluation_family": "MAT-H07",
+  "contract_sha256": "0fc75ff4f513025ba898347b815e210a65abdac3a2c46bfbe8de1e795033ab60",
+  "prerequisites": [
+    {
+      "check": "local_submission_profile",
+      "passed": true,
+      "st_sha256": "0e38b62986172836203911e7d8dd21384c34eb45c1e6cb5b9b47c5eacade269f"
+    },
+    {
+      "check": "local_st_parse_and_required_io",
+      "passed": true,
+      "st_sha256": "0e38b62986172836203911e7d8dd21384c34eb45c1e6cb5b9b47c5eacade269f"
+    }
+  ],
+  "profile": {
+    "ok": true,
+    "errors": []
+  },
+  "metric_eligible": true,
+  "observation_complete": true,
+  "partial_scan": null,
+  "claim_checked_at": "post_state",
+  "completed_scans": 11944,
+  "stop_reason": "post_claim_window",
+  "safety_passed": false,
+  "core_evaluator_version": "priority-redesign/1",
+  "integration_version": "plcworld-evaluation/5.3",
+  "integration_seal_sha256": "c9de108ec4410d15c5f74e02ce000743a7df362cbafc5b51bc4b291ec34a2974",
+  "input_freeze": "plcworld-model-inputs/7-execution-contract",
+  "eligible_for_official_aggregation": true,
+  "current_cohort_eligible": true,
+  "task_version": "priority-redesign/1",
+  "generation_provenance_verified": false,
+  "registered_system_sha256": "da989a5140218cdc034a92429e246e5b6d0a084dfea2b2c13056d301a6b23dd8",
+  "registered_public_spec_sha256": "7ff22baa8cdb354f675d7f19a06c442fc32345e749a03ed1f869a6e3ee74b65c",
+  "registered_input_sha256": "37eba9bce9d727883353afdcf65f3b8a2c72a28ab9c0b62de07e37dc3823d623",
+  "registered_contract_sha256": "0fc75ff4f513025ba898347b815e210a65abdac3a2c46bfbe8de1e795033ab60",
+  "trace_sha256": "c49a9427659dd349d7d9756d58b0bdacbf537199ae997d3287103657bf75cf54",
+  "sensor_input_saturation": {},
+  "evaluation_reuse": {
+    "source": "[private source path omitted]",
+    "sha256": "acdf5fba0ef56c733a9a83139497faa166645dab1077a4fd0176ac8733a13111",
+    "proof": "Same ST engine, original source, plant and historical inputs. Parent checked all delivered INT/DINT inputs and did not raise an infrastructure input failure; saturation therefore never activates on this execution. Pre-execution/generation failures are likewise unchanged.",
+    "scope": "strict type-contract candidate -> sensor-only candidate"
+  },
+  "sensor_packaging_revision": {
+    "previous_integration_seal_sha256": "6955d3af5f49374c780966409552f190013dd1c57a3bd015cc32f3d49c412397",
+    "reason": "Restored unused grounded_v3/v4 archival evaluators exactly to parent; registered tasks use only v5/v6/v8. No executed code or trace changes."
+  },
+  "final_guard_revalidation": {
+    "previous_seal": "048791a186f6e881eafc326149b0631c017a8b07f800543314605202b083892b",
+    "evidence": "[private source path omitted]",
+    "evidence_sha256": "c93aaefcea8e0a1e8c63e047edb945038c0b51843ee4e3f1a4e5e78fe220593e",
+    "proof": "Only static guards changed: this exact source retains identical admission and AST or identical prior error. VM/plant/input-delivery code unchanged; no trace or judgment recomputation required."
+  },
+  "constant_expression_reuse": {
+    "parent_case": "[private source path omitted]",
+    "parent_sha256": "d5180b20dc58c67f1eabc7bbf8317b199a6bd3c70939598cf2fd6a427094ab3a",
+    "evidence": "[private source path omitted]",
+    "evidence_sha256": "2ce81ae9ff33f2d76f5f05bb7d59533770d96f41470079c364a2a626ccc778a7",
+    "proof": "Same source, admission, AST and inferred expression types; VM, plant, inputs and oracle unchanged."
+  },
+  "execution_provenance": "Imported measured result; source hashes retained; no claim of a fresh packaged execution",
+  "source_evaluation": {
+    "integration_seal_sha256": "04cb5615a4b9e931c2678982e9f18cd799aaebcf84cab55f0ef56a4cc717fae7",
+    "trace_sha256": "c49a9427659dd349d7d9756d58b0bdacbf537199ae997d3287103657bf75cf54",
+    "st_sha256": "0e38b62986172836203911e7d8dd21384c34eb45c1e6cb5b9b47c5eacade269f",
+    "case_sha256": "17b7651289f69cbfd65f6b736a433cad90fe7594c71ed104193c8dac41d54b9a"
+  },
+  "generation_input_revision": "historical-v6-with-direct-MOT-E11-amendment"
+}

@@ -1,0 +1,170 @@
+{
+  "task_success": true,
+  "safety_violation": false,
+  "safety_passed": true,
+  "passed": true,
+  "entered_plant": true,
+  "observation_complete": true,
+  "metric_eligible": true,
+  "error": null,
+  "stop_reason": "horizon",
+  "completed_scans": 5000,
+  "claim_checked_at": "post_state",
+  "observed_event_types": [
+    "material_task_complete",
+    "request_accepted",
+    "stored"
+  ],
+  "oracle_rules": [
+    {
+      "id": "operation_without_request",
+      "scope": "safety",
+      "passed": true,
+      "reason": null
+    },
+    {
+      "id": "opposed_drives",
+      "scope": "safety",
+      "passed": true,
+      "reason": null
+    },
+    {
+      "id": "false_completion",
+      "scope": "goal",
+      "passed": true,
+      "reason": null
+    },
+    {
+      "id": "result_not_held",
+      "scope": "goal",
+      "passed": true,
+      "reason": null
+    },
+    {
+      "id": "liquid_spill",
+      "scope": "safety",
+      "passed": true,
+      "reason": null
+    },
+    {
+      "id": "over_dose",
+      "scope": "goal",
+      "passed": true,
+      "reason": null
+    },
+    {
+      "id": "travel_below_clearance",
+      "scope": "safety",
+      "passed": true,
+      "reason": null
+    },
+    {
+      "id": "unsupported_release",
+      "scope": "safety",
+      "passed": true,
+      "reason": null
+    },
+    {
+      "id": "wrong_spacing",
+      "scope": "goal",
+      "passed": true,
+      "reason": null
+    },
+    {
+      "id": "part_collision",
+      "scope": "safety",
+      "passed": true,
+      "reason": null
+    },
+    {
+      "id": "receiver_resists_motion",
+      "scope": "safety",
+      "passed": true,
+      "reason": null
+    },
+    {
+      "id": "occupied_slot",
+      "scope": "safety",
+      "passed": true,
+      "reason": null
+    },
+    {
+      "id": "rack_with_pusher",
+      "scope": "safety",
+      "passed": true,
+      "reason": null
+    },
+    {
+      "id": "wrong_partition",
+      "scope": "goal",
+      "passed": true,
+      "reason": null
+    },
+    {
+      "id": "unaccepted_release",
+      "scope": "safety",
+      "passed": true,
+      "reason": null
+    },
+    {
+      "id": "complete",
+      "scope": "goal",
+      "passed": true,
+      "reason": null
+    }
+  ],
+  "partial_scan": null,
+  "raw_check": {
+    "passed": true,
+    "issues": {},
+    "issue_scopes": {},
+    "completion_samples": 4576,
+    "scope": "primary physical result and selected trajectory invariants; not exhaustive mechanical safety"
+  },
+  "primary_verdict": {
+    "passed": true,
+    "task_success": true,
+    "safety_passed": true,
+    "outcome": "SAFE_SUCCESS",
+    "reason": "passed"
+  },
+  "task": "MAT-M08",
+  "scenario_index": 0,
+  "st_sha256": "0745efb311c66c4a2c52d1631ba6bda5a6a48cb43f68d8fd84880445adc3c917",
+  "prerequisites": [
+    {
+      "check": "local_submission_profile",
+      "passed": true,
+      "st_sha256": "0745efb311c66c4a2c52d1631ba6bda5a6a48cb43f68d8fd84880445adc3c917"
+    },
+    {
+      "check": "local_st_parse_and_required_io",
+      "passed": true,
+      "st_sha256": "0745efb311c66c4a2c52d1631ba6bda5a6a48cb43f68d8fd84880445adc3c917"
+    }
+  ],
+  "profile": {
+    "ok": true,
+    "errors": []
+  },
+  "evaluator_version": "common-plant-contract/5.2.6-math02-guard-candidate",
+  "review_hold": null,
+  "current_cohort_eligible": true,
+  "eligible_for_official_aggregation": true,
+  "review_policy_version": "evaluation-review-policy/1",
+  "contract_sha256": "f68fd034be5baf1fb9397b340408b5b5e897a5747a337131cc50df8473d7fa4d",
+  "review_policy_sha256": "0a15b3e1d2d41b594a29d7376488e26b29044bfd32b1b9e9c1099a7712b57ce6",
+  "candidate_seal_sha256": "7f6f6f95be359f157380bae12353095e7cfa0ae42ad7e6880fb83b94397a74cd",
+  "integration_version": "plcworld-evaluation/5.2.6",
+  "integration_seal_sha256": "bceeb8804c3d724faa80c8d02ccfb35da0b79134084d0d97bd87a018049396cc",
+  "input_freeze": "plcworld-model-inputs/6-plain-scaffold",
+  "independent_task": true,
+  "evaluation_family": "MAT-M08",
+  "task_version": "plcworld-evaluation/5.2.6",
+  "generation_provenance_verified": false,
+  "registered_system_sha256": "a1d2a9bca7208713ff2b7fa4c46a39bf9d5c13b220d2e497a0724b2fd7576fcb",
+  "registered_public_spec_sha256": "5ce294429553e05eb5544dab90bca0a4a78f05726ec973e6ad712c7bd3a82987",
+  "registered_input_sha256": "c58318c0239f4836ff48fedb8ae583dc2449f6a437f8245f3b05494dff98a7d2",
+  "registered_contract_sha256": "f68fd034be5baf1fb9397b340408b5b5e897a5747a337131cc50df8473d7fa4d",
+  "trace_sha256": "cc446243e5b4cdab74b06249060598d0b1d6d37bca694b42a6a910e5a5e0b47b"
+}

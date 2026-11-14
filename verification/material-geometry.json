@@ -1,0 +1,137 @@
+{
+  "scope": "Display geometry projected from archived scans; controller programs, recorded I/O, task outcomes, and safety verdicts are unchanged.",
+  "schema": "plcworld-recorded-material-geometry/1",
+  "tasks": [
+    {
+      "task": "MAT-H02",
+      "frames": 8388,
+      "nodes": 543,
+      "source_sha256": "c1f39234602d1edc97eb66621dca26a06059e390fc7ed2066a49cd2442456284",
+      "sha256": "0defe6678b3a1c6402323307dda93be5a6971ee89c2038aa1e5df75f4966cd6e"
+    },
+    {
+      "task": "MAT-H03",
+      "frames": 10683,
+      "nodes": 272,
+      "source_sha256": "152ae547d2949d06e58afefc2695c7e572eec8f63fd1356ab35812d38c967c7b",
+      "sha256": "aa5dc0b3b650f41168c4f8ac7343b4c24f0b1748739b1737ba5a33b42ee5ad18"
+    },
+    {
+      "task": "MAT-H04",
+      "frames": 6330,
+      "nodes": 316,
+      "source_sha256": "e2d95cf87e3643735e22d59cc7aa936242144a2b09024ecb66ae705275fffbb7",
+      "sha256": "3d0a185657f2df7d10838224e63a252bebeb38087354f584d09baff2344535d3"
+    },
+    {
+      "task": "MAT-H05",
+      "frames": 8089,
+      "nodes": 283,
+      "source_sha256": "12654196eee22d077e553c40bade81d656e178b2c7fe408526e928d8b4622230",
+      "sha256": "f08af2525ab865b929db182661423892332390a866a5c23c7a588ca1e1e78709"
+    },
+    {
+      "task": "MAT-H06",
+      "frames": 8508,
+      "nodes": 387,
+      "source_sha256": "95f8c2fc1d8da8e5bcc4a395d5c212f92b670bb44d46ad2aa59e34bfc31288d5",
+      "sha256": "97f031cf0938cbbe5430d0e7b4ad24a0cbc3203f5987b37226b78fb7f2cfb3f4"
+    },
+    {
+      "task": "MAT-H07",
+      "frames": 9440,
+      "nodes": 272,
+      "source_sha256": "b31c6a0e949cdb976e148cef0addc7e600db8a329f15f00fdc53bbcd721c92f5",
+      "sha256": "c9451f5cd518c702e5e0c780d2a14fa423bd2cacd5ac6ec13dbaa7e11aea2982"
+    },
+    {
+      "task": "MAT-H08",
+      "frames": 6025,
+      "nodes": 278,
+      "source_sha256": "f7a3d9eab81e03811252d155abc2e750b84787a6bc7f8c383e6d37029b4a2165",
+      "sha256": "c17390f8808a864d3a6ebd009858d1aee67227941425956b66c4d2e4b5c153e2"
+    },
+    {
+      "task": "MAT-H09",
+      "frames": 5017,
+      "nodes": 336,
+      "source_sha256": "8b8e991286c8d9321bccd0804667a69ce7c09bad1f4e671da877278a83e1d524",
+      "sha256": "93d1ce5689797f609d83c530c7aad84c4febfbd01e070a7843e8983955cbf9a5"
+    },
+    {
+      "task": "MAT-H10",
+      "frames": 7423,
+      "nodes": 554,
+      "source_sha256": "5f1b1e37b92e372bccc66d748706894d1550da9ceb265a48a90bb13a708d4a25",
+      "sha256": "1146ee1aaea8aed87136649bbb3f7000949584cc1444a95118ade31db9f4a73f"
+    },
+    {
+      "task": "MAT-H11",
+      "frames": 24884,
+      "nodes": 338,
+      "source_sha256": "366f6cdb2b04e77ea92ce90f7bd3c4a0928ff101217140b42e92a7227ff4e3ba",
+      "sha256": "9ecb1c1201a7785f2f673c4e0c2df8a33c95405a2ce788050fcaa3358dac4f2b"
+    },
+    {
+      "task": "MAT-H12",
+      "frames": 3956,
+      "nodes": 426,
+      "source_sha256": "b9bf35dfce4a15589f395e7400b3d6af88f31376d636173551c61c67c538019c",
+      "sha256": "195e00f9299d75922f6cc6e3bb6bf0c2427d02908722373dc8a0925aab474a4a"
+    },
+    {
+      "task": "MAT-H13",
+      "frames": 11587,
+      "nodes": 458,
+      "source_sha256": "80a4fba1d1125c33962e32e74dd9c0633487a6feea70a3eabe89b918e28954b5",
+      "sha256": "af0e26029aa7491abbb28ae3ef694bd66ecb79f37720db0dceeccf8f31fee0d2"
+    },
+    {
+      "task": "MAT-H14",
+      "frames": 7668,
+      "nodes": 543,
+      "source_sha256": "64e0aede5fb97c1b3546084cbaf84af66aa637568bce88035c6516b6f40735d5",
+      "sha256": "36f16595a13d198ee0537e21c7004aa767c8f87848e19384a3b1204fe1f91bf6"
+    },
+    {
+      "task": "MAT-H15",
+      "frames": 7526,
+      "nodes": 261,
+      "source_sha256": "787891ce1fb795a5b70bf1e2e7d0e9f6de0e98d25eb42292da7fa14990faa115",
+      "sha256": "0709b4cf81981d53b54ab83378f81204720dd152079c94f043eed170bf59cab2"
+    }
+  ],
+  "projection_sources": {
+    "scripts/material_visual/__init__.py": "2dfd940cfa8a7cdbc501c67256763f277f633ec5a095bbcc524360fec992ae73",
+    "scripts/material_visual/collection_transport.py": "3d04b94da29713ac9c81b473961ab8ca7837f384cb8771206f72669d6bdb8e82",
+    "scripts/material_visual/corner_transport.py": "7b6e440aba8965b46694f53b590859def17598fde521caa01907e1fa0b8f46c0",
+    "scripts/material_visual/former_math.py": "71576d0fa299a144473015813504b2ad7d9236ef95f4d7e587b9df96f514ba42",
+    "scripts/material_visual/hole_math.py": "0b0457d0502542d2c87b318418d6371c4092d13159f00e06d1f9e29495744336",
+    "scripts/material_visual/jig_transport.py": "acc38382a7988ca505529c0c4358961d38f70c773970ddd8a910dea147eb09a9",
+    "scripts/material_visual/material_controls_geometry.py": "ddba133967bf5d62afb648c6a1c3c7df279330e0b979375218ed055c0cb0daa9",
+    "scripts/material_visual/material_conveyor_geometry.py": "431ac55247adc313d61780f548c09f775b02d70c649e2b6a452625359406420d",
+    "scripts/material_visual/material_h02_fifo_geometry.py": "4f4c0a30f7e16d3a869c1cb1b83f27246f6da74f7e420d32b224f065081de76c",
+    "scripts/material_visual/material_h03_jig_geometry.py": "a8a5809dea6a23e6d8c7242c48cc375ada5752d85c9ba2c35d1d4414455b6939",
+    "scripts/material_visual/material_h04_pouch_geometry.py": "b50ba394e4bd7649b24ce8e0582d22c4ba8194019469505a23aad0bc3a86652f",
+    "scripts/material_visual/material_h05_index_geometry.py": "37e742cc8d2bbd8f0a212e4cae9c0f3b18ff431107a490976c0920533cdc420d",
+    "scripts/material_visual/material_h06_web_geometry.py": "90e6d4789fddb56e516b09626dc98440243f3323bd2cf9b72bdbc5cf9d56e2a3",
+    "scripts/material_visual/material_h07_wind_geometry.py": "6b72e2bfe813cb22d560a323ca68de5d3d1161c90b8c6d89c8b681f54781f5ea",
+    "scripts/material_visual/material_h08_skeleton_geometry.py": "6a9be85c9678f4a81e78de05002fd613f30d30a4460e2943cd72a1afb76eba63",
+    "scripts/material_visual/material_h11_faces_geometry.py": "ba8ffce216822281b755107a8352ed2c809d1095a2b52025308bb8e6300994f5",
+    "scripts/material_visual/material_h15_stack_geometry.py": "ea8a6847a768ffab7f92e293af58b082aa1ada8fe19220beac9667c64d052974",
+    "scripts/material_visual/material_process_housings.py": "59bc6c9f49f6f9f40685b0be1df7856c8d84a54a7e55d07e9e2979605bb43191",
+    "scripts/material_visual/material_station_geometry.py": "86bad123ac469397a0d3440d60d9ca7cc3f98a53d516c8b93d3c7be468dab7e4",
+    "scripts/material_visual/material_transport_contracts.py": "290f65de19d85ca1f33a477dc00274fd1fb2cfe9a6f7dec35627409e560ece81",
+    "scripts/material_visual/material_visual_geometry.py": "e311e7ab8f7a662be30ff65faad9cd48e686e281ad4324f5dd3cadcb3c94fe5f",
+    "scripts/material_visual/material_wrap_geometry.py": "0964d5af91d709be20a309458c96e91eaccbe82d073b58b2dc2292503821ef4c",
+    "scripts/material_visual/priority_geometry.py": "07ee7e096da2a0a75fcc13f05af2615f45e3b8a27ec27b7307e56a21f64ca3f0",
+    "scripts/material_visual/project.py": "2908cedae4de34fed752d5355df9c697e10a3f7fe321f075c434e19d86be1a44",
+    "scripts/material_visual/scene.py": "df3e731bf3a6d1c818ca018536a8c3c56be6adcbf263f2b9915da2539d1143ed",
+    "scripts/material_visual/scrap_math.py": "6583cb60f9305b253f3b01b763ad8453b88476d575d64f6b82ee922ebb15909c",
+    "scripts/material_visual/station_transport.py": "2cbd2e839d772d0118ef3dd7c25e537c26072e09cd60e0c23e3988d0cc8c247d",
+    "scripts/material_visual/stops.py": "0b8d37106d225a15b870dc14abb1e5c0e3053a78d3616a9f263e8b47ffd1ff74",
+    "scripts/material_visual/web_math.py": "4bfa13d66b8cc4ac0e359ae61bd21c808f4a8d42b99175be516f9df01d92b7e5",
+    "scripts/material_visual/winding_math.py": "d61aaae8b019dd26cd6f1c1fcd1853c11d9788fe0ad9fa8cb38691ff11a7a253",
+    "scripts/material_visual/wrapping_math.py": "aba81f60ff10bf1238c572c63609523570749a0a0980a52798ce15e4e563d44e"
+  }
+}

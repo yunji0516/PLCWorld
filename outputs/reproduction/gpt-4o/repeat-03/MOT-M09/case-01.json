@@ -1,0 +1,299 @@
+{
+  "task": "MOT-M09",
+  "scenario": "changed_request",
+  "scenario_index": 1,
+  "program": "submissions/gpt-4o/repeat-03/MOT-M09.st",
+  "program_sha256": "c64eaa8fd5f29315a6da248737ea0ae6c9ae623a4ca69460debee146397f9f57",
+  "st_sha256": "c64eaa8fd5f29315a6da248737ea0ae6c9ae623a4ca69460debee146397f9f57",
+  "evaluator_version": "motion-medium-grounded-v5-dev",
+  "task_success": false,
+  "safety_violation": false,
+  "safety_observation_complete": false,
+  "passed": false,
+  "entered_plant": true,
+  "observation_complete": false,
+  "error": {
+    "type": "InvalidCommand",
+    "kind": "model",
+    "message": "d target/rate outside public domain",
+    "phase": "plant_apply",
+    "scan": 3
+  },
+  "cleanup_error": null,
+  "partial_frame": {
+    "scan": 3,
+    "time_start_ms": 30,
+    "state_before": {
+      "time_ms": 30.0,
+      "setup": {
+        "request": {
+          "depth": 55
+        },
+        "mark": 67
+      },
+      "reference_mark": 67,
+      "edge_position": null,
+      "contacts": [],
+      "axes": {
+        "a": {
+          "position": 0.0,
+          "velocity": 0.0
+        },
+        "b": {
+          "position": 0.0,
+          "velocity": 0.0
+        },
+        "c": {
+          "position": 0.0,
+          "velocity": 0.0
+        },
+        "d": {
+          "position": 0.0,
+          "velocity": 0.0
+        }
+      },
+      "history": {
+        "request_available": 30.0
+      },
+      "result": false,
+      "hold_ms": 0.0,
+      "dwell_ms": 0,
+      "origin": 0,
+      "configured": false,
+      "sensor_seen": false,
+      "guide_segment": false,
+      "guide_done": false,
+      "module_busy": false,
+      "module_done": false,
+      "module_position": 0,
+      "module_count": 3,
+      "geometry_safe": true
+    },
+    "inputs": {
+      "X0": 1,
+      "D10": 0,
+      "D11": 0,
+      "D12": 0,
+      "D13": 0,
+      "D14": 0,
+      "D15": 0,
+      "D16": 0,
+      "D17": 0,
+      "D101": 5500
+    },
+    "outputs": {
+      "a_target": 10000,
+      "a_rate": 1000,
+      "a_enable": 1,
+      "b_target": 6000,
+      "b_rate": 1000,
+      "b_enable": 1,
+      "c_target": 6000,
+      "c_rate": 1000,
+      "c_enable": 1,
+      "d_target": 550000,
+      "d_rate": 1000,
+      "d_enable": 1,
+      "result": 0
+    },
+    "state_at_interruption": {
+      "time_ms": 30.0,
+      "setup": {
+        "request": {
+          "depth": 55
+        },
+        "mark": 67
+      },
+      "reference_mark": 67,
+      "edge_position": null,
+      "contacts": [],
+      "axes": {
+        "a": {
+          "position": 0.0,
+          "velocity": 0.0
+        },
+        "b": {
+          "position": 0.0,
+          "velocity": 0.0
+        },
+        "c": {
+          "position": 0.0,
+          "velocity": 0.0
+        },
+        "d": {
+          "position": 0.0,
+          "velocity": 0.0
+        }
+      },
+      "history": {
+        "request_available": 30.0
+      },
+      "result": false,
+      "hold_ms": 0.0,
+      "dwell_ms": 0,
+      "origin": 0,
+      "configured": false,
+      "sensor_seen": false,
+      "guide_segment": false,
+      "guide_done": false,
+      "module_busy": false,
+      "module_done": false,
+      "module_position": 0,
+      "module_count": 3,
+      "geometry_safe": true
+    },
+    "events": [
+      {
+        "type": "request_available",
+        "time_ms": 30.0,
+        "scan": 3
+      },
+      {
+        "type": "command_out_of_range",
+        "time_ms": 30.0,
+        "scan": 3,
+        "axis": "d"
+      }
+    ],
+    "interrupted_at_ms": 30.0
+  },
+  "elapsed_seconds": 0.2932005170005141,
+  "metric_eligible": true,
+  "metric_eligibility": {
+    "sr": true,
+    "svr": true
+  },
+  "events": [
+    {
+      "type": "request_available",
+      "time_ms": 30.0,
+      "scan": 3
+    },
+    {
+      "type": "command_out_of_range",
+      "time_ms": 30.0,
+      "scan": 3,
+      "axis": "d"
+    }
+  ],
+  "final_state": {
+    "time_ms": 30.0,
+    "setup": {
+      "request": {
+        "depth": 55
+      },
+      "mark": 67
+    },
+    "reference_mark": 67,
+    "edge_position": null,
+    "contacts": [],
+    "axes": {
+      "a": {
+        "position": 0.0,
+        "velocity": 0.0
+      },
+      "b": {
+        "position": 0.0,
+        "velocity": 0.0
+      },
+      "c": {
+        "position": 0.0,
+        "velocity": 0.0
+      },
+      "d": {
+        "position": 0.0,
+        "velocity": 0.0
+      }
+    },
+    "history": {
+      "request_available": 30.0
+    },
+    "result": false,
+    "hold_ms": 0.0,
+    "dwell_ms": 0,
+    "origin": 0,
+    "configured": false,
+    "sensor_seen": false,
+    "guide_segment": false,
+    "guide_done": false,
+    "module_busy": false,
+    "module_done": false,
+    "module_position": 0,
+    "module_count": 3,
+    "geometry_safe": true
+  },
+  "failure_types": [],
+  "executed_scans": 3,
+  "last_scan": 3,
+  "prerequisites": [
+    {
+      "check": "local_submission_profile",
+      "passed": true,
+      "st_sha256": "c64eaa8fd5f29315a6da248737ea0ae6c9ae623a4ca69460debee146397f9f57"
+    },
+    {
+      "check": "local_st_parse_and_required_io",
+      "passed": true,
+      "st_sha256": "c64eaa8fd5f29315a6da248737ea0ae6c9ae623a4ca69460debee146397f9f57"
+    }
+  ],
+  "profile": {
+    "ok": true,
+    "errors": []
+  },
+  "claim_checked_at": "post_state",
+  "predecessor_checks": {
+    "local_st_runtime_initialization": true,
+    "native_compile": "not_run",
+    "formal": "not_run"
+  },
+  "release_version": "motion-medium-release/1.0",
+  "release_seal_sha256": "bf488d4e97fc8df7d5abe5c8cb9fca332342dea0d3658ba479a4ae6891664aaa",
+  "integration_version": "plcworld-evaluation/5.3",
+  "integration_seal_sha256": "c9de108ec4410d15c5f74e02ce000743a7df362cbafc5b51bc4b291ec34a2974",
+  "input_freeze": "plcworld-model-inputs/7-execution-contract",
+  "eligible_for_official_aggregation": true,
+  "current_cohort_eligible": true,
+  "independent_task": true,
+  "evaluation_family": "MOT-M09",
+  "task_version": "plcworld-evaluation/5.2.12-constant-expressions-candidate-20261113",
+  "generation_provenance_verified": false,
+  "registered_system_sha256": "da989a5140218cdc034a92429e246e5b6d0a084dfea2b2c13056d301a6b23dd8",
+  "registered_public_spec_sha256": "0c1056b8dbe6a2192fe9f93d2ff0610f7643ab3abdf01635080c905d5c8ba9c5",
+  "registered_input_sha256": "0064639a6cecdfd229c99af594d75a55ec4e4b9b89a797751885b83dfdc7c0c8",
+  "registered_contract_sha256": "1d0bb5437a00306e04b01912e04509fa3976febabe70eb5d02fcbceaa4a516e6",
+  "trace_sha256": "fbc6f5f40a5b5073da83cba1f3385975d14604ef78a06fb160e3995d54c8fa8c",
+  "sensor_input_saturation": {},
+  "evaluation_reuse": {
+    "source": "[private source path omitted]",
+    "sha256": "02a1e45606736a4898048117b86f55fd4afc251adaec46efeab1834708907afb",
+    "proof": "Same ST engine, original source, plant and historical inputs. Parent checked all delivered INT/DINT inputs and did not raise an infrastructure input failure; saturation therefore never activates on this execution. Pre-execution/generation failures are likewise unchanged.",
+    "scope": "strict type-contract candidate -> sensor-only candidate"
+  },
+  "sensor_packaging_revision": {
+    "previous_integration_seal_sha256": "6955d3af5f49374c780966409552f190013dd1c57a3bd015cc32f3d49c412397",
+    "reason": "Restored unused grounded_v3/v4 archival evaluators exactly to parent; registered tasks use only v5/v6/v8. No executed code or trace changes."
+  },
+  "final_guard_revalidation": {
+    "previous_seal": "048791a186f6e881eafc326149b0631c017a8b07f800543314605202b083892b",
+    "evidence": "[private source path omitted]",
+    "evidence_sha256": "c93aaefcea8e0a1e8c63e047edb945038c0b51843ee4e3f1a4e5e78fe220593e",
+    "proof": "Only static guards changed: this exact source retains identical admission and AST or identical prior error. VM/plant/input-delivery code unchanged; no trace or judgment recomputation required."
+  },
+  "constant_expression_reuse": {
+    "parent_case": "[private source path omitted]",
+    "parent_sha256": "6a2a41d5839d9a323ab32ba7dc341ceddac4a98419532f47f1d10a5b4808c755",
+    "evidence": "[private source path omitted]",
+    "evidence_sha256": "2ce81ae9ff33f2d76f5f05bb7d59533770d96f41470079c364a2a626ccc778a7",
+    "proof": "Same source, admission, AST and inferred expression types; VM, plant, inputs and oracle unchanged."
+  },
+  "execution_provenance": "Imported measured result; source hashes retained; no claim of a fresh packaged execution",
+  "source_evaluation": {
+    "integration_seal_sha256": "04cb5615a4b9e931c2678982e9f18cd799aaebcf84cab55f0ef56a4cc717fae7",
+    "trace_sha256": "fbc6f5f40a5b5073da83cba1f3385975d14604ef78a06fb160e3995d54c8fa8c",
+    "st_sha256": "c64eaa8fd5f29315a6da248737ea0ae6c9ae623a4ca69460debee146397f9f57",
+    "case_sha256": "db3c108d3792b701f95f30519e5609308bd2497ba4b374d512061774e0104f8c"
+  },
+  "contract_sha256": "1d0bb5437a00306e04b01912e04509fa3976febabe70eb5d02fcbceaa4a516e6",
+  "generation_input_revision": "historical-v6-with-direct-MOT-E11-amendment"
+}

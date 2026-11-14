@@ -1,0 +1,136 @@
+{
+  "task": "MOT-M17",
+  "scenario": "normal",
+  "scenario_index": 0,
+  "program": "submission.st",
+  "program_sha256": "cb00011518bc6540e2f2ff076c9f91cc8dfee7101f643cd80cb8c7536bb85d11",
+  "st_sha256": "cb00011518bc6540e2f2ff076c9f91cc8dfee7101f643cd80cb8c7536bb85d11",
+  "evaluator_version": "motion-medium-grounded-v5-dev",
+  "task_success": true,
+  "safety_violation": false,
+  "safety_observation_complete": true,
+  "passed": true,
+  "entered_plant": true,
+  "observation_complete": true,
+  "error": null,
+  "cleanup_error": null,
+  "partial_frame": null,
+  "elapsed_seconds": 0.9539884552359581,
+  "metric_eligible": true,
+  "metric_eligibility": {
+    "sr": true,
+    "svr": true
+  },
+  "events": [
+    {
+      "type": "request_available",
+      "time_ms": 30.0,
+      "scan": 3
+    },
+    {
+      "type": "access",
+      "time_ms": 3124.0,
+      "scan": 312
+    },
+    {
+      "type": "fresh_sensor_edge",
+      "time_ms": 5574.0,
+      "scan": 557
+    },
+    {
+      "type": "result_asserted",
+      "time_ms": 6320.0,
+      "scan": 631
+    }
+  ],
+  "final_state": {
+    "time_ms": 15100.0,
+    "setup": {
+      "request": {
+        "target": 300
+      },
+      "mark": 70
+    },
+    "reference_mark": 70,
+    "edge_position": 70,
+    "contacts": [],
+    "axes": {
+      "a": {
+        "position": 279.9999999999993,
+        "velocity": 1.3642420526593924e-11
+      },
+      "b": {
+        "position": 8.69321332782066e-91,
+        "velocity": -1.8126945662880343e-89
+      },
+      "c": {
+        "position": 4.909920173172169e-96,
+        "velocity": -1.0238084909677951e-94
+      },
+      "d": {
+        "position": 99.99999999999983,
+        "velocity": 3.410605131648481e-12
+      }
+    },
+    "history": {
+      "request_available": 30.0,
+      "access": 3124.0,
+      "fresh_sensor_edge": 5574.0,
+      "result_asserted": 6320.0
+    },
+    "result": true,
+    "hold_ms": 8780.0,
+    "dwell_ms": 0,
+    "origin": 0,
+    "configured": false,
+    "sensor_seen": true,
+    "guide_segment": false,
+    "guide_done": false,
+    "module_busy": false,
+    "module_done": false,
+    "module_position": 0,
+    "module_count": 2,
+    "geometry_safe": true
+  },
+  "failure_types": [],
+  "executed_scans": 1510,
+  "last_scan": 1509,
+  "prerequisites": [
+    {
+      "check": "local_submission_profile",
+      "passed": true,
+      "st_sha256": "cb00011518bc6540e2f2ff076c9f91cc8dfee7101f643cd80cb8c7536bb85d11"
+    },
+    {
+      "check": "local_st_parse_and_required_io",
+      "passed": true,
+      "st_sha256": "cb00011518bc6540e2f2ff076c9f91cc8dfee7101f643cd80cb8c7536bb85d11"
+    }
+  ],
+  "profile": {
+    "ok": true,
+    "errors": []
+  },
+  "claim_checked_at": "post_state",
+  "predecessor_checks": {
+    "local_st_runtime_initialization": true,
+    "native_compile": "not_run",
+    "formal": "not_run"
+  },
+  "release_version": "motion-medium-release/1.0",
+  "release_seal_sha256": "88302af72ff5215cc3e730e35f3c0eb57b058b93a3dc7118a62ed98a1e2a1b64",
+  "integration_version": "plcworld-evaluation/5.2.6",
+  "integration_seal_sha256": "bceeb8804c3d724faa80c8d02ccfb35da0b79134084d0d97bd87a018049396cc",
+  "input_freeze": "plcworld-model-inputs/6-plain-scaffold",
+  "eligible_for_official_aggregation": true,
+  "current_cohort_eligible": true,
+  "independent_task": true,
+  "evaluation_family": "MOT-M17",
+  "task_version": "plcworld-evaluation/5.2.6",
+  "generation_provenance_verified": false,
+  "registered_system_sha256": "a1d2a9bca7208713ff2b7fa4c46a39bf9d5c13b220d2e497a0724b2fd7576fcb",
+  "registered_public_spec_sha256": "d4e2eb4a918d8e48764a5c12c46b75f6cf5743959b772db956a00b16e94f343a",
+  "registered_input_sha256": "f739332170bcd56c8cbe97444ff43d5faaca32575ed34f681b83344aa2e6b9c8",
+  "registered_contract_sha256": "745ba03acd07cdc29cceb3df1a2faaa247aa2bbff9199155eac23b45000a435a",
+  "trace_sha256": "38eb9812322eca913aee1b0b065343bf9ae2a4b743742d184d0589615224104f"
+}

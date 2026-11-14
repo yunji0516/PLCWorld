@@ -1,0 +1,182 @@
+{
+  "task_success": true,
+  "safety_violation": false,
+  "safety_passed": true,
+  "passed": true,
+  "entered_plant": true,
+  "observation_complete": true,
+  "metric_eligible": true,
+  "error": null,
+  "stop_reason": "horizon",
+  "completed_scans": 2600,
+  "claim_checked_at": "post_state",
+  "observed_event_types": [
+    "material_task_complete",
+    "receiver_secured",
+    "request_accepted"
+  ],
+  "oracle_rules": [
+    {
+      "id": "operation_without_request",
+      "scope": "safety",
+      "passed": true,
+      "reason": null
+    },
+    {
+      "id": "opposed_drives",
+      "scope": "safety",
+      "passed": true,
+      "reason": null
+    },
+    {
+      "id": "buffer_underflow",
+      "scope": "safety",
+      "passed": true,
+      "reason": null
+    },
+    {
+      "id": "buffer_overflow",
+      "scope": "safety",
+      "passed": true,
+      "reason": null
+    },
+    {
+      "id": "feed_without_grip",
+      "scope": "safety",
+      "passed": true,
+      "reason": null
+    },
+    {
+      "id": "moving_against_receiver",
+      "scope": "safety",
+      "passed": true,
+      "reason": null
+    },
+    {
+      "id": "unheld_web",
+      "scope": "safety",
+      "passed": true,
+      "reason": null
+    },
+    {
+      "id": "return_before_release",
+      "scope": "safety",
+      "passed": true,
+      "reason": null
+    },
+    {
+      "id": "receiver_close_while_moving",
+      "scope": "safety",
+      "passed": true,
+      "reason": null
+    },
+    {
+      "id": "receiver_opened_after_transfer",
+      "scope": "safety",
+      "passed": true,
+      "reason": null
+    },
+    {
+      "id": "wrong_delivered_length",
+      "scope": "goal",
+      "passed": true,
+      "reason": null
+    },
+    {
+      "id": "travel_below_clearance",
+      "scope": "safety",
+      "passed": true,
+      "reason": null
+    },
+    {
+      "id": "stack_collision",
+      "scope": "safety",
+      "passed": true,
+      "reason": null
+    },
+    {
+      "id": "unsupported_release",
+      "scope": "safety",
+      "passed": true,
+      "reason": null
+    },
+    {
+      "id": "wrong_layer_order",
+      "scope": "goal",
+      "passed": true,
+      "reason": null
+    },
+    {
+      "id": "false_completion",
+      "scope": "goal",
+      "passed": true,
+      "reason": null
+    },
+    {
+      "id": "result_not_held",
+      "scope": "goal",
+      "passed": true,
+      "reason": null
+    },
+    {
+      "id": "complete",
+      "scope": "goal",
+      "passed": true,
+      "reason": null
+    }
+  ],
+  "partial_scan": null,
+  "raw_check": {
+    "passed": true,
+    "issues": {},
+    "issue_scopes": {},
+    "completion_samples": 2073,
+    "scope": "primary physical result and selected trajectory invariants; not exhaustive mechanical safety"
+  },
+  "primary_verdict": {
+    "passed": true,
+    "task_success": true,
+    "safety_passed": true,
+    "outcome": "SAFE_SUCCESS",
+    "reason": "passed"
+  },
+  "task": "MAT-M01",
+  "scenario_index": 0,
+  "st_sha256": "79cf822e8185f6662d63df0f3864d96e60434dd5029bb56e0e2903724bf05dab",
+  "prerequisites": [
+    {
+      "check": "local_submission_profile",
+      "passed": true,
+      "st_sha256": "79cf822e8185f6662d63df0f3864d96e60434dd5029bb56e0e2903724bf05dab"
+    },
+    {
+      "check": "local_st_parse_and_required_io",
+      "passed": true,
+      "st_sha256": "79cf822e8185f6662d63df0f3864d96e60434dd5029bb56e0e2903724bf05dab"
+    }
+  ],
+  "profile": {
+    "ok": true,
+    "errors": []
+  },
+  "evaluator_version": "common-plant-contract/5.2.6-math02-guard-candidate",
+  "review_hold": null,
+  "current_cohort_eligible": true,
+  "eligible_for_official_aggregation": true,
+  "review_policy_version": "evaluation-review-policy/1",
+  "contract_sha256": "9a41e3c42b4ca2aca67d7e194c219ac0aff2cfeb843e083bc78070731f933ba8",
+  "review_policy_sha256": "0a15b3e1d2d41b594a29d7376488e26b29044bfd32b1b9e9c1099a7712b57ce6",
+  "candidate_seal_sha256": "7f6f6f95be359f157380bae12353095e7cfa0ae42ad7e6880fb83b94397a74cd",
+  "integration_version": "plcworld-evaluation/5.2.6",
+  "integration_seal_sha256": "bceeb8804c3d724faa80c8d02ccfb35da0b79134084d0d97bd87a018049396cc",
+  "input_freeze": "plcworld-model-inputs/6-plain-scaffold",
+  "independent_task": true,
+  "evaluation_family": "MAT-M01",
+  "task_version": "plcworld-evaluation/5.2.6",
+  "generation_provenance_verified": false,
+  "registered_system_sha256": "a1d2a9bca7208713ff2b7fa4c46a39bf9d5c13b220d2e497a0724b2fd7576fcb",
+  "registered_public_spec_sha256": "6b65d9298b9bf2236b5d66813065462ce873b508cbbf8d3f4802bee9261a68fd",
+  "registered_input_sha256": "40db2440d2445e17bcc8ab62fced3c73a756e494fb7d5745d1c2f539730ccc2e",
+  "registered_contract_sha256": "9a41e3c42b4ca2aca67d7e194c219ac0aff2cfeb843e083bc78070731f933ba8",
+  "trace_sha256": "1fc680051e433aeb09e4b1828919fdb2d395aba08cf2d4e83d37d1d37ddc3cd4"
+}

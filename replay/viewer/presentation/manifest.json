@@ -1,0 +1,97 @@
+{
+  "schema": "recorded-contact-presentation/1",
+  "tasks": {
+    "MAT-H02": {
+      "source": "replay/traces/reference/MAT-H02/case-00.frames.json.gz",
+      "source_sha256": "c1f39234602d1edc97eb66621dca26a06059e390fc7ed2066a49cd2442456284",
+      "asset_sha256": "6ec8c6c6a93421e5f5ca1c1a2a685bf3c7b17965b70b27ea29c6777222dbbb74",
+      "scans": 8388,
+      "label": "Reference \u00b7 condition 0"
+    },
+    "MAT-H03": {
+      "source": "replay/traces/reference/MAT-H03/case-00.frames.json.gz",
+      "source_sha256": "152ae547d2949d06e58afefc2695c7e572eec8f63fd1356ab35812d38c967c7b",
+      "asset_sha256": "a28856a3e9470c735791d83c98b36e71421abbe1b5abec6da5bbd911f07d0911",
+      "scans": 10683,
+      "label": "Reference \u00b7 condition 0"
+    },
+    "MAT-H04": {
+      "source": "replay/traces/reference/MAT-H04/case-00.frames.json.gz",
+      "source_sha256": "e2d95cf87e3643735e22d59cc7aa936242144a2b09024ecb66ae705275fffbb7",
+      "asset_sha256": "6fb85bf9e17c47332d6063b65fabffa94e9468e2cd3950b06889b70f1296496a",
+      "scans": 6330,
+      "label": "Reference \u00b7 condition 0"
+    },
+    "MAT-H05": {
+      "source": "replay/traces/reference/MAT-H05/case-00.frames.json.gz",
+      "source_sha256": "12654196eee22d077e553c40bade81d656e178b2c7fe408526e928d8b4622230",
+      "asset_sha256": "a3c9bd34a0335d44aae748ed9fe9906d0a0290a560c644e8f7e0c7191a329e0d",
+      "scans": 8089,
+      "label": "Reference \u00b7 condition 0"
+    },
+    "MAT-H06": {
+      "source": "replay/traces/reference/MAT-H06/case-00.frames.json.gz",
+      "source_sha256": "95f8c2fc1d8da8e5bcc4a395d5c212f92b670bb44d46ad2aa59e34bfc31288d5",
+      "asset_sha256": "7354a45f24634b7581442b80cf9e1941e1dcf03d7bc186d5fee8339f1d35775f",
+      "scans": 8508,
+      "label": "Reference \u00b7 condition 0"
+    },
+    "MAT-H08": {
+      "source": "replay/traces/reference/MAT-H08/case-00.frames.json.gz",
+      "source_sha256": "f7a3d9eab81e03811252d155abc2e750b84787a6bc7f8c383e6d37029b4a2165",
+      "asset_sha256": "7fab1fc21cc1159a4b38914779db17c3ca227f54165ffcfc7607a2be10ff4f06",
+      "scans": 6025,
+      "label": "Reference \u00b7 condition 0"
+    },
+    "MAT-H09": {
+      "source": "replay/traces/reference/MAT-H09/case-00.frames.json.gz",
+      "source_sha256": "8b8e991286c8d9321bccd0804667a69ce7c09bad1f4e671da877278a83e1d524",
+      "asset_sha256": "c226cda4eba15cac69f77275f327227c6ef1177688ad1b1ea4526e119d7bb70a",
+      "scans": 5017,
+      "label": "Reference \u00b7 condition 0"
+    },
+    "MAT-H10": {
+      "source": "replay/traces/reference/MAT-H10/case-00.frames.json.gz",
+      "source_sha256": "5f1b1e37b92e372bccc66d748706894d1550da9ceb265a48a90bb13a708d4a25",
+      "asset_sha256": "effdabaab74bcf40604ce6b457ef4d9501f10d915aaa61b1d0950fe20c889472",
+      "scans": 7423,
+      "label": "Reference \u00b7 condition 0"
+    },
+    "MAT-H11": {
+      "source": "replay/traces/reference/MAT-H11/case-00.frames.json.gz",
+      "source_sha256": "366f6cdb2b04e77ea92ce90f7bd3c4a0928ff101217140b42e92a7227ff4e3ba",
+      "asset_sha256": "eab1c9c60446055c129adc77b194146124e001b50ac95909e68c16063d07caec",
+      "scans": 24884,
+      "label": "Reference \u00b7 condition 0"
+    },
+    "MAT-H12": {
+      "source": "replay/traces/reference/MAT-H12/case-00.frames.json.gz",
+      "source_sha256": "b9bf35dfce4a15589f395e7400b3d6af88f31376d636173551c61c67c538019c",
+      "asset_sha256": "7af461d4f4da728aa7954dd271b6d16e3eedc673ad1f7e5ceb46fb4b4f223401",
+      "scans": 3956,
+      "label": "Reference \u00b7 condition 0"
+    },
+    "MAT-H13": {
+      "source": "replay/traces/reference/MAT-H13/case-00.frames.json.gz",
+      "source_sha256": "80a4fba1d1125c33962e32e74dd9c0633487a6feea70a3eabe89b918e28954b5",
+      "asset_sha256": "01b87713dd311797df120fb5506fa3b8987637822a440c00ae2f45870fefe239",
+      "scans": 11587,
+      "label": "Reference \u00b7 condition 0"
+    },
+    "MAT-H14": {
+      "source": "replay/traces/reference/MAT-H14/case-00.frames.json.gz",
+      "source_sha256": "64e0aede5fb97c1b3546084cbaf84af66aa637568bce88035c6516b6f40735d5",
+      "asset_sha256": "4dc9e8838b5a159e2d40dc3b445382b2498e755cc346f533547981e990a296e1",
+      "scans": 7668,
+      "label": "Reference \u00b7 condition 0"
+    },
+    "MAT-H15": {
+      "source": "replay/traces/reference/MAT-H15/case-00.frames.json.gz",
+      "source_sha256": "787891ce1fb795a5b70bf1e2e7d0e9f6de0e98d25eb42292da7fa14990faa115",
+      "asset_sha256": "fca459907e83493b008919bd5156c8c15779065138bba34bb88d42a231a26762",
+      "scans": 7526,
+      "label": "Reference \u00b7 condition 0"
+    }
+  },
+  "projection_sha256": "47cd7eb37a8d1d76adae0dc1d0acc2dd379ff7d546ff374a094b19d5800548db"
+}

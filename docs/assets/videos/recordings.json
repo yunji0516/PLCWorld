@@ -1,0 +1,104 @@
+[
+  {
+    "task": "MOT-E01",
+    "run": "Reference",
+    "condition": 0,
+    "first_frame": 0,
+    "last_frame": 158,
+    "video_seconds": 12,
+    "fps": 20,
+    "resolution": [
+      1280,
+      720
+    ],
+    "sampling": "Uniformly sampled full recorded run, with brief start and end holds; playback duration is not real time.",
+    "bytes": 121519,
+    "errors": []
+  },
+  {
+    "task": "MAT-E01",
+    "run": "Reference",
+    "condition": 0,
+    "first_frame": 0,
+    "last_frame": 20,
+    "recorded_last_frame": 1599,
+    "video_seconds": 12,
+    "fps": 20,
+    "resolution": [
+      1280,
+      720
+    ],
+    "sampling": "Uniformly sampled recorded execution window, with brief start and end holds; stationary tails may be omitted and playback duration is not real time.",
+    "bytes": 60414,
+    "errors": []
+  },
+  {
+    "task": "MOT-M14",
+    "run": "Reference",
+    "condition": 0,
+    "first_frame": 0,
+    "last_frame": 370,
+    "recorded_last_frame": 370,
+    "video_seconds": 12,
+    "fps": 20,
+    "resolution": [
+      1280,
+      720
+    ],
+    "sampling": "Uniformly sampled recorded execution window, with brief start and end holds; stationary tails may be omitted and playback duration is not real time.",
+    "bytes": 167132,
+    "errors": []
+  },
+  {
+    "task": "MAT-M04",
+    "run": "Reference",
+    "condition": 0,
+    "first_frame": 0,
+    "last_frame": 1256,
+    "recorded_last_frame": 2599,
+    "video_seconds": 12,
+    "fps": 20,
+    "resolution": [
+      1280,
+      720
+    ],
+    "sampling": "Uniformly sampled recorded execution window, with brief start and end holds; stationary tails may be omitted and playback duration is not real time.",
+    "bytes": 242013,
+    "errors": []
+  },
+  {
+    "task": "MOT-H15",
+    "run": "Reference",
+    "condition": 0,
+    "first_frame": 0,
+    "last_frame": 3683,
+    "recorded_last_frame": 3683,
+    "video_seconds": 12,
+    "fps": 20,
+    "resolution": [
+      1280,
+      720
+    ],
+    "sampling": "Uniformly sampled recorded execution window, with brief start and end holds; stationary tails may be omitted and playback duration is not real time.",
+    "bytes": 229387,
+    "errors": []
+  },
+  {
+    "task": "MAT-H01",
+    "run": "Reference",
+    "condition": 0,
+    "first_frame": 0,
+    "last_frame": 10291,
+    "recorded_last_frame": 10291,
+    "video_seconds": 36,
+    "fps": 30,
+    "resolution": [
+      1920,
+      1080
+    ],
+    "sampling": "Directly rendered at 30 fps from the recorded run; no slow-down of a lower-frame-rate clip.",
+    "bytes": 3929413,
+    "errors": [],
+    "frames": 1080
+  }
+]

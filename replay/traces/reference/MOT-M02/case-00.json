@@ -1,0 +1,116 @@
+{
+  "task": "MOT-M02",
+  "scenario": "normal",
+  "scenario_index": 0,
+  "program": "submission.st",
+  "program_sha256": "8e8738a35fe29e5c15a01d71a75ca7b558e935fca66587f9e3b56388cb20f665",
+  "st_sha256": "8e8738a35fe29e5c15a01d71a75ca7b558e935fca66587f9e3b56388cb20f665",
+  "evaluator_version": "priority-redesign/1",
+  "task_success": true,
+  "safety_violation": false,
+  "passed": true,
+  "entered_plant": true,
+  "error": null,
+  "raw_errors": {},
+  "failure_types": [],
+  "executed_scans": 1816,
+  "completion_ms": 18060.0,
+  "hold_ms": 100.0,
+  "final_state": {
+    "time_ms": 18160.0,
+    "setup": {
+      "request": {
+        "dock": 400,
+        "park": 800
+      }
+    },
+    "axes": {
+      "a": {
+        "position": 0.0033384047165429024,
+        "velocity": -0.06961186688449464
+      },
+      "b": {
+        "position": 0.0033384047165429024,
+        "velocity": -0.06961186688449464
+      },
+      "c": {
+        "position": 799.9999999999986,
+        "velocity": 2.7284841053187847e-11
+      }
+    },
+    "history": {
+      "request_available": 30.0,
+      "rail_connected": 7778.0,
+      "trolley_cleared": 9596.0,
+      "park_stopped": 10276.0,
+      "result_asserted": 18060.0
+    },
+    "result": true,
+    "hold_ms": 100.0,
+    "geometry_safe": true,
+    "contacts": [],
+    "sensors": {
+      "latch_open": true,
+      "latch_engaged": false,
+      "end_stops_closed": true,
+      "joint_aligned": false,
+      "fully_fixed": true,
+      "interlock_reason": 0
+    },
+    "latch": 0.0,
+    "interlock_reason": 0,
+    "trolley_world": [
+      400,
+      799.9999999999986
+    ],
+    "wheel_contacts": [
+      {
+        "c": 759.9999999999986,
+        "rail": "fixed"
+      },
+      {
+        "c": 839.9999999999986,
+        "rail": "fixed"
+      }
+    ]
+  },
+  "independent_task": true,
+  "evaluation_family": "MOT-M02",
+  "contract_sha256": "ca140cc8035db9bd7747bac0894bd2836d78756a9004b9f1af4da408f9de2d28",
+  "prerequisites": [
+    {
+      "check": "local_submission_profile",
+      "passed": true,
+      "st_sha256": "8e8738a35fe29e5c15a01d71a75ca7b558e935fca66587f9e3b56388cb20f665"
+    },
+    {
+      "check": "local_st_parse_and_required_io",
+      "passed": true,
+      "st_sha256": "8e8738a35fe29e5c15a01d71a75ca7b558e935fca66587f9e3b56388cb20f665"
+    }
+  ],
+  "profile": {
+    "ok": true,
+    "errors": []
+  },
+  "metric_eligible": true,
+  "observation_complete": true,
+  "partial_scan": null,
+  "claim_checked_at": "post_state",
+  "completed_scans": 1816,
+  "stop_reason": "post_claim_window",
+  "safety_passed": true,
+  "core_evaluator_version": "priority-redesign/1",
+  "integration_version": "plcworld-evaluation/5.2.6",
+  "integration_seal_sha256": "bceeb8804c3d724faa80c8d02ccfb35da0b79134084d0d97bd87a018049396cc",
+  "input_freeze": "plcworld-model-inputs/6-plain-scaffold",
+  "eligible_for_official_aggregation": true,
+  "current_cohort_eligible": true,
+  "task_version": "priority-redesign/1",
+  "generation_provenance_verified": false,
+  "registered_system_sha256": "a1d2a9bca7208713ff2b7fa4c46a39bf9d5c13b220d2e497a0724b2fd7576fcb",
+  "registered_public_spec_sha256": "d78cdb769d54af939dd55fa27716d18449bd66d1ad5499dee932c6536ab08245",
+  "registered_input_sha256": "caf7fadbfd8210a15cd09f7ded44ffc7aa4ea86496dfe68cf52d59d6e357ac78",
+  "registered_contract_sha256": "ca140cc8035db9bd7747bac0894bd2836d78756a9004b9f1af4da408f9de2d28",
+  "trace_sha256": "09ba53915999035a64b8275d7ba728ada80e5d454c23c019f3ea883d78be30ac"
+}

@@ -1,0 +1,53 @@
+{
+  "task": "MOT-E01",
+  "title": "Linear Axis Positioning Task",
+  "aim": "Move the prepared linear axis to the requested absolute position and hold it at rest.",
+  "suite": "motion",
+  "difficulty": "easy",
+  "family": "motion_easy_unit",
+  "function_id": "motion.position",
+  "parent_medium": "MOT-V07-D01",
+  "task_version": "0.4-medium-extraction",
+  "completion_output": "Y2",
+  "io": {
+    "X10": "Function request",
+    "Y2": "Function result held",
+    "D10": "Requested position in 0.01 mm",
+    "D11": "Actual S position in 0.01 mm",
+    "D12": "Actual S velocity in 0.01 mm/s",
+    "Y20": "Axis command enabled",
+    "D20": "Axis command in 0.01 mm"
+  },
+  "devices": [
+    {
+      "id": "BASE",
+      "kind": "static",
+      "ui": "fixture",
+      "drive": null,
+      "at_max": null,
+      "at_min": null,
+      "pos": [0, 0.3, 0],
+      "size": [2.75, 0.6, 0.78],
+      "rot": 0,
+      "dynamic_world_position": false
+    },
+    {
+      "id": "AXIS",
+      "kind": "act",
+      "ui": "servo",
+      "drive": null,
+      "at_max": null,
+      "at_min": null,
+      "pos": [0, 0.63, 0],
+      "size": [2.35, 0.28, 0.52],
+      "rot": 0,
+      "dynamic_world_position": false,
+      "motion_axis": "x"
+    }
+  ],
+  "relations": [
+    { "type": "mounted_on", "child": "AXIS", "parent": "BASE" }
+  ],
+  "observed": ["X10", "Y2", "D10", "D11", "D12", "Y20", "D20"],
+  "assembly_view": { "dist": 4.6, "target": [0, 0.7, -0.2], "front_sign": 1 }
+}

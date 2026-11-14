@@ -1,0 +1,156 @@
+{
+  "task_success": true,
+  "safety_violation": false,
+  "safety_passed": true,
+  "passed": true,
+  "entered_plant": true,
+  "observation_complete": true,
+  "metric_eligible": true,
+  "error": null,
+  "stop_reason": "contract_endpoint",
+  "completed_scans": 76,
+  "claim_checked_at": "post_state",
+  "observed_event_types": [
+    "motion_easy_unit_complete",
+    "request_accepted",
+    "result_asserted"
+  ],
+  "oracle_rules": [
+    {
+      "id": "request_accepted",
+      "scope": "goal",
+      "passed": true,
+      "reason": null
+    },
+    {
+      "id": "result_asserted",
+      "scope": "goal",
+      "passed": true,
+      "reason": null
+    },
+    {
+      "id": "motion_easy_unit_complete",
+      "scope": "goal",
+      "passed": true,
+      "reason": null
+    },
+    {
+      "id": "no_motion_without_request",
+      "scope": "safety",
+      "passed": true,
+      "reason": null
+    },
+    {
+      "id": "no_command_out_of_range",
+      "scope": "safety",
+      "passed": true,
+      "reason": null
+    },
+    {
+      "id": "no_premature_completion",
+      "scope": "goal",
+      "passed": true,
+      "reason": null
+    },
+    {
+      "id": "no_result_not_held",
+      "scope": "goal",
+      "passed": true,
+      "reason": null
+    },
+    {
+      "id": "no_travel_limit",
+      "scope": "safety",
+      "passed": true,
+      "reason": null
+    },
+    {
+      "id": "no_completion_deadline_missed",
+      "scope": "goal",
+      "passed": true,
+      "reason": null
+    },
+    {
+      "id": "no_stale_capture",
+      "scope": "goal",
+      "passed": true,
+      "reason": null
+    },
+    {
+      "id": "no_wrong_reference",
+      "scope": "goal",
+      "passed": true,
+      "reason": null
+    },
+    {
+      "id": "no_support_lost",
+      "scope": "safety",
+      "passed": true,
+      "reason": null
+    },
+    {
+      "id": "no_obstruction_contact",
+      "scope": "safety",
+      "passed": true,
+      "reason": null
+    },
+    {
+      "id": "no_corridor_exit",
+      "scope": "safety",
+      "passed": true,
+      "reason": null
+    },
+    {
+      "id": "no_excess_sway",
+      "scope": "safety",
+      "passed": true,
+      "reason": null
+    },
+    {
+      "id": "no_excess_moment",
+      "scope": "safety",
+      "passed": true,
+      "reason": null
+    }
+  ],
+  "partial_scan": null,
+  "task": "MOT-E08",
+  "scenario_index": 0,
+  "st_sha256": "1e0ad8b06b7a0e0d907e6f62ffea54b017f25eae30d96407ffa773244a8f49e6",
+  "prerequisites": [
+    {
+      "check": "local_submission_profile",
+      "passed": true,
+      "st_sha256": "1e0ad8b06b7a0e0d907e6f62ffea54b017f25eae30d96407ffa773244a8f49e6"
+    },
+    {
+      "check": "local_st_parse_and_required_io",
+      "passed": true,
+      "st_sha256": "1e0ad8b06b7a0e0d907e6f62ffea54b017f25eae30d96407ffa773244a8f49e6"
+    }
+  ],
+  "profile": {
+    "ok": true,
+    "errors": []
+  },
+  "evaluator_version": "common-plant-contract/5.2.6-math02-guard-candidate",
+  "review_hold": null,
+  "current_cohort_eligible": true,
+  "eligible_for_official_aggregation": true,
+  "review_policy_version": "evaluation-review-policy/1",
+  "contract_sha256": "2b2942918ce50bb6c0abc67ef28b294c6549581a293da612d7c873c9dfe2580c",
+  "review_policy_sha256": "0a15b3e1d2d41b594a29d7376488e26b29044bfd32b1b9e9c1099a7712b57ce6",
+  "candidate_seal_sha256": "7f6f6f95be359f157380bae12353095e7cfa0ae42ad7e6880fb83b94397a74cd",
+  "integration_version": "plcworld-evaluation/5.2.6",
+  "integration_seal_sha256": "bceeb8804c3d724faa80c8d02ccfb35da0b79134084d0d97bd87a018049396cc",
+  "input_freeze": "plcworld-model-inputs/6-plain-scaffold",
+  "independent_task": true,
+  "evaluation_family": "MOT-E08",
+  "task_version": "plcworld-evaluation/5.2.6",
+  "generation_provenance_verified": false,
+  "registered_system_sha256": "a1d2a9bca7208713ff2b7fa4c46a39bf9d5c13b220d2e497a0724b2fd7576fcb",
+  "registered_public_spec_sha256": "feb22d69bbd214611db9bc761f9fd93ae30407b1559b6cb68f8c199422a626a6",
+  "registered_input_sha256": "4c97724cdbb552f6eff8f6282a44d1ffa079e13331fbdbc522cc63fc8b0dd18d",
+  "registered_contract_sha256": "2b2942918ce50bb6c0abc67ef28b294c6549581a293da612d7c873c9dfe2580c",
+  "trace_sha256": "b1f5e12f901a2d09f7ded5aff06f1de50fe01851a24a4ce0678c62f802516752"
+}

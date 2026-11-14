@@ -1,0 +1,1011 @@
+{
+  "task": "MAT-H07",
+  "scenario": "slow_wind",
+  "scenario_index": 5,
+  "program": "submissions/gemini-3.1-pro/repeat-02/MAT-H07.st",
+  "program_sha256": "f38cd16fc1450f1c51fc9d377dd75acc01b8adca4116ac3957ab3342edb8b15a",
+  "st_sha256": "f38cd16fc1450f1c51fc9d377dd75acc01b8adca4116ac3957ab3342edb8b15a",
+  "evaluator_version": "priority-redesign/1",
+  "task_success": false,
+  "safety_violation": true,
+  "passed": false,
+  "entered_plant": true,
+  "error": null,
+  "raw_errors": {},
+  "failure_types": [
+    "completion_deadline_missed",
+    "untaped_roll"
+  ],
+  "executed_scans": 24010,
+  "completion_ms": null,
+  "hold_ms": 0,
+  "final_state": {
+    "parts": {
+      "1": {
+        "token": 1,
+        "owner": "receiver",
+        "x": 0.45,
+        "y": 0.9206322975267087,
+        "z": -0.6999999999999974,
+        "size": [
+          0.1010135822152077,
+          0.1010135822152077,
+          0.12
+        ],
+        "status": "idle",
+        "radius": 0.05050679110760385,
+        "length": 0.8001000000000085,
+        "wound": 0.800100000000019,
+        "tail": 0.0,
+        "segments": [
+          {
+            "u0": 0.0,
+            "u1": 0.8001000000000085,
+            "a0": 0.0,
+            "a1": 0.8001000000000085,
+            "b0": 0.20000000000000015,
+            "b1": 1.000100000000017
+          }
+        ],
+        "connected": {
+          "a": false,
+          "b": false
+        },
+        "target": 0.8,
+        "tape": 1
+      },
+      "2": {
+        "token": 2,
+        "owner": "core",
+        "x": 0.45,
+        "y": 0.95,
+        "z": 0.4,
+        "size": [
+          0.1,
+          0.1,
+          0.12
+        ],
+        "status": "idle",
+        "radius": 0.05,
+        "length": 0.0,
+        "wound": 0.0,
+        "tail": 0.0,
+        "segments": [],
+        "connected": {
+          "a": false,
+          "b": false
+        },
+        "target": 1.0,
+        "tape": 0
+      },
+      "3": {
+        "token": 3,
+        "owner": "core",
+        "x": 0.45,
+        "y": 0.95,
+        "z": 1.3599999999999999,
+        "size": [
+          0.1,
+          0.1,
+          0.12
+        ],
+        "status": "idle",
+        "radius": 0.05,
+        "length": 0.0,
+        "wound": 0.0,
+        "tail": 0.0,
+        "segments": [],
+        "connected": {
+          "a": false,
+          "b": false
+        },
+        "target": 0.7,
+        "tape": 0
+      },
+      "201": {
+        "token": 201,
+        "owner": "accepted",
+        "x": -0.09999999999999995,
+        "y": 0.95986,
+        "z": -0.35,
+        "size": [
+          0.20000000000000015,
+          0.00012,
+          0.12
+        ],
+        "status": "idle",
+        "length": 0.20000000000000015,
+        "connected": false
+      }
+    },
+    "physical": {
+      "sources": {
+        "a": {
+          "radius": 0.05060407595110518,
+          "lead": 0.8133693932112426,
+          "wound": 2.386530606770536,
+          "stock": 3.1998999999999915,
+          "path": [
+            [
+              -0.5638679316586037,
+              1.2513332456971136,
+              0.0
+            ],
+            [
+              0.17588928419362804,
+              1.0405342585785256,
+              0.0
+            ],
+            [
+              0.17601458032452438,
+              1.0404991414497502,
+              0.0
+            ],
+            [
+              0.17614017637743712,
+              1.0404651125701954,
+              0.0
+            ],
+            [
+              0.17626606290065866,
+              1.0404321745006981,
+              0.0
+            ],
+            [
+              0.17639223042062213,
+              1.0404003297200068,
+              0.0
+            ],
+            [
+              0.17651866944261427,
+              1.0403695806245943,
+              0.0
+            ],
+            [
+              0.17664537045148998,
+              1.040339929528478,
+              0.0
+            ],
+            [
+              0.17677232391238842,
+              1.040311378663046,
+              0.0
+            ],
+            [
+              0.1768995202714505,
+              1.040283930176888,
+              0.0
+            ],
+            [
+              0.1770269499565379,
+              1.040257586135635,
+              0.0
+            ],
+            [
+              0.17715460337795333,
+              1.0402323485218026,
+              0.0
+            ],
+            [
+              0.17728247092916233,
+              1.0402082192346431,
+              0.0
+            ],
+            [
+              0.17741054298751607,
+              1.0401852000900011,
+              0.0
+            ],
+            [
+              0.1775388099149757,
+              1.0401632928201785,
+              0.0
+            ],
+            [
+              0.1776672620588374,
+              1.0401424990738024,
+              0.0
+            ],
+            [
+              0.17779588975245897,
+              1.0401228204157027,
+              0.0
+            ],
+            [
+              0.17792468331598726,
+              1.040104258326793,
+              0.0
+            ],
+            [
+              0.17805363305708663,
+              1.0400868142039597,
+              0.0
+            ],
+            [
+              0.17818272927166826,
+              1.040070489359957,
+              0.0
+            ],
+            [
+              0.17831196224462054,
+              1.0400552850233082,
+              0.0
+            ],
+            [
+              0.17844132225054013,
+              1.040041202338213,
+              0.0
+            ],
+            [
+              0.17857079955446387,
+              1.040028242364461,
+              0.0
+            ],
+            [
+              0.1787003844126013,
+              1.0400164060773522,
+              0.0
+            ],
+            [
+              0.17883006707306803,
+              1.040005694367625,
+              0.0
+            ],
+            [
+              0.17895983777661958,
+              1.0399961080413866,
+              0.0
+            ],
+            [
+              0.1790896867573858,
+              1.0399876478200543,
+              0.0
+            ],
+            [
+              0.17921960424360575,
+              1.0399803143403006,
+              0.0
+            ],
+            [
+              0.17934958045836322,
+              1.039974108154005,
+              0.0
+            ],
+            [
+              0.1794796056203223,
+              1.039969029728213,
+              0.0
+            ],
+            [
+              0.17960966994446367,
+              1.0399650794451005,
+              0.0
+            ],
+            [
+              0.17973976364282074,
+              1.0399622576019454,
+              0.0
+            ],
+            [
+              0.17986987692521647,
+              1.039960564411105,
+              0.0
+            ],
+            [
+              0.18,
+              1.03996,
+              0.0
+            ],
+            [
+              0.22,
+              1.03996,
+              0.0
+            ]
+          ],
+          "guide": [
+            0.18,
+            1.05496,
+            0.0
+          ]
+        },
+        "b": {
+          "radius": 0.05082149599371405,
+          "lead": 0.8315608375943375,
+          "wound": 2.1683391624032664,
+          "stock": 2.999899999999983,
+          "path": [
+            [
+              -0.5668699244887422,
+              0.6979398592278204,
+              0.0
+            ],
+            [
+              0.17502083001723462,
+              0.9590094828980683,
+              0.0
+            ],
+            [
+              0.1751707206147615,
+              0.959061340099417,
+              0.0
+            ],
+            [
+              0.17532115115492594,
+              0.9591116095050681,
+              0.0
+            ],
+            [
+              0.17547210481868392,
+              0.9591602854945981,
+              0.0
+            ],
+            [
+              0.17562356472850305,
+              0.959207362625737,
+              0.0
+            ],
+            [
+              0.17577551395024948,
+              0.9592528356349769,
+              0.0
+            ],
+            [
+              0.17592793549508146,
+              0.9592966994381604,
+              0.0
+            ],
+            [
+              0.17608081232134856,
+              0.959338949131049,
+              0.0
+            ],
+            [
+              0.17623412733649718,
+              0.9593795799898716,
+              0.0
+            ],
+            [
+              0.17638786339898155,
+              0.9594185874718525,
+              0.0
+            ],
+            [
+              0.17654200332018022,
+              0.9594559672157194,
+              0.0
+            ],
+            [
+              0.17669652986631795,
+              0.9594917150421907,
+              0.0
+            ],
+            [
+              0.17685142576039248,
+              0.9595258269544433,
+              0.0
+            ],
+            [
+              0.1770066736841062,
+              0.9595582991385594,
+              0.0
+            ],
+            [
+              0.17716225627980245,
+              0.9595891279639521,
+              0.0
+            ],
+            [
+              0.17731815615240626,
+              0.9596183099837726,
+              0.0
+            ],
+            [
+              0.17747435587136914,
+              0.9596458419352943,
+              0.0
+            ],
+            [
+              0.177630837972618,
+              0.959671720740279,
+              0.0
+            ],
+            [
+              0.17778758496050767,
+              0.9596959435053193,
+              0.0
+            ],
+            [
+              0.17794457930977706,
+              0.9597185075221639,
+              0.0
+            ],
+            [
+              0.1781018034675086,
+              0.9597394102680192,
+              0.0
+            ],
+            [
+              0.17825923985509073,
+              0.9597586494058318,
+              0.0
+            ],
+            [
+              0.17841687087018332,
+              0.9597762227845499,
+              0.0
+            ],
+            [
+              0.17857467888868567,
+              0.9597921284393632,
+              0.0
+            ],
+            [
+              0.1787326462667071,
+              0.9598063645919236,
+              0.0
+            ],
+            [
+              0.17889075534253948,
+              0.9598189296505429,
+              0.0
+            ],
+            [
+              0.1790489884386321,
+              0.9598298222103718,
+              0.0
+            ],
+            [
+              0.179207327863568,
+              0.9598390410535562,
+              0.0
+            ],
+            [
+              0.17936575591404197,
+              0.9598465851493736,
+              0.0
+            ],
+            [
+              0.17952425487683996,
+              0.9598524536543485,
+              0.0
+            ],
+            [
+              0.17968280703081954,
+              0.9598566459123465,
+              0.0
+            ],
+            [
+              0.1798413946488911,
+              0.959859161454648,
+              0.0
+            ],
+            [
+              0.18,
+              0.9598599999999999,
+              0.0
+            ],
+            [
+              0.22,
+              0.9598599999999999,
+              0.0
+            ]
+          ],
+          "guide": [
+            0.18,
+            0.9448599999999999,
+            0.0
+          ]
+        }
+      },
+      "web": {
+        "a": {
+          "state": "ready",
+          "encoder": 0.8001000000000085,
+          "hold": 1.0,
+          "nip": 0.0
+        },
+        "b": {
+          "state": "ready",
+          "encoder": 1.000100000000017,
+          "hold": 1.0,
+          "nip": 0.0
+        }
+      },
+      "origin": 0.2,
+      "trim_state": "received",
+      "trim_length": 0.20000000000000015,
+      "trim_z": -0.35,
+      "trim_x": -0.1,
+      "knives": {
+        "a": null,
+        "b": null
+      },
+      "cut_history": [
+        {
+          "side": "b",
+          "id": 201,
+          "kind": "trim",
+          "scan": 378
+        },
+        {
+          "side": "a",
+          "id": 1,
+          "kind": "roll",
+          "scan": 2509
+        },
+        {
+          "side": "b",
+          "id": 1,
+          "kind": "roll",
+          "scan": 2509
+        }
+      ],
+      "active": 0,
+      "core_busy": false,
+      "mandrel": 1.0,
+      "support_y": 0.8000000000000066,
+      "support_z": 0.0,
+      "exit_job": null,
+      "receiver": {
+        "id": 1,
+        "age": 0.5000000000000002,
+        "phase": "ready"
+      },
+      "exit_pusher_z": -0.636,
+      "exit_pusher_x": 0.78,
+      "exit_results": [],
+      "core_results": [
+        1,
+        2
+      ],
+      "roll_results": [
+        1
+      ],
+      "pipeline_metrics": {
+        "triple_overlap_scans": 0,
+        "exit_blocks_unload_scans": 0,
+        "buffer_full_scans": 22683
+      },
+      "metrics": {
+        "independent_ready_scans": 149,
+        "unmatched_leader_scans": 349,
+        "connected_supported_scans": 61,
+        "retained_leader_scans": 568
+      },
+      "contention": {
+        "independent_leader_arrivals": true,
+        "registration_preparation_needed": true,
+        "actual_connected_support_phase": true,
+        "leaders_retained_during_exit": true
+      },
+      "extension": {
+        "kind": "core_tail_tape",
+        "stop": 1.0,
+        "tape": {
+          "stock": 0.21999999999999997,
+          "length": 0.0,
+          "grip": 0.0,
+          "severed": false,
+          "head": [
+            0.9,
+            1.3,
+            0.35
+          ],
+          "job": null,
+          "strips": [
+            {
+              "id": 1,
+              "roll": 1,
+              "length": 0.08,
+              "contact": [
+                0.45,
+                1.0015067911076037,
+                0.0
+              ]
+            }
+          ],
+          "history": [
+            {
+              "roll": 1,
+              "tail": 0.0,
+              "connections": {
+                "a": false,
+                "b": false
+              },
+              "length": 0.08
+            }
+          ],
+          "id": 2
+        },
+        "core_history": [
+          {
+            "id": 1,
+            "z": 0.4,
+            "stop": 1.0
+          }
+        ]
+      }
+    },
+    "goal": 0,
+    "violations": [
+      {
+        "type": "untaped_roll",
+        "scan": 3246
+      }
+    ],
+    "accepted": [],
+    "material_hard": {
+      "mode": "wind_tape",
+      "revision": 10,
+      "poses": {
+        "part1": {
+          "pos": [
+            0.45,
+            0.9206322975267087,
+            -0.6999999999999974
+          ],
+          "yaw": 0,
+          "size": [
+            0.1010135822152077,
+            0.1010135822152077,
+            0.12
+          ]
+        },
+        "part2": {
+          "pos": [
+            0.45,
+            0.95,
+            0.4
+          ],
+          "yaw": 0,
+          "size": [
+            0.1,
+            0.1,
+            0.12
+          ]
+        },
+        "part3": {
+          "pos": [
+            0.45,
+            0.95,
+            1.3599999999999999
+          ],
+          "yaw": 0,
+          "size": [
+            0.1,
+            0.1,
+            0.12
+          ]
+        },
+        "part201": {
+          "pos": [
+            -0.09999999999999995,
+            0.95986,
+            -0.35
+          ],
+          "yaw": 0,
+          "size": [
+            0.20000000000000015,
+            0.00012,
+            0.12
+          ]
+        }
+      },
+      "requests": [
+        {
+          "request_id": "WEB-a",
+          "generation": 1,
+          "payload": {
+            "registration_origin_mm": 0
+          },
+          "arrival": 0,
+          "state": "ready",
+          "result_ids": [],
+          "id": "WEB-a",
+          "label": "Source web A",
+          "progress": "ready",
+          "detail": ""
+        },
+        {
+          "request_id": "WEB-b",
+          "generation": 1,
+          "payload": {
+            "registration_origin_mm": 200
+          },
+          "arrival": 1.5,
+          "state": "ready",
+          "result_ids": [],
+          "id": "WEB-b",
+          "label": "Source web B",
+          "progress": "ready",
+          "detail": ""
+        },
+        {
+          "request_id": "ROLL-1",
+          "generation": 1,
+          "payload": {
+            "length_mm": 800
+          },
+          "arrival": 0.0,
+          "state": "done",
+          "result_ids": [
+            1
+          ],
+          "id": "ROLL-1",
+          "label": "Roll 1",
+          "progress": "done",
+          "detail": ""
+        },
+        {
+          "request_id": "ROLL-2",
+          "generation": 1,
+          "payload": {
+            "length_mm": 1000
+          },
+          "arrival": 0.0,
+          "state": "core",
+          "result_ids": [],
+          "id": "ROLL-2",
+          "label": "Roll 2",
+          "progress": "core",
+          "detail": ""
+        },
+        {
+          "request_id": "ROLL-3",
+          "generation": 1,
+          "payload": {
+            "length_mm": 700
+          },
+          "arrival": 0.0,
+          "state": "core",
+          "result_ids": [],
+          "id": "ROLL-3",
+          "label": "Roll 3",
+          "progress": "core",
+          "detail": ""
+        },
+        {
+          "request_id": "CORE-1",
+          "generation": 1,
+          "payload": {
+            "core_id": 1
+          },
+          "arrival": 0,
+          "state": "done",
+          "result_ids": [
+            1
+          ],
+          "id": "CORE-1",
+          "label": "Core preparation 1",
+          "progress": "done",
+          "detail": ""
+        },
+        {
+          "request_id": "CORE-2",
+          "generation": 1,
+          "payload": {
+            "core_id": 2
+          },
+          "arrival": 5,
+          "state": "done",
+          "result_ids": [
+            2
+          ],
+          "id": "CORE-2",
+          "label": "Core preparation 2",
+          "progress": "done",
+          "detail": ""
+        },
+        {
+          "request_id": "CORE-3",
+          "generation": 1,
+          "payload": {
+            "core_id": 3
+          },
+          "arrival": 10,
+          "state": "waiting",
+          "result_ids": [],
+          "id": "CORE-3",
+          "label": "Core preparation 3",
+          "progress": "waiting",
+          "detail": ""
+        },
+        {
+          "request_id": "EXIT-1",
+          "generation": 1,
+          "payload": {
+            "roll_id": 1
+          },
+          "arrival": 35.810000000001445,
+          "state": "ready",
+          "result_ids": [],
+          "id": "EXIT-1",
+          "label": "Roll dispatch 1",
+          "progress": "ready",
+          "detail": ""
+        }
+      ],
+      "shared": {
+        "A/B physical coordinates mm": "[800, 1000]",
+        "B registration origin mm": "200",
+        "Preparation trim": "received",
+        "Mandrel retraction": "1.0",
+        "Rolls accepted": "0/3"
+      },
+      "accepted": [],
+      "parts": {
+        "1": {
+          "token": 1,
+          "owner": "receiver",
+          "x": 0.45,
+          "y": 0.9206322975267087,
+          "z": -0.6999999999999974,
+          "size": [
+            0.1010135822152077,
+            0.1010135822152077,
+            0.12
+          ],
+          "status": "idle",
+          "radius": 0.05050679110760385,
+          "length": 0.8001000000000085,
+          "wound": 0.800100000000019,
+          "tail": 0.0,
+          "segments": [
+            {
+              "u0": 0.0,
+              "u1": 0.8001000000000085,
+              "a0": 0.0,
+              "a1": 0.8001000000000085,
+              "b0": 0.20000000000000015,
+              "b1": 1.000100000000017
+            }
+          ],
+          "connected": {
+            "a": false,
+            "b": false
+          },
+          "target": 0.8,
+          "tape": 1
+        },
+        "2": {
+          "token": 2,
+          "owner": "core",
+          "x": 0.45,
+          "y": 0.95,
+          "z": 0.4,
+          "size": [
+            0.1,
+            0.1,
+            0.12
+          ],
+          "status": "idle",
+          "radius": 0.05,
+          "length": 0.0,
+          "wound": 0.0,
+          "tail": 0.0,
+          "segments": [],
+          "connected": {
+            "a": false,
+            "b": false
+          },
+          "target": 1.0,
+          "tape": 0
+        },
+        "3": {
+          "token": 3,
+          "owner": "core",
+          "x": 0.45,
+          "y": 0.95,
+          "z": 1.3599999999999999,
+          "size": [
+            0.1,
+            0.1,
+            0.12
+          ],
+          "status": "idle",
+          "radius": 0.05,
+          "length": 0.0,
+          "wound": 0.0,
+          "tail": 0.0,
+          "segments": [],
+          "connected": {
+            "a": false,
+            "b": false
+          },
+          "target": 0.7,
+          "tape": 0
+        },
+        "201": {
+          "token": 201,
+          "owner": "accepted",
+          "x": -0.09999999999999995,
+          "y": 0.95986,
+          "z": -0.35,
+          "size": [
+            0.20000000000000015,
+            0.00012,
+            0.12
+          ],
+          "status": "idle",
+          "length": 0.20000000000000015,
+          "connected": false
+        }
+      },
+      "violations": [
+        "untaped_roll"
+      ],
+      "web_path": []
+    }
+  },
+  "independent_task": true,
+  "evaluation_family": "MAT-H07",
+  "contract_sha256": "0fc75ff4f513025ba898347b815e210a65abdac3a2c46bfbe8de1e795033ab60",
+  "prerequisites": [
+    {
+      "check": "local_submission_profile",
+      "passed": true,
+      "st_sha256": "f38cd16fc1450f1c51fc9d377dd75acc01b8adca4116ac3957ab3342edb8b15a"
+    },
+    {
+      "check": "local_st_parse_and_required_io",
+      "passed": true,
+      "st_sha256": "f38cd16fc1450f1c51fc9d377dd75acc01b8adca4116ac3957ab3342edb8b15a"
+    }
+  ],
+  "profile": {
+    "ok": true,
+    "errors": []
+  },
+  "metric_eligible": true,
+  "observation_complete": true,
+  "partial_scan": null,
+  "claim_checked_at": "post_state",
+  "completed_scans": 24010,
+  "stop_reason": "horizon",
+  "safety_passed": false,
+  "core_evaluator_version": "priority-redesign/1",
+  "integration_version": "plcworld-evaluation/5.3",
+  "integration_seal_sha256": "c9de108ec4410d15c5f74e02ce000743a7df362cbafc5b51bc4b291ec34a2974",
+  "input_freeze": "plcworld-model-inputs/7-execution-contract",
+  "eligible_for_official_aggregation": true,
+  "current_cohort_eligible": true,
+  "task_version": "priority-redesign/1",
+  "generation_provenance_verified": false,
+  "registered_system_sha256": "da989a5140218cdc034a92429e246e5b6d0a084dfea2b2c13056d301a6b23dd8",
+  "registered_public_spec_sha256": "7ff22baa8cdb354f675d7f19a06c442fc32345e749a03ed1f869a6e3ee74b65c",
+  "registered_input_sha256": "37eba9bce9d727883353afdcf65f3b8a2c72a28ab9c0b62de07e37dc3823d623",
+  "registered_contract_sha256": "0fc75ff4f513025ba898347b815e210a65abdac3a2c46bfbe8de1e795033ab60",
+  "trace_sha256": "c4a92fbe818594419476e4c6ae70a636821239c173044852cae91af66ab1400c",
+  "sensor_input_saturation": {},
+  "evaluation_reuse": {
+    "source": "[private source path omitted]",
+    "sha256": "fddc810d9954ed13bb7d795b23828ac0e64f413b784075fc63312b9b5576a3c1",
+    "proof": "Same ST engine, original source, plant and historical inputs. Parent checked all delivered INT/DINT inputs and did not raise an infrastructure input failure; saturation therefore never activates on this execution. Pre-execution/generation failures are likewise unchanged.",
+    "scope": "strict type-contract candidate -> sensor-only candidate"
+  },
+  "sensor_packaging_revision": {
+    "previous_integration_seal_sha256": "6955d3af5f49374c780966409552f190013dd1c57a3bd015cc32f3d49c412397",
+    "reason": "Restored unused grounded_v3/v4 archival evaluators exactly to parent; registered tasks use only v5/v6/v8. No executed code or trace changes."
+  },
+  "final_guard_revalidation": {
+    "previous_seal": "048791a186f6e881eafc326149b0631c017a8b07f800543314605202b083892b",
+    "evidence": "[private source path omitted]",
+    "evidence_sha256": "c93aaefcea8e0a1e8c63e047edb945038c0b51843ee4e3f1a4e5e78fe220593e",
+    "proof": "Only static guards changed: this exact source retains identical admission and AST or identical prior error. VM/plant/input-delivery code unchanged; no trace or judgment recomputation required."
+  },
+  "constant_expression_reuse": {
+    "parent_case": "[private source path omitted]",
+    "parent_sha256": "c0af952bd1d6782837e95e42e75c37e6215a5dfceee51c244cbbd5163a0b3f9d",
+    "evidence": "[private source path omitted]",
+    "evidence_sha256": "2ce81ae9ff33f2d76f5f05bb7d59533770d96f41470079c364a2a626ccc778a7",
+    "proof": "Same source, admission, AST and inferred expression types; VM, plant, inputs and oracle unchanged."
+  },
+  "execution_provenance": "Imported measured result; source hashes retained; no claim of a fresh packaged execution",
+  "source_evaluation": {
+    "integration_seal_sha256": "04cb5615a4b9e931c2678982e9f18cd799aaebcf84cab55f0ef56a4cc717fae7",
+    "trace_sha256": "c4a92fbe818594419476e4c6ae70a636821239c173044852cae91af66ab1400c",
+    "st_sha256": "f38cd16fc1450f1c51fc9d377dd75acc01b8adca4116ac3957ab3342edb8b15a",
+    "case_sha256": "30df81ab9b73383975a389873fbdff63d8c32f41ce4330a7174abfed9e574283"
+  },
+  "generation_input_revision": "historical-v6-with-direct-MOT-E11-amendment"
+}

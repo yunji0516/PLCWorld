@@ -1,0 +1,12 @@
+{
+  "task": "MOT-H03",
+  "task_success": true,
+  "safety_violation": false,
+  "error": null,
+  "trace_sha256": "907ef897b687f74dff3250fd8af481ab68372c13c3f32cc86f71178af5d0bdbf",
+  "completed_scans": 6090,
+  "scenario": 0,
+  "reference_st_sha256": "ff20c3a3e2ce40fee571e1f33e19fedbe11ec62fc52640ba69d7ca222d737771",
+  "evaluator_seal_sha256": "bceeb8804c3d724faa80c8d02ccfb35da0b79134084d0d97bd87a018049396cc",
+  "trace_gzip_sha256": "637bd9b2d60f4f339b0b8535af40f56d24d4c30fee523eda0fa54a35743dec57"
+}

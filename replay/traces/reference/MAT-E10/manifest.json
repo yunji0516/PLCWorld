@@ -1,0 +1,12 @@
+{
+  "task": "MAT-E10",
+  "task_success": true,
+  "safety_violation": false,
+  "error": null,
+  "trace_sha256": "9d23bb7461c9b09cc75f75e66a4b8420cd3b335ab71639b486d9a4625be62da9",
+  "completed_scans": 1600,
+  "scenario": 0,
+  "reference_st_sha256": "5e76545df214bcdeea5869e04ec5c82385a7485e0114f7a8a4968f8bfda29035",
+  "evaluator_seal_sha256": "bceeb8804c3d724faa80c8d02ccfb35da0b79134084d0d97bd87a018049396cc",
+  "trace_gzip_sha256": "5f780fc113e738009dc99b39f1c0732b55bcb70b02c70816e9f31064f3c323ba"
+}

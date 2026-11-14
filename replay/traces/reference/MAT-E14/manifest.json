@@ -1,0 +1,12 @@
+{
+  "task": "MAT-E14",
+  "task_success": true,
+  "safety_violation": false,
+  "error": null,
+  "trace_sha256": "c403869f4fcd52e6db22048a745644379c26ec7b4806638a958b8e28523663e2",
+  "completed_scans": 1600,
+  "scenario": 0,
+  "reference_st_sha256": "d1918d3b8ca4e6c561bcd5555246a58b9f05a981532377d96c63cbf0cd5f746c",
+  "evaluator_seal_sha256": "bceeb8804c3d724faa80c8d02ccfb35da0b79134084d0d97bd87a018049396cc",
+  "trace_gzip_sha256": "a56f20033e4dab271620e20c5f9e3c95b39675691dfb93a1854514a18d142350"
+}

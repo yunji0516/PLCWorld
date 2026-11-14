@@ -1,0 +1,14 @@
+{
+  "schema": "plcworld-evaluator-trace-sample/1",
+  "task": "MAT-E01",
+  "scenario": 0,
+  "model": "gpt-5.5",
+  "repeat": 1,
+  "trace_file": "MAT-E01.frames.json.gz",
+  "program_sha256": "ecee642d7f98a89f5ff33c5d4844839695a081bc2c47198dbc804133d3cc2b96",
+  "evaluator_seal_sha256": "9d76a677833ca198fd8449d2ae608ad91d756e2a8da89f8315595fe0c7a0bd2b",
+  "raw_trace_sha256": "193b57c78ba0be2a7a529c060423560e66135c20a13cad4644c2642626a60df6",
+  "gzip_sha256": "c53f15ede53873e66c0b2be04b285dba8dbfe36fa3b253164b35aa9fbca5147a",
+  "task_success": true,
+  "safety_violation": false
+}

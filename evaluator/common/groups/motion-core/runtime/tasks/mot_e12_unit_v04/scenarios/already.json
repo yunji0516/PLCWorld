@@ -1,0 +1,23 @@
+{
+  "id": "already",
+  "initial": {
+    "a": 70,
+    "b": 100,
+    "target": 100
+  },
+  "parameters": {},
+  "stimulus": [
+    {
+      "scan": 0,
+      "set": {
+        "X10": 0
+      }
+    },
+    {
+      "scan": 3,
+      "set": {
+        "X10": 1
+      }
+    }
+  ]
+}

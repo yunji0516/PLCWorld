@@ -1,0 +1,11 @@
+**/__pycache__
+**/.pytest_cache
+.git
+.env
+.env.*
+outputs/*
+!outputs/reproduction/
+viewer3d/node_modules
+viewer3d/apps/plc-simulator/node_modules
+viewer3d/apps/plc-simulator/.next
+**/*.tsbuildinfo

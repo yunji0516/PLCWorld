@@ -1,0 +1,12 @@
+{
+  "task": "MAT-H03",
+  "task_success": true,
+  "safety_violation": false,
+  "error": null,
+  "trace_sha256": "01363cd08174cbce3bb5b5b760301ee81705fb9176a6db6b55784f6c30ca9cff",
+  "completed_scans": 10683,
+  "scenario": 0,
+  "reference_st_sha256": "0b35f7960dcfad6c7304354e6c09b033e727818329c2d14107abca013d395d8c",
+  "evaluator_seal_sha256": "bceeb8804c3d724faa80c8d02ccfb35da0b79134084d0d97bd87a018049396cc",
+  "trace_gzip_sha256": "152ae547d2949d06e58afefc2695c7e572eec8f63fd1356ab35812d38c967c7b"
+}

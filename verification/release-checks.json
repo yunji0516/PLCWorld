@@ -1,0 +1,23 @@
+{
+  "passed": true,
+  "evaluator_version": "5.3",
+  "input_version": "7-execution-contract",
+  "offline_tests": 32,
+  "runtime_contract_assertions": 760,
+  "sampled_trace_comparisons": 131,
+  "constructed_tasks": 100,
+  "constructed_conditions": 473,
+  "closed_loop_smoke": true,
+  "paper_direct_cases": 8514,
+  "matched_supplement_cases": 4,
+  "paper_metric_differences": 0,
+  "viewer_test_files": 54,
+  "viewer_tests": 217,
+  "viewer_production_build": true,
+  "anonymity_scan": {
+    "scanned": 12891,
+    "matches": []
+  },
+  "api_calls": 0,
+  "scope": "Sampled behavioral correspondence and complete saved-result aggregation, not a new model generation experiment or full native-backend validation."
+}

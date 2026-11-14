@@ -1,0 +1,150 @@
+{
+  "task": "MOT-M13",
+  "scenario": "normal",
+  "scenario_index": 0,
+  "program": "submission.st",
+  "program_sha256": "a6c4872dcbab1e17d2f819be622eb06ddd1e30bbce67922e9fa2c89793b05a8d",
+  "st_sha256": "a6c4872dcbab1e17d2f819be622eb06ddd1e30bbce67922e9fa2c89793b05a8d",
+  "evaluator_version": "motion-medium-grounded-v6-dev",
+  "task_success": true,
+  "safety_violation": false,
+  "safety_observation_complete": true,
+  "passed": true,
+  "entered_plant": true,
+  "observation_complete": true,
+  "error": null,
+  "cleanup_error": null,
+  "partial_frame": null,
+  "elapsed_seconds": 1.2700218334794044,
+  "metric_eligible": true,
+  "metric_eligibility": {
+    "sr": true,
+    "svr": true
+  },
+  "events": [
+    {
+      "type": "request_available",
+      "time_ms": 30.0,
+      "scan": 3
+    },
+    {
+      "type": "fresh_sensor_edge",
+      "time_ms": 734.0,
+      "scan": 73
+    },
+    {
+      "type": "aperture_access",
+      "time_ms": 2104.0,
+      "scan": 210
+    },
+    {
+      "type": "receiver_docked",
+      "time_ms": 2484.0,
+      "scan": 248
+    },
+    {
+      "type": "receiver_undocked_after_receipt",
+      "time_ms": 2864.0,
+      "scan": 286
+    },
+    {
+      "type": "result_asserted",
+      "time_ms": 4560.0,
+      "scan": 455
+    }
+  ],
+  "final_state": {
+    "time_ms": 15100.0,
+    "setup": {
+      "request": {
+        "angle": 20,
+        "target": 300,
+        "receive": 50
+      },
+      "mark": 70
+    },
+    "reference_mark": 70,
+    "edge_position": 70,
+    "contacts": [],
+    "axes": {
+      "a": {
+        "position": 4.994608148993044e-98,
+        "velocity": -1.0414674886032435e-96
+      },
+      "b": {
+        "position": 2.2440487108265344e-100,
+        "velocity": -4.679253517894166e-99
+      },
+      "c": {
+        "position": 7.978576119705336e-104,
+        "velocity": -1.6636795892976269e-102
+      },
+      "d": {
+        "position": 1.925066061356957e-99,
+        "velocity": -4.0141161358593696e-98
+      }
+    },
+    "history": {
+      "request_available": 30.0,
+      "fresh_sensor_edge": 734.0,
+      "aperture_access": 2104.0,
+      "receiver_docked": 2484.0,
+      "receiver_undocked_after_receipt": 2864.0,
+      "result_asserted": 4560.0
+    },
+    "result": true,
+    "hold_ms": 10540.0,
+    "dwell_ms": 0,
+    "origin": 0,
+    "configured": false,
+    "sensor_seen": true,
+    "guide_segment": false,
+    "guide_done": false,
+    "module_busy": false,
+    "module_done": false,
+    "module_position": 0,
+    "module_count": 2,
+    "geometry_safe": true
+  },
+  "failure_types": [],
+  "executed_scans": 1510,
+  "last_scan": 1509,
+  "prerequisites": [
+    {
+      "check": "local_submission_profile",
+      "passed": true,
+      "st_sha256": "a6c4872dcbab1e17d2f819be622eb06ddd1e30bbce67922e9fa2c89793b05a8d"
+    },
+    {
+      "check": "local_st_parse_and_required_io",
+      "passed": true,
+      "st_sha256": "a6c4872dcbab1e17d2f819be622eb06ddd1e30bbce67922e9fa2c89793b05a8d"
+    }
+  ],
+  "profile": {
+    "ok": true,
+    "errors": []
+  },
+  "claim_checked_at": "post_state",
+  "predecessor_checks": {
+    "local_st_runtime_initialization": true,
+    "native_compile": "not_run",
+    "formal": "not_run"
+  },
+  "release_version": "motion-medium-release/1.0",
+  "release_seal_sha256": "88302af72ff5215cc3e730e35f3c0eb57b058b93a3dc7118a62ed98a1e2a1b64",
+  "integration_version": "plcworld-evaluation/5.2.6",
+  "integration_seal_sha256": "bceeb8804c3d724faa80c8d02ccfb35da0b79134084d0d97bd87a018049396cc",
+  "input_freeze": "plcworld-model-inputs/6-plain-scaffold",
+  "eligible_for_official_aggregation": true,
+  "current_cohort_eligible": true,
+  "independent_task": true,
+  "evaluation_family": "MOT-M13",
+  "task_version": "plcworld-evaluation/5.2.6",
+  "generation_provenance_verified": false,
+  "registered_system_sha256": "a1d2a9bca7208713ff2b7fa4c46a39bf9d5c13b220d2e497a0724b2fd7576fcb",
+  "registered_public_spec_sha256": "186225a810ea421d5a9b8bf4f65f20a28311708ad9bc1c25117c3d312646105b",
+  "registered_input_sha256": "ee48de9cf4f12fe5c01047252197ee721ad20443401fdf544493c44cde2ccb69",
+  "registered_contract_sha256": "0843dd854c18b6b31715e8e2c08ea75dca6ff7ab8cd4674a6e617bf91bb3dbd2",
+  "trace_sha256": "c1d62123759a59a85d7f0b10c7cb628b215f2757599aa39ba81ff59defc906ed"
+}

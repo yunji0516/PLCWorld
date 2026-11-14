@@ -1,0 +1,430 @@
+{
+  "llm4plc": {
+    "formal_budget": {
+      "tasks": 12,
+      "metrics": {
+        "assigned": 43,
+        "infrastructure_excluded": 0,
+        "entered": 43,
+        "observation_complete": 43,
+        "observation_interrupted": 0,
+        "SR": {
+          "numerator": 42,
+          "denominator": 43,
+          "value": 0.9767441860465116
+        },
+        "SVR": {
+          "numerator": 0,
+          "denominator": 43,
+          "value": 0.0
+        },
+        "execution_gap_local_submission_profile": {
+          "numerator": 1,
+          "denominator": 43,
+          "value": 0.023255813953488372
+        },
+        "execution_gap_local_st_parse_and_required_io": {
+          "numerator": 1,
+          "denominator": 43,
+          "value": 0.023255813953488372
+        }
+      }
+    },
+    "timeout": {
+      "tasks": 63,
+      "metrics": {
+        "assigned": 343,
+        "infrastructure_excluded": 0,
+        "entered": 343,
+        "observation_complete": 343,
+        "observation_interrupted": 0,
+        "SR": {
+          "numerator": 207,
+          "denominator": 343,
+          "value": 0.6034985422740525
+        },
+        "SVR": {
+          "numerator": 70,
+          "denominator": 343,
+          "value": 0.20408163265306123
+        },
+        "execution_gap_local_submission_profile": {
+          "numerator": 149,
+          "denominator": 343,
+          "value": 0.43440233236151604
+        },
+        "execution_gap_local_st_parse_and_required_io": {
+          "numerator": 149,
+          "denominator": 343,
+          "value": 0.43440233236151604
+        }
+      }
+    },
+    "verified": {
+      "tasks": 1,
+      "metrics": {
+        "assigned": 3,
+        "infrastructure_excluded": 0,
+        "entered": 3,
+        "observation_complete": 3,
+        "observation_interrupted": 0,
+        "SR": {
+          "numerator": 3,
+          "denominator": 3,
+          "value": 1.0
+        },
+        "SVR": {
+          "numerator": 0,
+          "denominator": 3,
+          "value": 0.0
+        },
+        "execution_gap_local_submission_profile": {
+          "numerator": 0,
+          "denominator": 3,
+          "value": 0.0
+        },
+        "execution_gap_local_st_parse_and_required_io": {
+          "numerator": 0,
+          "denominator": 3,
+          "value": 0.0
+        }
+      }
+    },
+    "tool_error": {
+      "tasks": 23,
+      "metrics": {
+        "assigned": 80,
+        "infrastructure_excluded": 0,
+        "entered": 80,
+        "observation_complete": 80,
+        "observation_interrupted": 0,
+        "SR": {
+          "numerator": 22,
+          "denominator": 80,
+          "value": 0.275
+        },
+        "SVR": {
+          "numerator": 21,
+          "denominator": 80,
+          "value": 0.2625
+        },
+        "execution_gap_local_submission_profile": {
+          "numerator": 58,
+          "denominator": 80,
+          "value": 0.725
+        },
+        "execution_gap_local_st_parse_and_required_io": {
+          "numerator": 58,
+          "denominator": 80,
+          "value": 0.725
+        }
+      }
+    },
+    "syntax_budget": {
+      "tasks": 1,
+      "metrics": {
+        "assigned": 4,
+        "infrastructure_excluded": 0,
+        "entered": 0,
+        "observation_complete": 0,
+        "observation_interrupted": 0,
+        "SR": {
+          "numerator": 0,
+          "denominator": 4,
+          "value": 0.0
+        },
+        "SVR": {
+          "numerator": 0,
+          "denominator": 0,
+          "value": null
+        },
+        "execution_gap_local_submission_profile": {
+          "numerator": 0,
+          "denominator": 0,
+          "value": null
+        },
+        "execution_gap_local_st_parse_and_required_io": {
+          "numerator": 0,
+          "denominator": 0,
+          "value": null
+        }
+      }
+    }
+  },
+  "agents4plc": {
+    "verified_public_properties": {
+      "tasks": 11,
+      "metrics": {
+        "assigned": 40,
+        "infrastructure_excluded": 0,
+        "entered": 40,
+        "observation_complete": 40,
+        "observation_interrupted": 0,
+        "SR": {
+          "numerator": 37,
+          "denominator": 40,
+          "value": 0.925
+        },
+        "SVR": {
+          "numerator": 0,
+          "denominator": 40,
+          "value": 0.0
+        },
+        "execution_gap_local_submission_profile": {
+          "numerator": 3,
+          "denominator": 40,
+          "value": 0.075
+        },
+        "execution_gap_local_st_parse_and_required_io": {
+          "numerator": 3,
+          "denominator": 40,
+          "value": 0.075
+        }
+      }
+    },
+    "plans_exhausted_vacuous": {
+      "tasks": 6,
+      "metrics": {
+        "assigned": 26,
+        "infrastructure_excluded": 0,
+        "entered": 26,
+        "observation_complete": 26,
+        "observation_interrupted": 0,
+        "SR": {
+          "numerator": 16,
+          "denominator": 26,
+          "value": 0.6153846153846154
+        },
+        "SVR": {
+          "numerator": 0,
+          "denominator": 26,
+          "value": 0.0
+        },
+        "execution_gap_local_submission_profile": {
+          "numerator": 10,
+          "denominator": 26,
+          "value": 0.38461538461538464
+        },
+        "execution_gap_local_st_parse_and_required_io": {
+          "numerator": 10,
+          "denominator": 26,
+          "value": 0.38461538461538464
+        }
+      }
+    },
+    "timeout": {
+      "tasks": 69,
+      "metrics": {
+        "assigned": 354,
+        "infrastructure_excluded": 0,
+        "entered": 354,
+        "observation_complete": 354,
+        "observation_interrupted": 0,
+        "SR": {
+          "numerator": 148,
+          "denominator": 354,
+          "value": 0.4180790960451977
+        },
+        "SVR": {
+          "numerator": 85,
+          "denominator": 354,
+          "value": 0.2401129943502825
+        },
+        "execution_gap_local_submission_profile": {
+          "numerator": 214,
+          "denominator": 354,
+          "value": 0.6045197740112994
+        },
+        "execution_gap_local_st_parse_and_required_io": {
+          "numerator": 214,
+          "denominator": 354,
+          "value": 0.6045197740112994
+        }
+      }
+    },
+    "plans_exhausted_violated": {
+      "tasks": 14,
+      "metrics": {
+        "assigned": 53,
+        "infrastructure_excluded": 0,
+        "entered": 53,
+        "observation_complete": 53,
+        "observation_interrupted": 0,
+        "SR": {
+          "numerator": 49,
+          "denominator": 53,
+          "value": 0.9245283018867925
+        },
+        "SVR": {
+          "numerator": 0,
+          "denominator": 53,
+          "value": 0.0
+        },
+        "execution_gap_local_submission_profile": {
+          "numerator": 4,
+          "denominator": 53,
+          "value": 0.07547169811320754
+        },
+        "execution_gap_local_st_parse_and_required_io": {
+          "numerator": 4,
+          "denominator": 53,
+          "value": 0.07547169811320754
+        }
+      }
+    }
+  },
+  "autoplc": {
+    "platform_verified": {
+      "tasks": 94,
+      "metrics": {
+        "assigned": 452,
+        "infrastructure_excluded": 0,
+        "entered": 452,
+        "observation_complete": 452,
+        "observation_interrupted": 0,
+        "SR": {
+          "numerator": 289,
+          "denominator": 452,
+          "value": 0.6393805309734514
+        },
+        "SVR": {
+          "numerator": 62,
+          "denominator": 452,
+          "value": 0.13716814159292035
+        },
+        "execution_gap_local_submission_profile": {
+          "numerator": 179,
+          "denominator": 452,
+          "value": 0.39601769911504425
+        },
+        "execution_gap_local_st_parse_and_required_io": {
+          "numerator": 179,
+          "denominator": 452,
+          "value": 0.39601769911504425
+        }
+      }
+    },
+    "verify_budget_exhausted": {
+      "tasks": 6,
+      "metrics": {
+        "assigned": 21,
+        "infrastructure_excluded": 0,
+        "entered": 15,
+        "observation_complete": 15,
+        "observation_interrupted": 0,
+        "SR": {
+          "numerator": 9,
+          "denominator": 21,
+          "value": 0.42857142857142855
+        },
+        "SVR": {
+          "numerator": 11,
+          "denominator": 15,
+          "value": 0.7333333333333333
+        },
+        "execution_gap_local_submission_profile": {
+          "numerator": 11,
+          "denominator": 15,
+          "value": 0.7333333333333333
+        },
+        "execution_gap_local_st_parse_and_required_io": {
+          "numerator": 11,
+          "denominator": 15,
+          "value": 0.7333333333333333
+        }
+      }
+    }
+  },
+  "semaplc": {
+    "native_passed": {
+      "tasks": 89,
+      "metrics": {
+        "assigned": 414,
+        "infrastructure_excluded": 0,
+        "entered": 414,
+        "observation_complete": 414,
+        "observation_interrupted": 0,
+        "SR": {
+          "numerator": 242,
+          "denominator": 414,
+          "value": 0.5845410628019324
+        },
+        "SVR": {
+          "numerator": 81,
+          "denominator": 414,
+          "value": 0.1956521739130435
+        },
+        "execution_gap_local_submission_profile": {
+          "numerator": 178,
+          "denominator": 414,
+          "value": 0.42995169082125606
+        },
+        "execution_gap_local_st_parse_and_required_io": {
+          "numerator": 178,
+          "denominator": 414,
+          "value": 0.42995169082125606
+        }
+      }
+    },
+    "compile_unchecked": {
+      "tasks": 7,
+      "metrics": {
+        "assigned": 33,
+        "infrastructure_excluded": 0,
+        "entered": 33,
+        "observation_complete": 33,
+        "observation_interrupted": 0,
+        "SR": {
+          "numerator": 20,
+          "denominator": 33,
+          "value": 0.6060606060606061
+        },
+        "SVR": {
+          "numerator": 9,
+          "denominator": 33,
+          "value": 0.2727272727272727
+        },
+        "execution_gap_local_submission_profile": {
+          "numerator": 13,
+          "denominator": 33,
+          "value": 0.3939393939393939
+        },
+        "execution_gap_local_st_parse_and_required_io": {
+          "numerator": 13,
+          "denominator": 33,
+          "value": 0.3939393939393939
+        }
+      }
+    },
+    "compile_failed": {
+      "tasks": 4,
+      "metrics": {
+        "assigned": 26,
+        "infrastructure_excluded": 0,
+        "entered": 23,
+        "observation_complete": 23,
+        "observation_interrupted": 0,
+        "SR": {
+          "numerator": 0,
+          "denominator": 26,
+          "value": 0.0
+        },
+        "SVR": {
+          "numerator": 0,
+          "denominator": 23,
+          "value": 0.0
+        },
+        "execution_gap_local_submission_profile": {
+          "numerator": 23,
+          "denominator": 23,
+          "value": 1.0
+        },
+        "execution_gap_local_st_parse_and_required_io": {
+          "numerator": 23,
+          "denominator": 23,
+          "value": 1.0
+        }
+      }
+    }
+  }
+}

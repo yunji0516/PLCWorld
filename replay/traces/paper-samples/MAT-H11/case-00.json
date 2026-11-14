@@ -1,0 +1,162 @@
+{
+  "task_success": false,
+  "safety_violation": false,
+  "safety_passed": true,
+  "passed": false,
+  "entered_plant": true,
+  "observation_complete": true,
+  "metric_eligible": true,
+  "error": null,
+  "stop_reason": "horizon",
+  "completed_scans": 60000,
+  "claim_checked_at": "post_state",
+  "observed_event_types": [
+    "at_cradle_held",
+    "b_keeper_received",
+    "edge_support_acquired",
+    "face_completed",
+    "face_started",
+    "product_received"
+  ],
+  "oracle_rules": [
+    {
+      "id": "no_false_completion",
+      "scope": "goal",
+      "passed": true,
+      "reason": null
+    },
+    {
+      "id": "no_invalid_request",
+      "scope": "safety",
+      "passed": true,
+      "reason": null
+    },
+    {
+      "id": "no_axis_busy",
+      "scope": "safety",
+      "passed": true,
+      "reason": null
+    },
+    {
+      "id": "no_unsupported_transfer",
+      "scope": "safety",
+      "passed": true,
+      "reason": null
+    },
+    {
+      "id": "no_receiver_overflow",
+      "scope": "safety",
+      "passed": true,
+      "reason": null
+    },
+    {
+      "id": "no_face_occluded",
+      "scope": "safety",
+      "passed": true,
+      "reason": null
+    },
+    {
+      "id": "no_unsupported_regrasp",
+      "scope": "safety",
+      "passed": true,
+      "reason": null
+    },
+    {
+      "id": "no_wrong_product_face",
+      "scope": "goal",
+      "passed": true,
+      "reason": null
+    },
+    {
+      "id": "no_unfinished_face",
+      "scope": "safety",
+      "passed": true,
+      "reason": null
+    },
+    {
+      "id": "no_incompatible_holders",
+      "scope": "safety",
+      "passed": true,
+      "reason": null
+    },
+    {
+      "id": "no_unsupported_tool",
+      "scope": "safety",
+      "passed": true,
+      "reason": null
+    },
+    {
+      "id": "no_wrong_gripper",
+      "scope": "safety",
+      "passed": true,
+      "reason": null
+    },
+    {
+      "id": "no_wrong_fixture",
+      "scope": "safety",
+      "passed": true,
+      "reason": null
+    },
+    {
+      "id": "completion_hold",
+      "scope": "goal",
+      "passed": false,
+      "reason": "completion_not_held"
+    },
+    {
+      "id": "complete",
+      "scope": "goal",
+      "passed": false,
+      "reason": "no_completion"
+    },
+    {
+      "id": "physical_goal",
+      "scope": "goal",
+      "passed": true,
+      "reason": null
+    }
+  ],
+  "partial_scan": null,
+  "deadline_met": false,
+  "hold_met": false,
+  "premature_claim": false,
+  "task": "MAT-H11",
+  "scenario_index": 0,
+  "st_sha256": "9f357b22d49c6c5b5c13f5d217a003e419ff5fa61a546e302a38151e1bb8f092",
+  "prerequisites": [
+    {
+      "check": "local_submission_profile",
+      "passed": true,
+      "st_sha256": "9f357b22d49c6c5b5c13f5d217a003e419ff5fa61a546e302a38151e1bb8f092"
+    },
+    {
+      "check": "local_st_parse_and_required_io",
+      "passed": true,
+      "st_sha256": "9f357b22d49c6c5b5c13f5d217a003e419ff5fa61a546e302a38151e1bb8f092"
+    }
+  ],
+  "profile": {
+    "ok": true,
+    "errors": []
+  },
+  "evaluator_version": "common-plant-contract/5.2.6-math02-guard-candidate",
+  "review_hold": null,
+  "current_cohort_eligible": true,
+  "eligible_for_official_aggregation": true,
+  "review_policy_version": "evaluation-review-policy/1",
+  "contract_sha256": "72aa48a4b21720187b9f94b361836bf1fba01f3a21d68eae42ce1120552b1448",
+  "review_policy_sha256": "0a15b3e1d2d41b594a29d7376488e26b29044bfd32b1b9e9c1099a7712b57ce6",
+  "candidate_seal_sha256": "7be16e7b22c1a41af8857d1235368c37067c5db47cf8362726fb992c6a92d357",
+  "integration_version": "plcworld-evaluation/5.2.6",
+  "integration_seal_sha256": "9d76a677833ca198fd8449d2ae608ad91d756e2a8da89f8315595fe0c7a0bd2b",
+  "input_freeze": "plcworld-model-inputs/6-plain-scaffold",
+  "independent_task": true,
+  "evaluation_family": "MAT-H11",
+  "task_version": "plcworld-evaluation/5.2.6",
+  "generation_provenance_verified": false,
+  "registered_system_sha256": "a1d2a9bca7208713ff2b7fa4c46a39bf9d5c13b220d2e497a0724b2fd7576fcb",
+  "registered_public_spec_sha256": "aa4596d6da4d2a2adc252aaabdc4d30c48cc6bb56d082973f9fe8d748dcb7e9c",
+  "registered_input_sha256": "079c5ddecfddacbb903cfd5037640864478aa83962d5a74d610912e13590eb76",
+  "registered_contract_sha256": "72aa48a4b21720187b9f94b361836bf1fba01f3a21d68eae42ce1120552b1448",
+  "trace_sha256": "310396a3ff400b40440350800379015440ffd20495342fc11f805b85bd62ed8f"
+}

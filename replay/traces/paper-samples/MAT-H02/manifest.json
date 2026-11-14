@@ -1,0 +1,14 @@
+{
+  "schema": "plcworld-paper-replay-sample/1",
+  "task": "MAT-H02",
+  "model": "gpt-5.5",
+  "repeat": 1,
+  "scenario": 0,
+  "program_sha256": "c984aa275bc16e673b30a248601996d15d153892029fa0b865a749c6d00d07ee",
+  "evaluator_seal_sha256": "9d76a677833ca198fd8449d2ae608ad91d756e2a8da89f8315595fe0c7a0bd2b",
+  "trace_sha256": "8e4c9ff35b2f1190208cd73bba5e20a494d5218ebc88c527e56176c69391b71c",
+  "trace_gzip_sha256": "aef731a3cf338aa3f5842c69f2678a0bcc6823dad563320f60dc1ed4d7ffab98",
+  "task_success": false,
+  "safety_violation": false,
+  "completed_scans": 30000
+}

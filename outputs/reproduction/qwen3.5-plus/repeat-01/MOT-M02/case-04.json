@@ -1,0 +1,150 @@
+{
+  "task": "MOT-M02",
+  "scenario": "reverse_asymmetric",
+  "scenario_index": 4,
+  "program": "submissions/qwen3.5-plus/repeat-01/MOT-M02.st",
+  "program_sha256": "8762ae3ad2db0228642c1d27ebd1934ceabb594a4ce89fd6dd9ca7a107cbf6e1",
+  "st_sha256": "8762ae3ad2db0228642c1d27ebd1934ceabb594a4ce89fd6dd9ca7a107cbf6e1",
+  "evaluator_version": "priority-redesign/1",
+  "task_success": true,
+  "safety_violation": true,
+  "passed": false,
+  "entered_plant": true,
+  "error": null,
+  "raw_errors": {},
+  "failure_types": [
+    "gantry_skew"
+  ],
+  "executed_scans": 592,
+  "completion_ms": 5820.0,
+  "hold_ms": 100.0,
+  "final_state": {
+    "time_ms": 5920.0,
+    "setup": {
+      "request": {
+        "dock": 450,
+        "park": 800
+      }
+    },
+    "axes": {
+      "a": {
+        "position": 2.2724120649742176e-08,
+        "velocity": -4.7383963181526963e-07
+      },
+      "b": {
+        "position": 0.003641275947241464,
+        "velocity": -0.07592728804660119
+      },
+      "c": {
+        "position": 799.9999999999986,
+        "velocity": 2.7284841053187847e-11
+      }
+    },
+    "history": {
+      "request_available": 30.0,
+      "rail_connected": 2028.0,
+      "trolley_cleared": 3242.0,
+      "park_stopped": 3794.0,
+      "result_asserted": 5820.0
+    },
+    "result": true,
+    "hold_ms": 100.0,
+    "geometry_safe": true,
+    "contacts": [],
+    "sensors": {
+      "latch_open": true,
+      "latch_engaged": false,
+      "end_stops_closed": true,
+      "joint_aligned": false,
+      "fully_fixed": true,
+      "interlock_reason": 0
+    },
+    "latch": 0.0,
+    "interlock_reason": 0,
+    "trolley_world": [
+      450,
+      799.9999999999986
+    ],
+    "wheel_contacts": [
+      {
+        "c": 759.9999999999986,
+        "rail": "fixed"
+      },
+      {
+        "c": 839.9999999999986,
+        "rail": "fixed"
+      }
+    ]
+  },
+  "independent_task": true,
+  "evaluation_family": "MOT-M02",
+  "contract_sha256": "ca140cc8035db9bd7747bac0894bd2836d78756a9004b9f1af4da408f9de2d28",
+  "prerequisites": [
+    {
+      "check": "local_submission_profile",
+      "passed": true,
+      "st_sha256": "8762ae3ad2db0228642c1d27ebd1934ceabb594a4ce89fd6dd9ca7a107cbf6e1"
+    },
+    {
+      "check": "local_st_parse_and_required_io",
+      "passed": true,
+      "st_sha256": "8762ae3ad2db0228642c1d27ebd1934ceabb594a4ce89fd6dd9ca7a107cbf6e1"
+    }
+  ],
+  "profile": {
+    "ok": true,
+    "errors": []
+  },
+  "metric_eligible": true,
+  "observation_complete": true,
+  "partial_scan": null,
+  "claim_checked_at": "post_state",
+  "completed_scans": 592,
+  "stop_reason": "post_claim_window",
+  "safety_passed": false,
+  "core_evaluator_version": "priority-redesign/1",
+  "integration_version": "plcworld-evaluation/5.3",
+  "integration_seal_sha256": "c9de108ec4410d15c5f74e02ce000743a7df362cbafc5b51bc4b291ec34a2974",
+  "input_freeze": "plcworld-model-inputs/7-execution-contract",
+  "eligible_for_official_aggregation": true,
+  "current_cohort_eligible": true,
+  "task_version": "priority-redesign/1",
+  "generation_provenance_verified": false,
+  "registered_system_sha256": "da989a5140218cdc034a92429e246e5b6d0a084dfea2b2c13056d301a6b23dd8",
+  "registered_public_spec_sha256": "d78cdb769d54af939dd55fa27716d18449bd66d1ad5499dee932c6536ab08245",
+  "registered_input_sha256": "caf7fadbfd8210a15cd09f7ded44ffc7aa4ea86496dfe68cf52d59d6e357ac78",
+  "registered_contract_sha256": "ca140cc8035db9bd7747bac0894bd2836d78756a9004b9f1af4da408f9de2d28",
+  "trace_sha256": "3d9dd9d40b5a4d827c71b80d1234bd21b1f7975f281c2b518a40e49afeab3dcb",
+  "sensor_input_saturation": {},
+  "evaluation_reuse": {
+    "source": "[private source path omitted]",
+    "sha256": "f4e0da7cfa2ae0acd0818ed4f1cc95e1e223b2c18904e48234d00bb3ce8e7f12",
+    "proof": "Same ST engine, original source, plant and historical inputs. Parent checked all delivered INT/DINT inputs and did not raise an infrastructure input failure; saturation therefore never activates on this execution. Pre-execution/generation failures are likewise unchanged.",
+    "scope": "strict type-contract candidate -> sensor-only candidate"
+  },
+  "sensor_packaging_revision": {
+    "previous_integration_seal_sha256": "6955d3af5f49374c780966409552f190013dd1c57a3bd015cc32f3d49c412397",
+    "reason": "Restored unused grounded_v3/v4 archival evaluators exactly to parent; registered tasks use only v5/v6/v8. No executed code or trace changes."
+  },
+  "final_guard_revalidation": {
+    "previous_seal": "048791a186f6e881eafc326149b0631c017a8b07f800543314605202b083892b",
+    "evidence": "[private source path omitted]",
+    "evidence_sha256": "c93aaefcea8e0a1e8c63e047edb945038c0b51843ee4e3f1a4e5e78fe220593e",
+    "proof": "Only static guards changed: this exact source retains identical admission and AST or identical prior error. VM/plant/input-delivery code unchanged; no trace or judgment recomputation required."
+  },
+  "constant_expression_reuse": {
+    "parent_case": "[private source path omitted]",
+    "parent_sha256": "11de003c0326a2d0187af14aa1518466f99ff343a312e654f894ab6488657755",
+    "evidence": "[private source path omitted]",
+    "evidence_sha256": "2ce81ae9ff33f2d76f5f05bb7d59533770d96f41470079c364a2a626ccc778a7",
+    "proof": "Same source, admission, AST and inferred expression types; VM, plant, inputs and oracle unchanged."
+  },
+  "execution_provenance": "Imported measured result; source hashes retained; no claim of a fresh packaged execution",
+  "source_evaluation": {
+    "integration_seal_sha256": "04cb5615a4b9e931c2678982e9f18cd799aaebcf84cab55f0ef56a4cc717fae7",
+    "trace_sha256": "3d9dd9d40b5a4d827c71b80d1234bd21b1f7975f281c2b518a40e49afeab3dcb",
+    "st_sha256": "8762ae3ad2db0228642c1d27ebd1934ceabb594a4ce89fd6dd9ca7a107cbf6e1",
+    "case_sha256": "2f2817b70423196a5fb2cae4e14faaf038beb176c361ef9ef1fec869ecdd3417"
+  },
+  "generation_input_revision": "historical-v6-with-direct-MOT-E11-amendment"
+}

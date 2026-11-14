@@ -1,0 +1,86 @@
+{
+  "task": "MAT-H01",
+  "scenario_index": 4,
+  "program": "submissions/gemini-3.8-flash/repeat-03/MAT-H01.st",
+  "st_sha256": "1d77d6076a08c35829af802c57ece8d8bff5b1d5a3d1f56fcef0953c843d0116",
+  "program_sha256": "1d77d6076a08c35829af802c57ece8d8bff5b1d5a3d1f56fcef0953c843d0116",
+  "task_success": false,
+  "safety_violation": null,
+  "passed": false,
+  "metric_eligible": true,
+  "entered_plant": false,
+  "observation_complete": false,
+  "error": {
+    "kind": "model",
+    "phase": "generation",
+    "message": "incomplete_MAX_TOKENS"
+  },
+  "prerequisites": [
+    {
+      "check": "local_submission_profile",
+      "passed": false,
+      "st_sha256": "1d77d6076a08c35829af802c57ece8d8bff5b1d5a3d1f56fcef0953c843d0116"
+    },
+    {
+      "check": "local_st_parse_and_required_io",
+      "passed": false,
+      "st_sha256": "1d77d6076a08c35829af802c57ece8d8bff5b1d5a3d1f56fcef0953c843d0116"
+    }
+  ],
+  "completed_scans": 0,
+  "executed_scans": 0,
+  "stop_reason": "generation_failure",
+  "failure_types": [
+    "incomplete_MAX_TOKENS"
+  ],
+  "partial_scan": null,
+  "evaluator_version": "single-shot-generation-failure/1",
+  "integration_version": "plcworld-evaluation/5.3",
+  "integration_seal_sha256": "c9de108ec4410d15c5f74e02ce000743a7df362cbafc5b51bc4b291ec34a2974",
+  "input_freeze": "plcworld-model-inputs/7-execution-contract",
+  "eligible_for_official_aggregation": true,
+  "current_cohort_eligible": true,
+  "independent_task": true,
+  "evaluation_family": "MAT-H01",
+  "task_version": "plcworld-evaluation/5.2.12-constant-expressions-candidate-20261113",
+  "generation_provenance_verified": false,
+  "registered_system_sha256": "da989a5140218cdc034a92429e246e5b6d0a084dfea2b2c13056d301a6b23dd8",
+  "registered_public_spec_sha256": "3e54f19c21df2d21a4f17b5fc7c06b5c2a7d49f7d064b0917260e6788a46714e",
+  "registered_input_sha256": "fc1083919b26e28915b59116b2632f2128d5d853f10ccd7dd32bf1d89ec877bf",
+  "registered_contract_sha256": "1832c577fba616265515176a54465c70e612fcca7637f95506ef6e4cf5765712",
+  "previous_integration_version": "plcworld-evaluation/5.2.10-profile-validation-20261111",
+  "runtime_replay": "not applicable: unchanged generation failure",
+  "evaluation_reuse": {
+    "source": "[private source path omitted]",
+    "sha256": "fe7e1cf35a16388b01e1ea79d46b00e3324520003a5542798e14e0853c453b24",
+    "proof": "Same ST engine, original source, plant and historical inputs. Parent checked all delivered INT/DINT inputs and did not raise an infrastructure input failure; saturation therefore never activates on this execution. Pre-execution/generation failures are likewise unchanged.",
+    "scope": "strict type-contract candidate -> sensor-only candidate"
+  },
+  "sensor_input_saturation": {},
+  "sensor_packaging_revision": {
+    "previous_integration_seal_sha256": "6955d3af5f49374c780966409552f190013dd1c57a3bd015cc32f3d49c412397",
+    "reason": "Restored unused grounded_v3/v4 archival evaluators exactly to parent; registered tasks use only v5/v6/v8. No executed code or trace changes."
+  },
+  "final_guard_revalidation": {
+    "previous_seal": "048791a186f6e881eafc326149b0631c017a8b07f800543314605202b083892b",
+    "evidence": "[private source path omitted]",
+    "evidence_sha256": "c93aaefcea8e0a1e8c63e047edb945038c0b51843ee4e3f1a4e5e78fe220593e",
+    "proof": "Only static guards changed: this exact source retains identical admission and AST or identical prior error. VM/plant/input-delivery code unchanged; no trace or judgment recomputation required."
+  },
+  "constant_expression_reuse": {
+    "parent_case": "[private source path omitted]",
+    "parent_sha256": "0d723f70151d2329ad2d402ba774fb04b3e6be640e5b78ff352b94b0af545c29",
+    "evidence": "[private source path omitted]",
+    "evidence_sha256": "2ce81ae9ff33f2d76f5f05bb7d59533770d96f41470079c364a2a626ccc778a7",
+    "proof": "Same source, admission, AST and inferred expression types; VM, plant, inputs and oracle unchanged."
+  },
+  "execution_provenance": "Imported measured result; source hashes retained; no claim of a fresh packaged execution",
+  "source_evaluation": {
+    "integration_seal_sha256": "04cb5615a4b9e931c2678982e9f18cd799aaebcf84cab55f0ef56a4cc717fae7",
+    "trace_sha256": null,
+    "st_sha256": "1d77d6076a08c35829af802c57ece8d8bff5b1d5a3d1f56fcef0953c843d0116",
+    "case_sha256": "8a139f920cb7550595d36ea3565adbee23f2d44ff3e1c6a334e7d9434b8470ed"
+  },
+  "contract_sha256": "1832c577fba616265515176a54465c70e612fcca7637f95506ef6e4cf5765712",
+  "generation_input_revision": "historical-v6-with-direct-MOT-E11-amendment"
+}

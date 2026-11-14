@@ -1,0 +1,212 @@
+{
+  "model": "gemini-3.1-pro",
+  "repeat": 1,
+  "tasks": 100,
+  "cases": 473,
+  "metrics": {
+    "model_input_freeze": "frozen",
+    "official_admission": true,
+    "overall": {
+      "assigned": 473,
+      "infrastructure_excluded": 0,
+      "entered": 345,
+      "observation_complete": 345,
+      "observation_interrupted": 0,
+      "SR": {
+        "numerator": 265,
+        "denominator": 473,
+        "value": 0.5602536997885835
+      },
+      "SVR": {
+        "numerator": 70,
+        "denominator": 345,
+        "value": 0.2028985507246377
+      },
+      "execution_gap_local_submission_profile": {
+        "numerator": 106,
+        "denominator": 345,
+        "value": 0.3072463768115942
+      },
+      "execution_gap_local_st_parse_and_required_io": {
+        "numerator": 106,
+        "denominator": 345,
+        "value": 0.3072463768115942
+      }
+    },
+    "groups": {
+      "material/easy": {
+        "assigned": 46,
+        "infrastructure_excluded": 0,
+        "entered": 37,
+        "observation_complete": 37,
+        "observation_interrupted": 0,
+        "SR": {
+          "numerator": 36,
+          "denominator": 46,
+          "value": 0.782608695652174
+        },
+        "SVR": {
+          "numerator": 0,
+          "denominator": 37,
+          "value": 0.0
+        },
+        "execution_gap_local_submission_profile": {
+          "numerator": 1,
+          "denominator": 37,
+          "value": 0.02702702702702703
+        },
+        "execution_gap_local_st_parse_and_required_io": {
+          "numerator": 1,
+          "denominator": 37,
+          "value": 0.02702702702702703
+        }
+      },
+      "material/hard": {
+        "assigned": 122,
+        "infrastructure_excluded": 0,
+        "entered": 80,
+        "observation_complete": 80,
+        "observation_interrupted": 0,
+        "SR": {
+          "numerator": 38,
+          "denominator": 122,
+          "value": 0.3114754098360656
+        },
+        "SVR": {
+          "numerator": 38,
+          "denominator": 80,
+          "value": 0.475
+        },
+        "execution_gap_local_submission_profile": {
+          "numerator": 53,
+          "denominator": 80,
+          "value": 0.6625
+        },
+        "execution_gap_local_st_parse_and_required_io": {
+          "numerator": 53,
+          "denominator": 80,
+          "value": 0.6625
+        }
+      },
+      "material/medium": {
+        "assigned": 96,
+        "infrastructure_excluded": 0,
+        "entered": 72,
+        "observation_complete": 72,
+        "observation_interrupted": 0,
+        "SR": {
+          "numerator": 72,
+          "denominator": 96,
+          "value": 0.75
+        },
+        "SVR": {
+          "numerator": 0,
+          "denominator": 72,
+          "value": 0.0
+        },
+        "execution_gap_local_submission_profile": {
+          "numerator": 0,
+          "denominator": 72,
+          "value": 0.0
+        },
+        "execution_gap_local_st_parse_and_required_io": {
+          "numerator": 0,
+          "denominator": 72,
+          "value": 0.0
+        }
+      },
+      "motion/easy": {
+        "assigned": 60,
+        "infrastructure_excluded": 0,
+        "entered": 52,
+        "observation_complete": 52,
+        "observation_interrupted": 0,
+        "SR": {
+          "numerator": 41,
+          "denominator": 60,
+          "value": 0.6833333333333333
+        },
+        "SVR": {
+          "numerator": 0,
+          "denominator": 52,
+          "value": 0.0
+        },
+        "execution_gap_local_submission_profile": {
+          "numerator": 11,
+          "denominator": 52,
+          "value": 0.21153846153846154
+        },
+        "execution_gap_local_st_parse_and_required_io": {
+          "numerator": 11,
+          "denominator": 52,
+          "value": 0.21153846153846154
+        }
+      },
+      "motion/hard": {
+        "assigned": 48,
+        "infrastructure_excluded": 0,
+        "entered": 18,
+        "observation_complete": 18,
+        "observation_interrupted": 0,
+        "SR": {
+          "numerator": 6,
+          "denominator": 48,
+          "value": 0.125
+        },
+        "SVR": {
+          "numerator": 18,
+          "denominator": 18,
+          "value": 1.0
+        },
+        "execution_gap_local_submission_profile": {
+          "numerator": 18,
+          "denominator": 18,
+          "value": 1.0
+        },
+        "execution_gap_local_st_parse_and_required_io": {
+          "numerator": 18,
+          "denominator": 18,
+          "value": 1.0
+        }
+      },
+      "motion/medium": {
+        "assigned": 101,
+        "infrastructure_excluded": 0,
+        "entered": 86,
+        "observation_complete": 86,
+        "observation_interrupted": 0,
+        "SR": {
+          "numerator": 72,
+          "denominator": 101,
+          "value": 0.7128712871287128
+        },
+        "SVR": {
+          "numerator": 14,
+          "denominator": 86,
+          "value": 0.16279069767441862
+        },
+        "execution_gap_local_submission_profile": {
+          "numerator": 23,
+          "denominator": 86,
+          "value": 0.26744186046511625
+        },
+        "execution_gap_local_st_parse_and_required_io": {
+          "numerator": 23,
+          "denominator": 86,
+          "value": 0.26744186046511625
+        }
+      }
+    },
+    "task_all_conditions_SR": {
+      "numerator": 57,
+      "denominator": 100,
+      "value": 0.57
+    },
+    "task_all_conditions_safe_success": {
+      "numerator": 52,
+      "denominator": 100,
+      "value": 0.52
+    },
+    "task_scores_unavailable": 0
+  }
+}

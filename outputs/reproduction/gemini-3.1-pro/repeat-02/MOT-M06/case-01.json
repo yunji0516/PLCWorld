@@ -1,0 +1,174 @@
+{
+  "task": "MOT-M06",
+  "scenario": "changed_request",
+  "scenario_index": 1,
+  "program": "submissions/gemini-3.1-pro/repeat-02/MOT-M06.st",
+  "program_sha256": "27543f0590f17ed5805a258580356959985d7f74d1b59795c0413e43a820e284",
+  "st_sha256": "27543f0590f17ed5805a258580356959985d7f74d1b59795c0413e43a820e284",
+  "evaluator_version": "motion-medium-grounded-v6-dev",
+  "task_success": true,
+  "safety_violation": false,
+  "safety_observation_complete": true,
+  "passed": true,
+  "entered_plant": true,
+  "observation_complete": true,
+  "error": null,
+  "cleanup_error": null,
+  "partial_frame": null,
+  "elapsed_seconds": 1.693569730996387,
+  "metric_eligible": true,
+  "metric_eligibility": {
+    "sr": true,
+    "svr": true
+  },
+  "events": [
+    {
+      "type": "request_available",
+      "time_ms": 30.0,
+      "scan": 3
+    },
+    {
+      "type": "fresh_sensor_edge",
+      "time_ms": 264.0,
+      "scan": 26
+    },
+    {
+      "type": "supported_access",
+      "time_ms": 1724.0,
+      "scan": 172
+    },
+    {
+      "type": "result_asserted",
+      "time_ms": 3860.0,
+      "scan": 385
+    }
+  ],
+  "final_state": {
+    "time_ms": 15100.0,
+    "setup": {
+      "request": {
+        "target": 230,
+        "stroke": 170
+      },
+      "mark": 67
+    },
+    "reference_mark": 67,
+    "edge_position": 67,
+    "contacts": [],
+    "axes": {
+      "a": {
+        "position": 4.2678671403569885e-104,
+        "velocity": -8.899286470062759e-103
+      },
+      "b": {
+        "position": 4.2678671403569885e-104,
+        "velocity": -8.899286470062759e-103
+      },
+      "c": {
+        "position": 2.9351842316776097e-109,
+        "velocity": -6.12039795548209e-108
+      },
+      "d": {
+        "position": 3.3299365083241333e-112,
+        "velocity": -6.943528919744729e-111
+      },
+      "e": {
+        "position": 8.963701883493801e-117,
+        "velocity": -1.8690963956947356e-115
+      }
+    },
+    "history": {
+      "request_available": 30.0,
+      "fresh_sensor_edge": 264.0,
+      "supported_access": 1724.0,
+      "result_asserted": 3860.0
+    },
+    "result": true,
+    "hold_ms": 11240.0,
+    "dwell_ms": 0,
+    "origin": 0,
+    "configured": false,
+    "sensor_seen": true,
+    "guide_segment": false,
+    "guide_done": false,
+    "module_busy": false,
+    "module_done": false,
+    "module_position": 0,
+    "module_count": 3,
+    "geometry_safe": true
+  },
+  "failure_types": [],
+  "executed_scans": 1510,
+  "last_scan": 1509,
+  "prerequisites": [
+    {
+      "check": "local_submission_profile",
+      "passed": true,
+      "st_sha256": "27543f0590f17ed5805a258580356959985d7f74d1b59795c0413e43a820e284"
+    },
+    {
+      "check": "local_st_parse_and_required_io",
+      "passed": true,
+      "st_sha256": "27543f0590f17ed5805a258580356959985d7f74d1b59795c0413e43a820e284"
+    }
+  ],
+  "profile": {
+    "ok": true,
+    "errors": []
+  },
+  "claim_checked_at": "post_state",
+  "predecessor_checks": {
+    "local_st_runtime_initialization": true,
+    "native_compile": "not_run",
+    "formal": "not_run"
+  },
+  "release_version": "motion-medium-release/1.0",
+  "release_seal_sha256": "bf488d4e97fc8df7d5abe5c8cb9fca332342dea0d3658ba479a4ae6891664aaa",
+  "integration_version": "plcworld-evaluation/5.3",
+  "integration_seal_sha256": "c9de108ec4410d15c5f74e02ce000743a7df362cbafc5b51bc4b291ec34a2974",
+  "input_freeze": "plcworld-model-inputs/7-execution-contract",
+  "eligible_for_official_aggregation": true,
+  "current_cohort_eligible": true,
+  "independent_task": true,
+  "evaluation_family": "MOT-M06",
+  "task_version": "plcworld-evaluation/5.2.12-constant-expressions-candidate-20261113",
+  "generation_provenance_verified": false,
+  "registered_system_sha256": "da989a5140218cdc034a92429e246e5b6d0a084dfea2b2c13056d301a6b23dd8",
+  "registered_public_spec_sha256": "89bf420df64986f08ab7644eaba9a3b6ab393df5ec7c3200988abe062a3ce612",
+  "registered_input_sha256": "477de9dfd7a04e1c873a0b009473894c5e6bca2bad1c2e0fb2f3f629421cf6a5",
+  "registered_contract_sha256": "b7668fdb9c25cc022227b38b1aee783ffa704ac31ed8d77a0f08bb264d295e92",
+  "trace_sha256": "8b1de1a6b802aba065bd7c59169e6fbd99fe47b0232c012bd0770c78fb801c2d",
+  "sensor_input_saturation": {},
+  "evaluation_reuse": {
+    "source": "[private source path omitted]",
+    "sha256": "99c20f42faa7c57e3204a86dd73326e920a5fd1f780fc6977f88d2643074a648",
+    "proof": "Same ST engine, original source, plant and historical inputs. Parent checked all delivered INT/DINT inputs and did not raise an infrastructure input failure; saturation therefore never activates on this execution. Pre-execution/generation failures are likewise unchanged.",
+    "scope": "strict type-contract candidate -> sensor-only candidate"
+  },
+  "sensor_packaging_revision": {
+    "previous_integration_seal_sha256": "6955d3af5f49374c780966409552f190013dd1c57a3bd015cc32f3d49c412397",
+    "reason": "Restored unused grounded_v3/v4 archival evaluators exactly to parent; registered tasks use only v5/v6/v8. No executed code or trace changes."
+  },
+  "final_guard_revalidation": {
+    "previous_seal": "048791a186f6e881eafc326149b0631c017a8b07f800543314605202b083892b",
+    "evidence": "[private source path omitted]",
+    "evidence_sha256": "c93aaefcea8e0a1e8c63e047edb945038c0b51843ee4e3f1a4e5e78fe220593e",
+    "proof": "Only static guards changed: this exact source retains identical admission and AST or identical prior error. VM/plant/input-delivery code unchanged; no trace or judgment recomputation required."
+  },
+  "constant_expression_reuse": {
+    "parent_case": "[private source path omitted]",
+    "parent_sha256": "bb5dacda0173bf3a7d98725e4dd39d7b534a5c8fc1899152865bf6cce4683d17",
+    "evidence": "[private source path omitted]",
+    "evidence_sha256": "2ce81ae9ff33f2d76f5f05bb7d59533770d96f41470079c364a2a626ccc778a7",
+    "proof": "Same source, admission, AST and inferred expression types; VM, plant, inputs and oracle unchanged."
+  },
+  "execution_provenance": "Imported measured result; source hashes retained; no claim of a fresh packaged execution",
+  "source_evaluation": {
+    "integration_seal_sha256": "04cb5615a4b9e931c2678982e9f18cd799aaebcf84cab55f0ef56a4cc717fae7",
+    "trace_sha256": "8b1de1a6b802aba065bd7c59169e6fbd99fe47b0232c012bd0770c78fb801c2d",
+    "st_sha256": "27543f0590f17ed5805a258580356959985d7f74d1b59795c0413e43a820e284",
+    "case_sha256": "c8b433817b830a8e8a08773754569a1d4f9c4026627c807e77737590709b33bc"
+  },
+  "contract_sha256": "b7668fdb9c25cc022227b38b1aee783ffa704ac31ed8d77a0f08bb264d295e92",
+  "generation_input_revision": "historical-v6-with-direct-MOT-E11-amendment"
+}

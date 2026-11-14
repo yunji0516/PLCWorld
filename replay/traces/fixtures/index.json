@@ -1,0 +1,40 @@
+{
+  "schema": "plcworld-replay-examples/1",
+  "examples": [
+    {
+      "task": "MAT-E01",
+      "label": "Gripper product acquisition (success)",
+      "task_success": true,
+      "safety_violation": false,
+      "manifest": "traces/fixtures/MAT-E01/manifest.json"
+    },
+    {
+      "task": "MAT-E02",
+      "label": "Release onto receiver support (success)",
+      "task_success": true,
+      "safety_violation": false,
+      "manifest": "traces/fixtures/MAT-E02/manifest.json"
+    },
+    {
+      "task": "MOT-E01",
+      "label": "Linear axis positioning (unsuccessful)",
+      "task_success": false,
+      "safety_violation": false,
+      "manifest": "traces/fixtures/MOT-E01/manifest.json"
+    },
+    {
+      "task": "MOT-E02",
+      "label": "Home return and coordinate validity (success)",
+      "task_success": true,
+      "safety_violation": false,
+      "manifest": "traces/fixtures/MOT-E02/manifest.json"
+    },
+    {
+      "task": "MOT-M06",
+      "label": "Multi-axis opening and transfer (success)",
+      "task_success": true,
+      "safety_violation": false,
+      "manifest": "traces/fixtures/MOT-M06/manifest.json"
+    }
+  ]
+}

@@ -1,0 +1,910 @@
+{
+  "task": "MAT-H07",
+  "scenario": "slow_core",
+  "scenario_index": 10,
+  "program": "submissions/gpt-5.5/repeat-01/MAT-H07.st",
+  "program_sha256": "4a691314ffefde5eba5e34df39e8efbd98f8b1cb4e76f78b9277904ea180f3fe",
+  "st_sha256": "4a691314ffefde5eba5e34df39e8efbd98f8b1cb4e76f78b9277904ea180f3fe",
+  "evaluator_version": "priority-redesign/1",
+  "task_success": false,
+  "safety_violation": false,
+  "passed": false,
+  "entered_plant": true,
+  "error": null,
+  "raw_errors": {},
+  "failure_types": [
+    "completion_deadline_missed"
+  ],
+  "executed_scans": 24010,
+  "completion_ms": null,
+  "hold_ms": 0,
+  "final_state": {
+    "parts": {
+      "1": {
+        "token": 1,
+        "owner": "core",
+        "x": 0.45,
+        "y": 0.95,
+        "z": 1.0,
+        "size": [
+          0.1,
+          0.1,
+          0.12
+        ],
+        "status": "idle",
+        "radius": 0.05,
+        "length": 0.0,
+        "wound": 0.0,
+        "tail": 0.0,
+        "segments": [],
+        "connected": {
+          "a": false,
+          "b": false
+        },
+        "target": 0.8,
+        "tape": 0
+      },
+      "2": {
+        "token": 2,
+        "owner": "core",
+        "x": 0.45,
+        "y": 0.95,
+        "z": 1.18,
+        "size": [
+          0.1,
+          0.1,
+          0.12
+        ],
+        "status": "idle",
+        "radius": 0.05,
+        "length": 0.0,
+        "wound": 0.0,
+        "tail": 0.0,
+        "segments": [],
+        "connected": {
+          "a": false,
+          "b": false
+        },
+        "target": 1.0,
+        "tape": 0
+      },
+      "3": {
+        "token": 3,
+        "owner": "core",
+        "x": 0.45,
+        "y": 0.95,
+        "z": 1.3599999999999999,
+        "size": [
+          0.1,
+          0.1,
+          0.12
+        ],
+        "status": "idle",
+        "radius": 0.05,
+        "length": 0.0,
+        "wound": 0.0,
+        "tail": 0.0,
+        "segments": [],
+        "connected": {
+          "a": false,
+          "b": false
+        },
+        "target": 0.7,
+        "tape": 0
+      },
+      "201": {
+        "token": 201,
+        "owner": "leader",
+        "x": 0.22,
+        "y": 0.95986,
+        "z": 0,
+        "size": [
+          0,
+          0.00012,
+          0.12
+        ],
+        "status": "idle",
+        "length": 0.0,
+        "connected": true
+      }
+    },
+    "physical": {
+      "sources": {
+        "a": {
+          "radius": 0.05080499207082538,
+          "lead": 0.8133561491285414,
+          "wound": 3.186643850804528,
+          "stock": 4.0,
+          "path": [
+            [
+              -0.5639102295057559,
+              1.251136386396278,
+              0.0
+            ],
+            [
+              0.17589305235407848,
+              1.0405331853469428,
+              0.0
+            ],
+            [
+              0.17601823960769636,
+              1.0404981334476395,
+              0.0
+            ],
+            [
+              0.1761437259443287,
+              1.0404641678263178,
+              0.0
+            ],
+            [
+              0.1762695019382873,
+              1.0404312910342466,
+              0.0
+            ],
+            [
+              0.17639555814212693,
+              1.0403995055409092,
+              0.0
+            ],
+            [
+              0.17652188508735478,
+              1.0403688137338174,
+              0.0
+            ],
+            [
+              0.17664847328514188,
+              1.040339217918333,
+              0.0
+            ],
+            [
+              0.17677531322703563,
+              1.0403107203174944,
+              0.0
+            ],
+            [
+              0.17690239538567418,
+              1.0402833230718493,
+              0.0
+            ],
+            [
+              0.17702971021550193,
+              1.0402570282392942,
+              0.0
+            ],
+            [
+              0.17715724815348663,
+              1.04023183779492,
+              0.0
+            ],
+            [
+              0.17728499961983762,
+              1.0402077536308627,
+              0.0
+            ],
+            [
+              0.1774129550187255,
+              1.040184777556163,
+              0.0
+            ],
+            [
+              0.17754110473900273,
+              1.0401629112966284,
+              0.0
+            ],
+            [
+              0.17766943915492572,
+              1.040142156494705,
+              0.0
+            ],
+            [
+              0.17779794862687776,
+              1.040122514709354,
+              0.0
+            ],
+            [
+              0.17792662350209312,
+              1.040103987415934,
+              0.0
+            ],
+            [
+              0.1780554541153821,
+              1.04008657600609,
+              0.0
+            ],
+            [
+              0.17818443078985696,
+              1.0400702817876502,
+              0.0
+            ],
+            [
+              0.17831354383765893,
+              1.0400551059845262,
+              0.0
+            ],
+            [
+              0.17844278356068569,
+              1.0400410497366224,
+              0.0
+            ],
+            [
+              0.17857214025131998,
+              1.0400281140997494,
+              0.0
+            ],
+            [
+              0.1787016041931587,
+              1.040016300045545,
+              0.0
+            ],
+            [
+              0.17883116566174279,
+              1.0400056084614013,
+              0.0
+            ],
+            [
+              0.17896081492528762,
+              1.039996040150398,
+              0.0
+            ],
+            [
+              0.17909054224541396,
+              1.0399875958312426,
+              0.0
+            ],
+            [
+              0.17922033787787958,
+              1.0399802761382149,
+              0.0
+            ],
+            [
+              0.179350192073311,
+              1.0399740816211214,
+              0.0
+            ],
+            [
+              0.17948009507793594,
+              1.039969012745252,
+              0.0
+            ],
+            [
+              0.1796100371343159,
+              1.039965069891347,
+              0.0
+            ],
+            [
+              0.17974000848207902,
+              1.0399622533555666,
+              0.0
+            ],
+            [
+              0.17986999935865333,
+              1.0399605633494704,
+              0.0
+            ],
+            [
+              0.18,
+              1.03996,
+              0.0
+            ],
+            [
+              0.22,
+              1.03996,
+              0.0
+            ]
+          ],
+          "guide": [
+            0.18,
+            1.05496,
+            0.0
+          ]
+        },
+        "b": {
+          "radius": 0.05119596066864687,
+          "lead": 0.8315365508426082,
+          "wound": 3.1684634491621644,
+          "stock": 4.0,
+          "path": [
+            [
+              -0.5669712303576,
+              0.6983011773038186,
+              0.0
+            ],
+            [
+              0.1750275675651126,
+              0.9590118520229854,
+              0.0
+            ],
+            [
+              0.17517727150040077,
+              0.959063566095145,
+              0.0
+            ],
+            [
+              0.17532751312948075,
+              0.9591136965887739,
+              0.0
+            ],
+            [
+              0.1754782757016706,
+              0.9591622379147424,
+              0.0
+            ],
+            [
+              0.17562954240820755,
+              0.9592091846610998,
+              0.0
+            ],
+            [
+              0.17578129638412215,
+              0.9592545315936774,
+              0.0
+            ],
+            [
+              0.17593352071011842,
+              0.9592982736566724,
+              0.0
+            ],
+            [
+              0.17608619841446035,
+              0.9593404059732117,
+              0.0
+            ],
+            [
+              0.17623931247486402,
+              0.9593809238458951,
+              0.0
+            ],
+            [
+              0.17639284582039547,
+              0.9594198227573195,
+              0.0
+            ],
+            [
+              0.17654678133337398,
+              0.9594570983705826,
+              0.0
+            ],
+            [
+              0.17670110185128046,
+              0.9594927465297658,
+              0.0
+            ],
+            [
+              0.17685579016867112,
+              0.9595267632603984,
+              0.0
+            ],
+            [
+              0.1770108290390955,
+              0.9595591447699001,
+              0.0
+            ],
+            [
+              0.17716620117701953,
+              0.9595898874480042,
+              0.0
+            ],
+            [
+              0.17732188925975245,
+              0.9596189878671597,
+              0.0
+            ],
+            [
+              0.17747787592937847,
+              0.959646442782914,
+              0.0
+            ],
+            [
+              0.17763414379469172,
+              0.9596722491342741,
+              0.0
+            ],
+            [
+              0.1777906754331355,
+              0.9596964040440481,
+              0.0
+            ],
+            [
+              0.17794745339274454,
+              0.9597189048191662,
+              0.0
+            ],
+            [
+              0.1781044601940908,
+              0.9597397489509807,
+              0.0
+            ],
+            [
+              0.17826167833223236,
+              0.9597589341155456,
+              0.0
+            ],
+            [
+              0.17841909027866504,
+              0.9597764581738758,
+              0.0
+            ],
+            [
+              0.1785766784832766,
+              0.9597923191721859,
+              0.0
+            ],
+            [
+              0.17873442537630352,
+              0.9598065153421075,
+              0.0
+            ],
+            [
+              0.17889231337028982,
+              0.9598190451008866,
+              0.0
+            ],
+            [
+              0.179050324862048,
+              0.9598299070515602,
+              0.0
+            ],
+            [
+              0.17920844223462157,
+              0.959839099983112,
+              0.0
+            ],
+            [
+              0.17936664785924922,
+              0.9598466228706071,
+              0.0
+            ],
+            [
+              0.17952492409733023,
+              0.9598524748753066,
+              0.0
+            ],
+            [
+              0.17968325330239118,
+              0.9598566553447611,
+              0.0
+            ],
+            [
+              0.17984161782205313,
+              0.9598591638128833,
+              0.0
+            ],
+            [
+              0.18,
+              0.9598599999999999,
+              0.0
+            ],
+            [
+              0.22,
+              0.9598599999999999,
+              0.0
+            ]
+          ],
+          "guide": [
+            0.18,
+            0.9448599999999999,
+            0.0
+          ]
+        }
+      },
+      "web": {
+        "a": {
+          "state": "waiting",
+          "encoder": 0.0,
+          "hold": 0.0,
+          "nip": 0.0
+        },
+        "b": {
+          "state": "waiting",
+          "encoder": 0.0,
+          "hold": 0.0,
+          "nip": 0.0
+        }
+      },
+      "origin": 0.2,
+      "trim_state": "waiting",
+      "trim_length": 0.0,
+      "trim_z": 0.0,
+      "trim_x": 0.32,
+      "knives": {
+        "a": null,
+        "b": null
+      },
+      "cut_history": [],
+      "active": 0,
+      "core_busy": false,
+      "mandrel": 1.0,
+      "support_y": 0.8,
+      "support_z": 0.0,
+      "exit_job": null,
+      "receiver": null,
+      "exit_pusher_z": -0.636,
+      "exit_pusher_x": 0.78,
+      "exit_results": [],
+      "core_results": [],
+      "roll_results": [],
+      "pipeline_metrics": {
+        "triple_overlap_scans": 0,
+        "exit_blocks_unload_scans": 0,
+        "buffer_full_scans": 0
+      },
+      "metrics": {
+        "independent_ready_scans": 0,
+        "unmatched_leader_scans": 24010,
+        "connected_supported_scans": 0,
+        "retained_leader_scans": 0
+      },
+      "contention": {
+        "independent_leader_arrivals": false,
+        "registration_preparation_needed": true,
+        "actual_connected_support_phase": false,
+        "leaders_retained_during_exit": false
+      },
+      "extension": {
+        "kind": "core_tail_tape",
+        "stop": 0.0,
+        "tape": {
+          "stock": 0.3,
+          "length": 0.0,
+          "grip": 0.0,
+          "severed": false,
+          "head": [
+            0.9,
+            1.3,
+            0.35
+          ],
+          "job": null,
+          "strips": [],
+          "history": [],
+          "id": 1
+        },
+        "core_history": []
+      }
+    },
+    "goal": 0,
+    "violations": [],
+    "accepted": [],
+    "material_hard": {
+      "mode": "wind_tape",
+      "revision": 10,
+      "poses": {
+        "part1": {
+          "pos": [
+            0.45,
+            0.95,
+            1.0
+          ],
+          "yaw": 0,
+          "size": [
+            0.1,
+            0.1,
+            0.12
+          ]
+        },
+        "part2": {
+          "pos": [
+            0.45,
+            0.95,
+            1.18
+          ],
+          "yaw": 0,
+          "size": [
+            0.1,
+            0.1,
+            0.12
+          ]
+        },
+        "part3": {
+          "pos": [
+            0.45,
+            0.95,
+            1.3599999999999999
+          ],
+          "yaw": 0,
+          "size": [
+            0.1,
+            0.1,
+            0.12
+          ]
+        },
+        "part201": {
+          "pos": [
+            0.22,
+            0.95986,
+            0
+          ],
+          "yaw": 0,
+          "size": [
+            0,
+            0.00012,
+            0.12
+          ]
+        }
+      },
+      "requests": [
+        {
+          "request_id": "WEB-a",
+          "generation": 1,
+          "payload": {
+            "registration_origin_mm": 0
+          },
+          "arrival": 0,
+          "state": "waiting",
+          "result_ids": [],
+          "id": "WEB-a",
+          "label": "Source web A",
+          "progress": "waiting",
+          "detail": ""
+        },
+        {
+          "request_id": "WEB-b",
+          "generation": 1,
+          "payload": {
+            "registration_origin_mm": 200
+          },
+          "arrival": 1.5,
+          "state": "waiting",
+          "result_ids": [],
+          "id": "WEB-b",
+          "label": "Source web B",
+          "progress": "waiting",
+          "detail": ""
+        },
+        {
+          "request_id": "ROLL-1",
+          "generation": 1,
+          "payload": {
+            "length_mm": 800
+          },
+          "arrival": 0.0,
+          "state": "core",
+          "result_ids": [],
+          "id": "ROLL-1",
+          "label": "Roll 1",
+          "progress": "core",
+          "detail": ""
+        },
+        {
+          "request_id": "ROLL-2",
+          "generation": 1,
+          "payload": {
+            "length_mm": 1000
+          },
+          "arrival": 0.0,
+          "state": "core",
+          "result_ids": [],
+          "id": "ROLL-2",
+          "label": "Roll 2",
+          "progress": "core",
+          "detail": ""
+        },
+        {
+          "request_id": "ROLL-3",
+          "generation": 1,
+          "payload": {
+            "length_mm": 700
+          },
+          "arrival": 0.0,
+          "state": "core",
+          "result_ids": [],
+          "id": "ROLL-3",
+          "label": "Roll 3",
+          "progress": "core",
+          "detail": ""
+        },
+        {
+          "request_id": "CORE-1",
+          "generation": 1,
+          "payload": {
+            "core_id": 1
+          },
+          "arrival": 0,
+          "state": "waiting",
+          "result_ids": [],
+          "id": "CORE-1",
+          "label": "Core preparation 1",
+          "progress": "waiting",
+          "detail": ""
+        },
+        {
+          "request_id": "CORE-2",
+          "generation": 1,
+          "payload": {
+            "core_id": 2
+          },
+          "arrival": 5,
+          "state": "waiting",
+          "result_ids": [],
+          "id": "CORE-2",
+          "label": "Core preparation 2",
+          "progress": "waiting",
+          "detail": ""
+        },
+        {
+          "request_id": "CORE-3",
+          "generation": 1,
+          "payload": {
+            "core_id": 3
+          },
+          "arrival": 10,
+          "state": "waiting",
+          "result_ids": [],
+          "id": "CORE-3",
+          "label": "Core preparation 3",
+          "progress": "waiting",
+          "detail": ""
+        }
+      ],
+      "shared": {
+        "A/B physical coordinates mm": "[0, 0]",
+        "B registration origin mm": "200",
+        "Preparation trim": "waiting",
+        "Mandrel retraction": "1.0",
+        "Rolls accepted": "0/3"
+      },
+      "accepted": [],
+      "parts": {
+        "1": {
+          "token": 1,
+          "owner": "core",
+          "x": 0.45,
+          "y": 0.95,
+          "z": 1.0,
+          "size": [
+            0.1,
+            0.1,
+            0.12
+          ],
+          "status": "idle",
+          "radius": 0.05,
+          "length": 0.0,
+          "wound": 0.0,
+          "tail": 0.0,
+          "segments": [],
+          "connected": {
+            "a": false,
+            "b": false
+          },
+          "target": 0.8,
+          "tape": 0
+        },
+        "2": {
+          "token": 2,
+          "owner": "core",
+          "x": 0.45,
+          "y": 0.95,
+          "z": 1.18,
+          "size": [
+            0.1,
+            0.1,
+            0.12
+          ],
+          "status": "idle",
+          "radius": 0.05,
+          "length": 0.0,
+          "wound": 0.0,
+          "tail": 0.0,
+          "segments": [],
+          "connected": {
+            "a": false,
+            "b": false
+          },
+          "target": 1.0,
+          "tape": 0
+        },
+        "3": {
+          "token": 3,
+          "owner": "core",
+          "x": 0.45,
+          "y": 0.95,
+          "z": 1.3599999999999999,
+          "size": [
+            0.1,
+            0.1,
+            0.12
+          ],
+          "status": "idle",
+          "radius": 0.05,
+          "length": 0.0,
+          "wound": 0.0,
+          "tail": 0.0,
+          "segments": [],
+          "connected": {
+            "a": false,
+            "b": false
+          },
+          "target": 0.7,
+          "tape": 0
+        },
+        "201": {
+          "token": 201,
+          "owner": "leader",
+          "x": 0.22,
+          "y": 0.95986,
+          "z": 0,
+          "size": [
+            0,
+            0.00012,
+            0.12
+          ],
+          "status": "idle",
+          "length": 0.0,
+          "connected": true
+        }
+      },
+      "violations": [],
+      "web_path": []
+    }
+  },
+  "independent_task": true,
+  "evaluation_family": "MAT-H07",
+  "contract_sha256": "0fc75ff4f513025ba898347b815e210a65abdac3a2c46bfbe8de1e795033ab60",
+  "prerequisites": [
+    {
+      "check": "local_submission_profile",
+      "passed": true,
+      "st_sha256": "4a691314ffefde5eba5e34df39e8efbd98f8b1cb4e76f78b9277904ea180f3fe"
+    },
+    {
+      "check": "local_st_parse_and_required_io",
+      "passed": true,
+      "st_sha256": "4a691314ffefde5eba5e34df39e8efbd98f8b1cb4e76f78b9277904ea180f3fe"
+    }
+  ],
+  "profile": {
+    "ok": true,
+    "errors": []
+  },
+  "metric_eligible": true,
+  "observation_complete": true,
+  "partial_scan": null,
+  "claim_checked_at": "post_state",
+  "completed_scans": 24010,
+  "stop_reason": "horizon",
+  "safety_passed": true,
+  "core_evaluator_version": "priority-redesign/1",
+  "integration_version": "plcworld-evaluation/5.3",
+  "integration_seal_sha256": "c9de108ec4410d15c5f74e02ce000743a7df362cbafc5b51bc4b291ec34a2974",
+  "input_freeze": "plcworld-model-inputs/7-execution-contract",
+  "eligible_for_official_aggregation": true,
+  "current_cohort_eligible": true,
+  "task_version": "priority-redesign/1",
+  "generation_provenance_verified": false,
+  "registered_system_sha256": "da989a5140218cdc034a92429e246e5b6d0a084dfea2b2c13056d301a6b23dd8",
+  "registered_public_spec_sha256": "7ff22baa8cdb354f675d7f19a06c442fc32345e749a03ed1f869a6e3ee74b65c",
+  "registered_input_sha256": "37eba9bce9d727883353afdcf65f3b8a2c72a28ab9c0b62de07e37dc3823d623",
+  "registered_contract_sha256": "0fc75ff4f513025ba898347b815e210a65abdac3a2c46bfbe8de1e795033ab60",
+  "trace_sha256": "4d86d42c324fa2240faf856709dcb18a29080b9515a64e3638f851ea862b9a1c",
+  "sensor_input_saturation": {},
+  "evaluation_reuse": {
+    "source": "[private source path omitted]",
+    "sha256": "1126cbc1b63c36cec96e7de3c7f411efdbb533f46780643c8c4897a07c9cf135",
+    "proof": "Same ST engine, original source, plant and historical inputs. Parent checked all delivered INT/DINT inputs and did not raise an infrastructure input failure; saturation therefore never activates on this execution. Pre-execution/generation failures are likewise unchanged.",
+    "scope": "strict type-contract candidate -> sensor-only candidate"
+  },
+  "sensor_packaging_revision": {
+    "previous_integration_seal_sha256": "6955d3af5f49374c780966409552f190013dd1c57a3bd015cc32f3d49c412397",
+    "reason": "Restored unused grounded_v3/v4 archival evaluators exactly to parent; registered tasks use only v5/v6/v8. No executed code or trace changes."
+  },
+  "final_guard_revalidation": {
+    "previous_seal": "048791a186f6e881eafc326149b0631c017a8b07f800543314605202b083892b",
+    "evidence": "[private source path omitted]",
+    "evidence_sha256": "c93aaefcea8e0a1e8c63e047edb945038c0b51843ee4e3f1a4e5e78fe220593e",
+    "proof": "Only static guards changed: this exact source retains identical admission and AST or identical prior error. VM/plant/input-delivery code unchanged; no trace or judgment recomputation required."
+  },
+  "constant_expression_reuse": {
+    "parent_case": "[private source path omitted]",
+    "parent_sha256": "03a172dd1eb78e8a07a6a27bfe4a32eab594f5ba1789157b0644fcb091e82e0b",
+    "evidence": "[private source path omitted]",
+    "evidence_sha256": "2ce81ae9ff33f2d76f5f05bb7d59533770d96f41470079c364a2a626ccc778a7",
+    "proof": "Same source, admission, AST and inferred expression types; VM, plant, inputs and oracle unchanged."
+  },
+  "execution_provenance": "Imported measured result; source hashes retained; no claim of a fresh packaged execution",
+  "source_evaluation": {
+    "integration_seal_sha256": "04cb5615a4b9e931c2678982e9f18cd799aaebcf84cab55f0ef56a4cc717fae7",
+    "trace_sha256": "4d86d42c324fa2240faf856709dcb18a29080b9515a64e3638f851ea862b9a1c",
+    "st_sha256": "4a691314ffefde5eba5e34df39e8efbd98f8b1cb4e76f78b9277904ea180f3fe",
+    "case_sha256": "3e836c4cfe30844d323fc23ecf2fb324a27da87ae63bb071589aa200d2581024"
+  },
+  "generation_input_revision": "historical-v6-with-direct-MOT-E11-amendment"
+}

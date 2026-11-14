@@ -1,0 +1,48 @@
+{
+  "schema": "plcworld-appearance-update/1",
+  "evaluator_version": "plcworld-evaluation/5.3",
+  "protected_assets_unchanged": 12611,
+  "scope": "Procedural appearance only; recorded actuator/workpiece states, task inputs, evaluator, ST programs and scores preserved from the version 5.3 package.",
+  "source_tests": {
+    "files": 55,
+    "passed": 220
+  },
+  "production_build": "passed",
+  "python_offline_tests": {
+    "passed": 32,
+    "api_calls": 0
+  },
+  "smoke": {
+    "passed": true,
+    "registered_tasks_constructed": 100,
+    "conditions_constructed": 473,
+    "closed_loop_task": "MAT-E01"
+  },
+  "docker_execution": "not tested; Docker unavailable on validation host",
+  "english_source_check": "passed; zero matching files",
+  "illustration_demo_included": false,
+  "layout_note": "Release-specific Material Hard anchors are retained. Shared industrial components and recorded-travel supports are used instead of substituting development-review scene layouts.",
+  "browser": {
+    "tasks": [
+      "MAT-H02",
+      "MAT-H03",
+      "MAT-H04",
+      "MAT-H05",
+      "MAT-H06",
+      "MAT-H08",
+      "MAT-H09",
+      "MAT-H10",
+      "MAT-H11",
+      "MAT-H12",
+      "MAT-H13",
+      "MAT-H14",
+      "MAT-H15",
+      "MOT-E10",
+      "MOT-H08",
+      "MOT-H11",
+      "MOT-M02"
+    ],
+    "page_errors": 0,
+    "snapshots": "Beginning and approximately 55 percent of the selected reference run; sampled visual inspection, not an exhaustive collision proof."
+  }
+}

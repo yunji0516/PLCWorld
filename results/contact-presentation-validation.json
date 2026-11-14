@@ -1,0 +1,237 @@
+{
+  "schema": "plcworld-contact-presentation-validation/1",
+  "date": "2026-09-26",
+  "scope": "Fresh condition-0 reference recordings and their display projections; evaluator and saved model scores unchanged.",
+  "evaluator_seal_sha256": "bceeb8804c3d724faa80c8d02ccfb35da0b79134084d0d97bd87a018049396cc",
+  "presentation_manifest_sha256": "d3ad2f348cbd774510fee3da3a762ec1f496ddb3f23bf93cbffe1ab327b31516",
+  "contact_tasks": 13,
+  "contact_scans": 116084,
+  "full_projection_source_comparison_passed": true,
+  "specialized_renderers_retained": [
+    "MAT-H01",
+    "MAT-H07"
+  ],
+  "python_tests_passed": 39,
+  "renderer_tests_passed": 151,
+  "production_build_passed": true,
+  "closed_loop_smoke_passed": true,
+  "generated_motion_material_adapters_passed": true,
+  "model_api_calls": 0,
+  "browser_tasks_checked": 21,
+  "browser_errors": 0,
+  "browser_scan_sampling": "First, middle, and last scan of each listed task; not exhaustive browser-frame rendering.",
+  "browser_results": [
+    {
+      "task": "MAT-M01",
+      "frames": 2600,
+      "sampled_scans": [
+        0,
+        1299,
+        2599
+      ],
+      "passed": true
+    },
+    {
+      "task": "MAT-M03",
+      "frames": 2600,
+      "sampled_scans": [
+        0,
+        1299,
+        2599
+      ],
+      "passed": true
+    },
+    {
+      "task": "MAT-M05",
+      "frames": 15000,
+      "sampled_scans": [
+        0,
+        7499,
+        14999
+      ],
+      "passed": true
+    },
+    {
+      "task": "MAT-M18",
+      "frames": 6000,
+      "sampled_scans": [
+        0,
+        2999,
+        5999
+      ],
+      "passed": true
+    },
+    {
+      "task": "MAT-H01",
+      "frames": 10292,
+      "sampled_scans": [
+        0,
+        5145,
+        10291
+      ],
+      "passed": true
+    },
+    {
+      "task": "MAT-H02",
+      "frames": 8388,
+      "sampled_scans": [
+        0,
+        4193,
+        8387
+      ],
+      "passed": true
+    },
+    {
+      "task": "MAT-H03",
+      "frames": 10683,
+      "sampled_scans": [
+        0,
+        5341,
+        10682
+      ],
+      "passed": true
+    },
+    {
+      "task": "MAT-H04",
+      "frames": 6330,
+      "sampled_scans": [
+        0,
+        3164,
+        6329
+      ],
+      "passed": true
+    },
+    {
+      "task": "MAT-H05",
+      "frames": 8089,
+      "sampled_scans": [
+        0,
+        4044,
+        8088
+      ],
+      "passed": true
+    },
+    {
+      "task": "MAT-H06",
+      "frames": 8508,
+      "sampled_scans": [
+        0,
+        4253,
+        8507
+      ],
+      "passed": true
+    },
+    {
+      "task": "MAT-H07",
+      "frames": 9440,
+      "sampled_scans": [
+        0,
+        4719,
+        9439
+      ],
+      "passed": true
+    },
+    {
+      "task": "MAT-H08",
+      "frames": 6025,
+      "sampled_scans": [
+        0,
+        3012,
+        6024
+      ],
+      "passed": true
+    },
+    {
+      "task": "MAT-H09",
+      "frames": 5017,
+      "sampled_scans": [
+        0,
+        2508,
+        5016
+      ],
+      "passed": true
+    },
+    {
+      "task": "MAT-H10",
+      "frames": 7423,
+      "sampled_scans": [
+        0,
+        3711,
+        7422
+      ],
+      "passed": true
+    },
+    {
+      "task": "MAT-H11",
+      "frames": 24884,
+      "sampled_scans": [
+        0,
+        12441,
+        24883
+      ],
+      "passed": true
+    },
+    {
+      "task": "MAT-H12",
+      "frames": 3956,
+      "sampled_scans": [
+        0,
+        1977,
+        3955
+      ],
+      "passed": true
+    },
+    {
+      "task": "MAT-H13",
+      "frames": 11587,
+      "sampled_scans": [
+        0,
+        5793,
+        11586
+      ],
+      "passed": true
+    },
+    {
+      "task": "MAT-H14",
+      "frames": 7668,
+      "sampled_scans": [
+        0,
+        3833,
+        7667
+      ],
+      "passed": true
+    },
+    {
+      "task": "MAT-H15",
+      "frames": 7526,
+      "sampled_scans": [
+        0,
+        3762,
+        7525
+      ],
+      "passed": true
+    },
+    {
+      "task": "MOT-H03",
+      "frames": 6090,
+      "sampled_scans": [
+        0,
+        3044,
+        6089
+      ],
+      "passed": true
+    },
+    {
+      "task": "MOT-H13",
+      "frames": 3984,
+      "sampled_scans": [
+        0,
+        1991,
+        3983
+      ],
+      "passed": true
+    }
+  ],
+  "docker_tested": false,
+  "limitations": "Schematic machinery dimensions; visualization of evaluator records, not a separate physical simulation."
+}

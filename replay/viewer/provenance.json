@@ -1,0 +1,11 @@
+{
+  "schema": "plcworld-original-renderer-adapter/1",
+  "evaluator_seal_sha256": "bceeb8804c3d724faa80c8d02ccfb35da0b79134084d0d97bd87a018049396cc",
+  "adapted_catalog_sha256": "e944ff46dc2832a6cf4cf57d515193cb81f719ba269e4a5b13a9195b1bca5a6d",
+  "reference_index": "replay/traces/reference/index.json",
+  "reference_index_sha256": "ba0ff5e5600df00ac7e24b9b3f58285945163ad29d5c3e5a3802c5540023d038",
+  "reference_tasks": 100,
+  "scenario": 0,
+  "reference_programs_bundled": false,
+  "additional_sample_manifest": "replay/traces/fixtures/MOT-E01/manifest.json"
+}

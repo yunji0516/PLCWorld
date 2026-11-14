@@ -1,0 +1,17 @@
+{
+  "MOT-M02": {
+    "label": "Medium classification on hold",
+    "reason": "Synchronized gantry travel was judged to be coordination within one function. The dependency must be redesigned so another function consumes a physical result.",
+    "kind": "taxonomy"
+  },
+  "MAT-H07": {
+    "label": "Hard classification on hold",
+    "reason": "Head occupancy creates a dependency, but serial core supply and automatic tape order offer limited evidence of independent-task coordination.",
+    "kind": "taxonomy"
+  },
+  "MOT-M12": {
+    "label": "Process evidence pending · evaluation admission on hold",
+    "reason": "The source supports TAB extraction, secondary recovery, fixture preparation, and seating. The process need for two-height pockets and a side finger is unverified.",
+    "kind": "process_grounding"
+  }
+}

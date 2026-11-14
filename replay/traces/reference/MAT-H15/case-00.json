@@ -1,0 +1,164 @@
+{
+  "task_success": true,
+  "safety_violation": false,
+  "safety_passed": true,
+  "passed": true,
+  "entered_plant": true,
+  "observation_complete": true,
+  "metric_eligible": true,
+  "error": null,
+  "stop_reason": "post_claim_window",
+  "completed_scans": 7526,
+  "claim_checked_at": "post_state",
+  "observed_event_types": [
+    "bundle_received",
+    "completion_held",
+    "fork_inserted",
+    "fork_support_acquired",
+    "layer_seated",
+    "order_accepted",
+    "plate_picked",
+    "receiver_support_acquired"
+  ],
+  "oracle_rules": [
+    {
+      "id": "no_false_completion",
+      "scope": "goal",
+      "passed": true,
+      "reason": null
+    },
+    {
+      "id": "no_invalid_request",
+      "scope": "safety",
+      "passed": true,
+      "reason": null
+    },
+    {
+      "id": "no_axis_busy",
+      "scope": "safety",
+      "passed": true,
+      "reason": null
+    },
+    {
+      "id": "no_unsupported_transfer",
+      "scope": "safety",
+      "passed": true,
+      "reason": null
+    },
+    {
+      "id": "no_receiver_overflow",
+      "scope": "safety",
+      "passed": true,
+      "reason": null
+    },
+    {
+      "id": "no_layer_order",
+      "scope": "goal",
+      "passed": true,
+      "reason": null
+    },
+    {
+      "id": "no_layer_penetration",
+      "scope": "safety",
+      "passed": true,
+      "reason": null
+    },
+    {
+      "id": "no_unsupported_bundle",
+      "scope": "safety",
+      "passed": true,
+      "reason": null
+    },
+    {
+      "id": "no_incomplete_bundle",
+      "scope": "safety",
+      "passed": true,
+      "reason": null
+    },
+    {
+      "id": "no_fork_not_docked",
+      "scope": "safety",
+      "passed": true,
+      "reason": null
+    },
+    {
+      "id": "no_missing_pallet",
+      "scope": "safety",
+      "passed": true,
+      "reason": null
+    },
+    {
+      "id": "no_pallet_not_supported",
+      "scope": "safety",
+      "passed": true,
+      "reason": null
+    },
+    {
+      "id": "no_occupied_pallet_slot",
+      "scope": "safety",
+      "passed": true,
+      "reason": null
+    },
+    {
+      "id": "completion_hold",
+      "scope": "goal",
+      "passed": true,
+      "reason": null
+    },
+    {
+      "id": "complete",
+      "scope": "goal",
+      "passed": true,
+      "reason": null
+    },
+    {
+      "id": "physical_goal",
+      "scope": "goal",
+      "passed": true,
+      "reason": null
+    }
+  ],
+  "partial_scan": null,
+  "deadline_met": true,
+  "hold_met": true,
+  "premature_claim": false,
+  "task": "MAT-H15",
+  "scenario_index": 0,
+  "st_sha256": "618655b15e1bcde03b0530bc10c74581e26a306410c7666a63ec41d6452c0781",
+  "prerequisites": [
+    {
+      "check": "local_submission_profile",
+      "passed": true,
+      "st_sha256": "618655b15e1bcde03b0530bc10c74581e26a306410c7666a63ec41d6452c0781"
+    },
+    {
+      "check": "local_st_parse_and_required_io",
+      "passed": true,
+      "st_sha256": "618655b15e1bcde03b0530bc10c74581e26a306410c7666a63ec41d6452c0781"
+    }
+  ],
+  "profile": {
+    "ok": true,
+    "errors": []
+  },
+  "evaluator_version": "common-plant-contract/5.2.6-math02-guard-candidate",
+  "review_hold": null,
+  "current_cohort_eligible": true,
+  "eligible_for_official_aggregation": true,
+  "review_policy_version": "evaluation-review-policy/1",
+  "contract_sha256": "aea9f4c096e1c6b989a52813334923af2acb292cef0a9aa3c7f254fdd29b3b96",
+  "review_policy_sha256": "0a15b3e1d2d41b594a29d7376488e26b29044bfd32b1b9e9c1099a7712b57ce6",
+  "candidate_seal_sha256": "7f6f6f95be359f157380bae12353095e7cfa0ae42ad7e6880fb83b94397a74cd",
+  "integration_version": "plcworld-evaluation/5.2.6",
+  "integration_seal_sha256": "bceeb8804c3d724faa80c8d02ccfb35da0b79134084d0d97bd87a018049396cc",
+  "input_freeze": "plcworld-model-inputs/6-plain-scaffold",
+  "independent_task": true,
+  "evaluation_family": "MAT-H15",
+  "task_version": "plcworld-evaluation/5.2.6",
+  "generation_provenance_verified": false,
+  "registered_system_sha256": "a1d2a9bca7208713ff2b7fa4c46a39bf9d5c13b220d2e497a0724b2fd7576fcb",
+  "registered_public_spec_sha256": "0effa353d695e2d1aaa89b6329e9caf44758aafbbbb680fc13c2d58ffb45bb31",
+  "registered_input_sha256": "b2da06a9e0039609bbd34f72045bc83fd7a78137284d741b24077614c0df9d74",
+  "registered_contract_sha256": "aea9f4c096e1c6b989a52813334923af2acb292cef0a9aa3c7f254fdd29b3b96",
+  "trace_sha256": "5306c297f02e782558f4a5c480ca1d92aa914814653bbe3435b87e68c43e52b2"
+}

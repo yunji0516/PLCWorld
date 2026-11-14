@@ -1,0 +1,12 @@
+{
+  "task": "MOT-E15",
+  "task_success": true,
+  "safety_violation": false,
+  "error": null,
+  "trace_sha256": "aee4279c1aa997cea8d1c7935803f43d36391c8f39b529792b4186b0fabad226",
+  "completed_scans": 149,
+  "scenario": 0,
+  "reference_st_sha256": "42c24d8cd24d3c65ac08263024507facf17ba80076737f3d377009b8d3deed42",
+  "evaluator_seal_sha256": "bceeb8804c3d724faa80c8d02ccfb35da0b79134084d0d97bd87a018049396cc",
+  "trace_gzip_sha256": "51ce00f14ae894dc02bf7cd86a4e85c0daf365c1be054854750fbd6327fe850d"
+}

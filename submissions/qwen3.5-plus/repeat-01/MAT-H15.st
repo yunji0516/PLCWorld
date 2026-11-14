@@ -1,0 +1,164 @@
+PROGRAM Main
+VAR
+    X0 : BOOL;
+    X10 : BOOL;
+    X11 : BOOL;
+    X12 : BOOL;
+    X13 : BOOL;
+    X14 : BOOL;
+    X15 : BOOL;
+    X16 : BOOL;
+    X17 : BOOL;
+    X18 : BOOL;
+    X19 : BOOL;
+    X20 : BOOL;
+    X21 : BOOL;
+    X22 : BOOL;
+    X23 : BOOL;
+    X24 : BOOL;
+    X25 : BOOL;
+    X26 : BOOL;
+    X27 : BOOL;
+    X28 : BOOL;
+    X29 : BOOL;
+    Y10 : BOOL;
+    Y11 : BOOL;
+    Y12 : BOOL;
+    Y13 : BOOL;
+    Y14 : BOOL;
+    Y15 : BOOL;
+    Y16 : BOOL;
+    Y17 : BOOL;
+    Y18 : BOOL;
+    Y19 : BOOL;
+    D0 : INT;
+    D1 : INT;
+    D2 : INT;
+    D3 : INT;
+    D4 : INT;
+    D5 : INT;
+    D6 : INT;
+    D7 : INT;
+    D8 : INT;
+    D9 : INT;
+    D10 : INT;
+    D11 : INT;
+    D12 : INT;
+    D13 : INT;
+    D14 : INT;
+    D15 : INT;
+    D200 : INT;
+    D201 : INT;
+    D202 : INT;
+    D203 : INT;
+    D204 : INT;
+    X1A : BOOL;
+    X1B : BOOL;
+    X1C : BOOL;
+    X1D : BOOL;
+    X1E : BOOL;
+    X1F : BOOL;
+    X2A : BOOL;
+    X2B : BOOL;
+    X2C : BOOL;
+    Y1A : BOOL;
+    Y1B : BOOL;
+    Y1C : BOOL;
+    Y1D : BOOL;
+    Y1E : BOOL;
+    Y1F : BOOL;
+    
+    st : INT := 0;
+    prev_st : INT := -1;
+    a_cnt : INT := 0;
+    b_cnt : INT := 0;
+    a_supp_tgt : INT := 850;
+    b_supp_tgt : INT := 850;
+    ack_a : BOOL := FALSE;
+    ack_b : BOOL := FALSE;
+    comp_timer : TON;
+    trans : BOOL;
+END_VAR
+
+trans := (prev_st <> st);
+
+Y10 := FALSE; Y11 := FALSE; Y12 := FALSE; Y13 := FALSE;
+Y16 := FALSE; Y17 := FALSE; Y18 := FALSE; Y19 := FALSE;
+Y1A := FALSE; Y1B := FALSE; Y1C := FALSE; Y1D := FALSE; Y1E := FALSE; Y1F := FALSE;
+
+CASE st OF
+    0: IF X0 THEN st := 1; END_IF;
+    1: IF trans THEN Y10 := TRUE; Y11 := TRUE; Y14 := TRUE; Y15 := TRUE; END_IF;
+    2: IF trans THEN Y1C := TRUE; END_IF;
+       IF X2A THEN st := 3; END_IF;
+    3: IF trans THEN Y1D := TRUE; END_IF;
+       IF X2B THEN st := 4; END_IF;
+    4: IF trans THEN Y1E := TRUE; D201 := 1; END_IF;
+       IF X2C THEN st := 5; END_IF;
+    5: IF trans THEN Y1F := TRUE; END_IF;
+       IF X18 THEN st := 6; END_IF;
+    6: IF a_cnt < 3 THEN st := 7; ELSE st := 9; END_IF;
+    7: IF trans THEN Y12 := TRUE; D200 := D7; END_IF;
+       IF NOT X12 THEN st := 8; END_IF;
+    8: IF trans THEN Y13 := TRUE; D201 := 1; D202 := D9; END_IF;
+       IF NOT X12 THEN
+           a_cnt := a_cnt + 1;
+           a_supp_tgt := a_supp_tgt - D6;
+           st := 6;
+       END_IF;
+    9: IF NOT X12 AND X25 THEN st := 10; END_IF;
+    10: IF trans THEN Y16 := TRUE; END_IF;
+        IF X15 THEN st := 11; END_IF;
+    11: IF trans THEN Y17 := TRUE; END_IF;
+        IF X16 THEN st := 12; END_IF;
+    12: a_supp_tgt := 780; st := 13;
+    13: IF trans THEN Y18 := TRUE; END_IF;
+        IF X17 THEN st := 14; END_IF;
+    14: IF trans THEN Y19 := TRUE; END_IF;
+        IF X18 THEN
+            st := 15; ack_a := TRUE; a_supp_tgt := 850;
+        END_IF;
+    15: IF trans THEN Y1A := TRUE; END_IF;
+        IF X19 OR prev_st = 15 THEN st := 16; END_IF;
+    16: IF trans THEN Y1C := TRUE; END_IF;
+        IF X2A THEN st := 17; END_IF;
+    17: IF trans THEN Y1D := TRUE; END_IF;
+        IF X2B THEN st := 18; END_IF;
+    18: IF trans THEN Y1E := TRUE; D201 := 2; END_IF;
+        IF X2C THEN st := 19; END_IF;
+    19: IF trans THEN Y1F := TRUE; END_IF;
+        IF X18 THEN st := 20; END_IF;
+    20: IF b_cnt < 4 THEN st := 21; ELSE st := 23; END_IF;
+    21: IF trans THEN Y12 := TRUE; D200 := D8; END_IF;
+        IF NOT X12 THEN st := 22; END_IF;
+    22: IF trans THEN Y13 := TRUE; D201 := 2; D202 := D10; END_IF;
+        IF NOT X12 THEN
+            b_cnt := b_cnt + 1;
+            b_supp_tgt := b_supp_tgt - D6;
+            st := 20;
+        END_IF;
+    23: IF NOT X12 AND X26 THEN st := 24; END_IF;
+    24: IF trans THEN Y16 := TRUE; END_IF;
+        IF X15 THEN st := 25; END_IF;
+    25: IF trans THEN Y17 := TRUE; END_IF;
+        IF X16 THEN st := 26; END_IF;
+    26: b_supp_tgt := 780; st := 27;
+    27: IF trans THEN Y18 := TRUE; END_IF;
+        IF X17 THEN st := 28; END_IF;
+    28: IF trans THEN Y19 := TRUE; END_IF;
+        IF X18 THEN
+            st := 29; ack_b := TRUE; b_supp_tgt := 850;
+        END_IF;
+    29: IF trans THEN Y1A := TRUE; END_IF;
+        IF X19 OR prev_st = 29 THEN st := 30; END_IF;
+    30: IF ack_a AND ack_b AND X18 AND NOT X12 AND NOT X14 THEN st := 31; END_IF;
+    31: Y1B := TRUE;
+        comp_timer(IN := TRUE, PT := T#500ms);
+ELSE
+    st := 0;
+END_CASE;
+
+D203 := a_supp_tgt;
+D204 := b_supp_tgt;
+prev_st := st;
+END_PROGRAM

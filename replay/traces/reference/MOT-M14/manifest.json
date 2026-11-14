@@ -1,0 +1,12 @@
+{
+  "task": "MOT-M14",
+  "task_success": true,
+  "safety_violation": false,
+  "error": null,
+  "trace_sha256": "70ff519247392a07630f8815b9f564784916ab0bb954203664e405b6b53a9247",
+  "completed_scans": 371,
+  "scenario": 0,
+  "reference_st_sha256": "3b13186ce64dbb69a832de9347e2a525f5b8de98e553015fcf0466c7b0236ea2",
+  "evaluator_seal_sha256": "bceeb8804c3d724faa80c8d02ccfb35da0b79134084d0d97bd87a018049396cc",
+  "trace_gzip_sha256": "62bbb429deb8f23aaf58e3a8617879e7ba7c1e651f662335a3ba37ee52dc6b96"
+}

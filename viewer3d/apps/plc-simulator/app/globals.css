@@ -1,0 +1,149 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*
+ * Dark control-panel palette with prominent live-signal colors.
+ */
+:root {
+  --canvas: #0b0e13;
+  --surface: #141922;
+  --surface-sunken: #0f131a;
+  --surface-raised: #1b212c;
+  --surface-hover: #222937;
+
+  --line: #262d3a;
+  --line-strong: #38414f;
+
+  --text: #dfe4ec;
+  --text-muted: #97a1b0;
+  --text-subtle: #66707f;
+
+  /* Energized = green, matching common simulator and debugger conventions. */
+  --live: #3ddc84;
+  --idle: #39424f;
+  --run: #37b7f0;
+  --warn: #e5a83c;
+  --fault: #f0574d;
+  --accent: #7c6cf0;
+
+  --shadow-e1: 0 1px 2px rgb(0 0 0 / 0.4);
+  --shadow-e2: 0 4px 16px rgb(0 0 0 / 0.45);
+
+  --font-sans: ui-sans-serif, -apple-system, 'Pretendard', 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif;
+  --font-mono: ui-monospace, 'SF Mono', 'JetBrains Mono', 'D2Coding', Menlo, monospace;
+
+  color-scheme: dark;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background: var(--canvas);
+  color: var(--text);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  overscroll-behavior: none;
+}
+
+/* Keep scrollbars unobtrusive against the control panel. */
+*::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+*::-webkit-scrollbar-track {
+  background: transparent;
+}
+*::-webkit-scrollbar-thumb {
+  background: var(--line-strong);
+  border-radius: 6px;
+  border: 3px solid var(--canvas);
+}
+*::-webkit-scrollbar-thumb:hover {
+  background: #4a5566;
+}
+
+@layer components {
+  .panel {
+    @apply bg-surface border border-line rounded-lg;
+  }
+  .panel-header {
+    @apply flex items-center justify-between px-3 h-9 border-b border-line text-2xs font-semibold tracking-wide text-text-muted uppercase shrink-0;
+  }
+  .btn {
+    @apply inline-flex items-center gap-1.5 h-7 px-2.5 rounded text-xs font-medium
+           border border-line bg-surface-raised text-text
+           hover:bg-surface-hover hover:border-line-strong
+           disabled:opacity-40 disabled:pointer-events-none transition-colors;
+  }
+  .btn-primary {
+    @apply border-transparent text-[#062012];
+    background: var(--live);
+  }
+  .btn-primary:hover {
+    background: #55e89a;
+  }
+  .btn-danger {
+    @apply border-transparent text-white;
+    background: var(--fault);
+  }
+  .btn-icon {
+    @apply inline-flex items-center justify-center h-7 w-7 rounded border border-line
+           bg-surface-raised text-text-muted hover:text-text hover:bg-surface-hover transition-colors;
+  }
+  .tab {
+    @apply px-3 h-8 inline-flex items-center gap-1.5 text-xs border-b-2 border-transparent
+           text-text-muted hover:text-text transition-colors cursor-pointer select-none;
+  }
+  .tab-active {
+    @apply text-text border-b-2;
+    border-color: var(--run);
+  }
+  .field {
+    @apply h-7 px-2 rounded bg-surface-sunken border border-line text-xs font-mono
+           text-text placeholder:text-text-subtle focus:outline-none focus:border-line-strong;
+  }
+  /* Energized state for ladder wires and tag values. */
+  .sig-on {
+    color: var(--live);
+  }
+  .sig-off {
+    color: var(--text-subtle);
+  }
+}
+
+/* Blend CodeMirror into the panel. */
+.cm-editor {
+  height: 100%;
+  background: var(--surface-sunken) !important;
+  font-size: 12.5px;
+}
+.cm-editor .cm-scroller {
+  font-family: var(--font-mono) !important;
+  line-height: 1.65;
+}
+.cm-editor.cm-focused {
+  outline: none !important;
+}
+.cm-gutters {
+  background: var(--surface-sunken) !important;
+  border-right: 1px solid var(--line) !important;
+  color: var(--text-subtle) !important;
+}
+.cm-activeLine {
+  background: rgb(255 255 255 / 0.03) !important;
+}
+.cm-activeLineGutter {
+  background: rgb(255 255 255 / 0.04) !important;
+  color: var(--text-muted) !important;
+}
+.cm-selectionBackground,
+.cm-editor ::selection {
+  background: #2c4a6b !important;
+}
+.cm-cursor {
+  border-left-color: var(--run) !important;
+}

@@ -1,0 +1,174 @@
+{
+  "task": "MOT-M16",
+  "scenario": "slow_response",
+  "scenario_index": 2,
+  "program": "submissions/gemini-3.8-flash/repeat-01/MOT-M16.st",
+  "program_sha256": "3912fbc46cbd173c41f0f9578f68b90b4f50923f6866a7fc1ea3562e53d4bf1f",
+  "st_sha256": "3912fbc46cbd173c41f0f9578f68b90b4f50923f6866a7fc1ea3562e53d4bf1f",
+  "evaluator_version": "motion-medium-grounded-v5-dev",
+  "task_success": true,
+  "safety_violation": false,
+  "safety_observation_complete": true,
+  "passed": true,
+  "entered_plant": true,
+  "observation_complete": true,
+  "error": null,
+  "cleanup_error": null,
+  "partial_frame": null,
+  "elapsed_seconds": 1.3188683360058349,
+  "metric_eligible": true,
+  "metric_eligibility": {
+    "sr": true,
+    "svr": true
+  },
+  "events": [
+    {
+      "type": "request_available",
+      "time_ms": 30.0,
+      "scan": 3
+    },
+    {
+      "type": "fresh_sensor_edge",
+      "time_ms": 342.0,
+      "scan": 34
+    },
+    {
+      "type": "module_requested",
+      "time_ms": 1010.0,
+      "scan": 101
+    },
+    {
+      "type": "module_completed",
+      "time_ms": 1330.0,
+      "scan": 132
+    },
+    {
+      "type": "served",
+      "time_ms": 1330.0,
+      "scan": 132
+    },
+    {
+      "type": "result_asserted",
+      "time_ms": 1940.0,
+      "scan": 193
+    }
+  ],
+  "final_state": {
+    "time_ms": 15100.0,
+    "setup": {
+      "request": {
+        "target": 210,
+        "depth": 80
+      },
+      "mark": 74
+    },
+    "reference_mark": 74,
+    "edge_position": 74,
+    "contacts": [],
+    "axes": {
+      "a": {
+        "position": 209.99999999999966,
+        "velocity": 6.821210263296962e-12
+      },
+      "b": {
+        "position": 1.9543695053805957e-121,
+        "velocity": -4.075219196088184e-120
+      }
+    },
+    "history": {
+      "request_available": 30.0,
+      "fresh_sensor_edge": 342.0,
+      "module_requested": 1010.0,
+      "module_completed": 1330.0,
+      "served": 1330.0,
+      "result_asserted": 1940.0
+    },
+    "result": true,
+    "hold_ms": 13160.0,
+    "dwell_ms": 0,
+    "origin": 0,
+    "configured": false,
+    "sensor_seen": true,
+    "guide_segment": false,
+    "guide_done": false,
+    "module_busy": false,
+    "module_done": true,
+    "module_position": 0.0,
+    "module_count": 5,
+    "geometry_safe": true
+  },
+  "failure_types": [],
+  "executed_scans": 1510,
+  "last_scan": 1509,
+  "prerequisites": [
+    {
+      "check": "local_submission_profile",
+      "passed": true,
+      "st_sha256": "3912fbc46cbd173c41f0f9578f68b90b4f50923f6866a7fc1ea3562e53d4bf1f"
+    },
+    {
+      "check": "local_st_parse_and_required_io",
+      "passed": true,
+      "st_sha256": "3912fbc46cbd173c41f0f9578f68b90b4f50923f6866a7fc1ea3562e53d4bf1f"
+    }
+  ],
+  "profile": {
+    "ok": true,
+    "errors": []
+  },
+  "claim_checked_at": "post_state",
+  "predecessor_checks": {
+    "local_st_runtime_initialization": true,
+    "native_compile": "not_run",
+    "formal": "not_run"
+  },
+  "release_version": "motion-medium-release/1.0",
+  "release_seal_sha256": "bf488d4e97fc8df7d5abe5c8cb9fca332342dea0d3658ba479a4ae6891664aaa",
+  "integration_version": "plcworld-evaluation/5.3",
+  "integration_seal_sha256": "c9de108ec4410d15c5f74e02ce000743a7df362cbafc5b51bc4b291ec34a2974",
+  "input_freeze": "plcworld-model-inputs/7-execution-contract",
+  "eligible_for_official_aggregation": true,
+  "current_cohort_eligible": true,
+  "independent_task": true,
+  "evaluation_family": "MOT-M16",
+  "task_version": "plcworld-evaluation/5.2.12-constant-expressions-candidate-20261113",
+  "generation_provenance_verified": false,
+  "registered_system_sha256": "da989a5140218cdc034a92429e246e5b6d0a084dfea2b2c13056d301a6b23dd8",
+  "registered_public_spec_sha256": "943bc5f7a055dd1b1c0ba0c43fc2d9c2a6980cd03ab3ec05abc7cd88e17c923f",
+  "registered_input_sha256": "77a2acde13a0df01f6639b907562377a7399a49beb3f1c714a6e0287664fbc7b",
+  "registered_contract_sha256": "4f846e864160419a2c39f8051ce2752816da82e42c2c39254488bfee1435bebb",
+  "trace_sha256": "3ccd71f749201e797fcdacac800e7e845908e0d9bef8333667fea0d4437f1bad",
+  "sensor_input_saturation": {},
+  "evaluation_reuse": {
+    "source": "[private source path omitted]",
+    "sha256": "8366f7da1e52d89adbe35d2fe4df365238d56475cfdcaaefdb5b8b99a83e20ea",
+    "proof": "Same ST engine, original source, plant and historical inputs. Parent checked all delivered INT/DINT inputs and did not raise an infrastructure input failure; saturation therefore never activates on this execution. Pre-execution/generation failures are likewise unchanged.",
+    "scope": "strict type-contract candidate -> sensor-only candidate"
+  },
+  "sensor_packaging_revision": {
+    "previous_integration_seal_sha256": "6955d3af5f49374c780966409552f190013dd1c57a3bd015cc32f3d49c412397",
+    "reason": "Restored unused grounded_v3/v4 archival evaluators exactly to parent; registered tasks use only v5/v6/v8. No executed code or trace changes."
+  },
+  "final_guard_revalidation": {
+    "previous_seal": "048791a186f6e881eafc326149b0631c017a8b07f800543314605202b083892b",
+    "evidence": "[private source path omitted]",
+    "evidence_sha256": "c93aaefcea8e0a1e8c63e047edb945038c0b51843ee4e3f1a4e5e78fe220593e",
+    "proof": "Only static guards changed: this exact source retains identical admission and AST or identical prior error. VM/plant/input-delivery code unchanged; no trace or judgment recomputation required."
+  },
+  "constant_expression_reuse": {
+    "parent_case": "[private source path omitted]",
+    "parent_sha256": "5e230a37a115be318639e9bb4d9bd15104dd9092fe78c85fec6e0772c17c422f",
+    "evidence": "[private source path omitted]",
+    "evidence_sha256": "2ce81ae9ff33f2d76f5f05bb7d59533770d96f41470079c364a2a626ccc778a7",
+    "proof": "Same source, admission, AST and inferred expression types; VM, plant, inputs and oracle unchanged."
+  },
+  "execution_provenance": "Imported measured result; source hashes retained; no claim of a fresh packaged execution",
+  "source_evaluation": {
+    "integration_seal_sha256": "04cb5615a4b9e931c2678982e9f18cd799aaebcf84cab55f0ef56a4cc717fae7",
+    "trace_sha256": "3ccd71f749201e797fcdacac800e7e845908e0d9bef8333667fea0d4437f1bad",
+    "st_sha256": "3912fbc46cbd173c41f0f9578f68b90b4f50923f6866a7fc1ea3562e53d4bf1f",
+    "case_sha256": "d09e4102d117d710a98faa3084921cf2e97d80f5217e85b71c4de87c2486d6ec"
+  },
+  "contract_sha256": "4f846e864160419a2c39f8051ce2752816da82e42c2c39254488bfee1435bebb",
+  "generation_input_revision": "historical-v6-with-direct-MOT-E11-amendment"
+}
